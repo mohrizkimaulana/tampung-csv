@@ -1,0 +1,6 @@
+scan_id,scan_time,name,adapter,type,state,mtu,mac,tx_packets,rx_packets,tx_bytes,rx_bytes,tx_errors,rx_errors,tx_dropped,rx_dropped,checksum,item_id
+0,2023/04/12 05:59:57,Wi-Fi,Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC,wireless,up,1500,00:45:e2:a6:c3:03:,51908,49504,13606502,34646514,0,0,0,0,29273785cc5c2add915cecf8420737d7c04ad762,04368b01f570085c55adf2f512f89d7c65a38c87
+0,2023/04/12 05:59:57,Bluetooth Network Connection,Bluetooth Device (Personal Area Network),ethernet,down,1500,00:45:e2:a6:c3:04:,0,0,0,0,0,0,0,0,b0ce2d972960a6de7546a0b56c8695789590f27f,126c5bae16aa975c5beaeaf4ddf67a0367e4b9ca
+0,2023/04/12 05:59:58,Local Area Connection* 3,Microsoft Wi-Fi Direct Virtual Adapter #3,wireless,down,1500,02:45:e2:a6:c3:03:,0,0,0,0,0,0,0,0,0f97e24e034a8c0f2326954408f3bd832b6cbb10,49af25e304c4f4f9e2ce31c4b83e82c72695ea45
+0,2023/04/12 05:59:58,Loopback Pseudo-Interface 1,Software Loopback Interface 1, ,up,,00:00:00:00:00:00,0,0,0,0,0,0,0,0,e4a92faeea2613dab29a772ec7f3540be951b478,56e07d1bb3aeca5febd3a26616defa115f6a881b
+0,2023/04/12 05:59:58,Local Area Connection* 4,Microsoft Wi-Fi Direct Virtual Adapter #4,wireless,down,1500,82:45:e2:a6:c3:03:,0,0,0,0,0,0,0,0,b4b062cf84a953dbbd18a9632ee943c747f3f80f,f0b707c43c922593f3e7ae0784cc9ad7a8f19687

@@ -1,0 +1,2 @@
+scan_id,scan_time,hostname,architecture,os_name,os_version,os_codename,os_major,os_minor,os_patch,os_build,os_platform,sysname,release,version,os_release,checksum,os_display_version,triaged,reference
+0,2023/04/12 05:23:51,DESKTOP-I3055S1,x86_64,Microsoft Windows 11 Enterprise,10.0.22621,,10,0,,22621,,,,,2009,1681277029896618700,22H2,0,ecefa6dca4fe0f6a97bd535b6d731c2e5a78ecca

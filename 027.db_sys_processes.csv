@@ -1,0 +1,164 @@
+scan_id,scan_time,pid,name,state,ppid,utime,stime,cmd,argvs,euser,ruser,suser,egroup,rgroup,sgroup,fgroup,priority,nice,size,vm_size,resident,share,start_time,pgrp,session,nlwp,tgid,tty,processor,checksum
+0,2023/04/12 04:22:50,5256,ModuleCoreService.exe,,1052,1,0,C:\Program Files\Common Files\McAfee\ModuleCore\ModuleCoreService.exe,,,,,,,,,8,0,7041024,27783168,0,0,0,0,0,46,0,0,0,e718a72371c557a1752a44532da608b6465ba038
+0,2023/04/12 04:22:50,5324,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1961984,9850880,0,0,0,0,0,6,0,0,0,cdc76ca95577c2ee759859d8908d9b093cac08e9
+0,2023/04/12 04:22:50,4692,AsusSoftwareManager.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSSoftwareManager\AsusSoftwareManager.exe,,,,,,,,,8,0,7028736,21610496,0,0,0,0,0,17,0,0,0,46ae1d4cb8e2019d614bfccd77db01c52ac16258
+0,2023/04/12 04:22:50,5332,RtkAudUService64.exe,,1052,0,0,C:\Windows\System32\RtkAudUService64.exe,,,,,,,,,8,0,2408448,13000704,0,0,0,0,0,12,0,0,0,f6081283d249e067f07f07e98173aa6c84ca7b28
+0,2023/04/12 04:22:50,4700,AsusLinkNear.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSLinkNear\AsusLinkNear.exe,,,,,,,,,8,0,3710976,17039360,0,0,0,0,0,17,0,0,0,ff1644e3918fb3e48b6121da918da436e9ecb459
+0,2023/04/12 04:22:50,5340,RstMwService.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\iastorac.inf_amd64_ba273d0ffb93e225\RstMwService.exe,,,,,,,,,8,0,2052096,10350592,0,0,0,0,0,11,0,0,0,65d55b0afcb45f611395d1ad465e7bd894e21fbe
+0,2023/04/12 04:22:50,4716,AsusSwitch.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSSwitch\AsusSwitch.exe,,,,,,,,,8,0,1871872,10215424,0,0,0,0,0,11,0,0,0,66bc9061ca761d03dd391bdc8869f8d2184547af
+0,2023/04/12 04:22:50,5360,PEFService.exe,,1052,0,0,C:\Program Files\Common Files\McAfee\PEF\CORE\PEFService.exe,,,,,,,,,8,0,26341376,73400320,0,0,0,0,0,20,0,0,0,89f5390278b34c5932870bd62a9f6ac50e802082
+0,2023/04/12 04:22:51,4724,AsusSystemAnalysis.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSSystemAnalysis\AsusSystemAnalysis.exe,,,,,,,,,8,0,3420160,17231872,0,0,0,0,0,11,0,0,0,23492795552c2f802f4b4b1107d2207263e9e7dc
+0,2023/04/12 04:22:51,5424,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1429504,7774208,0,0,0,0,0,6,0,0,0,e01b3dd63c00094872e5aa9ee909ba3762b59f6d
+0,2023/04/12 04:22:51,4768,AsusSystemDiagnosis.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSSystemDiagnosis\AsusSystemDiagnosis.exe,,,,,,,,,8,0,2289664,13111296,0,0,0,0,0,9,0,0,0,93b02f60b1dff5130b1bd028f48c504a48f4a2f8
+0,2023/04/12 04:22:51,5440,wazuh-agent.exe,,1052,0,0,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,,,,,,,,,8,0,11632640,30969856,0,0,0,0,0,33,0,0,0,d599ffdbe881dd223693f52611754f2e713b3f83
+0,2023/04/12 04:22:51,11644,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2244608,12042240,0,0,0,0,0,5,0,0,0,d64ce0e74b49128ae4bc8dce954fbc0af06163e2
+0,2023/04/12 04:22:51,4804,mDNSResponder.exe,,1052,0,0,C:\Program Files\Bonjour\mDNSResponder.exe,,,,,,,,,8,0,2113536,10051584,0,0,0,0,0,9,0,0,0,455e6d45312b450ba884818a67d1d0dfd75eea7b
+0,2023/04/12 04:22:51,4128,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3751936,12521472,0,0,0,0,0,31,0,0,0,71c9c1c1cebdfa188ac267ecd64432ba9cbb18bd
+0,2023/04/12 04:22:51,11756,dllhost.exe,,1236,0,0,C:\Windows\System32\dllhost.exe,,,,,,,,,8,0,1691648,9347072,0,0,0,0,1,8,0,0,0,62c43c39f1284665d146cbd556f14c622cf66ba1
+0,2023/04/12 04:22:51,5548,svchost.exe,,1052,1,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,10280960,31408128,0,0,0,0,0,31,0,0,0,674b9fb6b0d14f7063470bc5950eb8bbfb40cc43
+0,2023/04/12 04:22:51,4836,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3121152,14647296,0,0,0,0,0,10,0,0,0,efb4d819dfc23d1b2fc65358fb01e0857d06ef81
+0,2023/04/12 04:22:51,4144,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3559424,15630336,0,0,0,0,0,18,0,0,0,d1c66fbf80d43b70389252f79b7ce3e08e08ce41
+0,2023/04/12 04:22:51,11864,AsusSplendid.exe,,3856,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSOptimization\AsusSplendid.exe,,,,,,,,,8,0,2510848,14909440,0,0,0,0,1,6,0,0,0,30c5a2ec12bb00c70e6b38c80f05ac64cc3eba35
+0,2023/04/12 04:22:51,5592,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2592768,12697600,0,0,0,0,0,9,0,0,0,f2e0d6d078375f6d4756e577e916f1ededc6394d
+0,2023/04/12 04:22:51,11888,conhost.exe,,11864,0,0,C:\Windows\System32\conhost.exe,,,,,,,,,8,0,5959680,18366464,0,0,0,0,1,5,0,0,0,84af1d94a77dc40646dfcdb2b2e2563ee917c1ca
+0,2023/04/12 04:22:51,4844,svchost.exe,,1052,1,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,14479360,44978176,0,0,0,0,0,17,0,0,0,e4e625f87bf0b3ba710d58d2fdb0bf74a380087f
+0,2023/04/12 04:22:51,5600,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3121152,17764352,0,0,0,0,0,11,0,0,0,fd714aaf22c1e74d61cb82b6745f3f8f7a4b9696
+0,2023/04/12 04:22:51,4228,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,9605120,25903104,0,0,0,0,0,15,0,0,0,d036e03926243f9df8385e91866a6f2919e417f1
+0,2023/04/12 04:22:51,4272,svchost.exe,,1052,1,1,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,17838080,45400064,0,0,0,0,0,34,0,0,0,bb7e7468204b33d2ed34d8ec7fb7315c310dbf60
+0,2023/04/12 04:22:51,5708,AggregatorHost.exe,,4844,0,0,C:\Windows\System32\AggregatorHost.exe,,,,,,,,,8,0,2023424,10719232,0,0,0,0,0,6,0,0,0,acb21b3158bb889261d5ca7c4291eebdb8dbf675
+0,2023/04/12 04:22:51,4852,Intel_PIE_Service.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\piecomponent.inf_amd64_e72614dff5a8a910\Intel_PIE_Service.exe,,,,,,,,,8,0,2056192,12124160,0,0,0,0,0,7,0,0,0,ca8771370b9b3de61a2a9e2836eb3ee820ec8808
+0,2023/04/12 04:22:51,12044,RtkAudUService64.exe,,1912,0,0,C:\Windows\System32\RtkAudUService64.exe,,,,,,,,,6,0,1609728,10113024,0,0,0,0,1,3,0,0,0,248c6fdeb1b271628a0007da90ec2bdd6fe20a17
+0,2023/04/12 04:22:51,4944,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,13533184,35106816,0,0,0,0,0,21,0,0,0,d28a871962cde162d1161e83a65161a316ebf4ba
+0,2023/04/12 04:22:51,4384,wlanext.exe,,3812,0,0,C:\Windows\System32\wlanext.exe,,,,,,,,,8,0,2191360,11841536,0,0,0,0,0,9,0,0,0,f0a7e0a30e672e89ab004c01e96ab42ed9904224
+0,2023/04/12 04:22:51,5892,jhi_service.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_ffc75848a6342fdf\jhi_service.exe,,,,,,,,,8,0,1466368,8646656,0,0,0,0,0,6,0,0,0,16fa01f542c4672fe0bfcf5d0a09bb80d9186330
+0,2023/04/12 04:22:51,12052,taskhostw.exe,,1912,0,0,C:\Windows\System32\taskhostw.exe,,,,,,,,,8,0,3571712,15908864,0,0,0,0,1,14,0,0,0,eb4e112ad8a896687648254cf9b5eeb75943ff3c
+0,2023/04/12 04:22:51,4992,ELANFPService.exe,,1052,0,0,C:\Windows\System32\ELANFPService.exe,,,,,,,,,8,0,1323008,7380992,0,0,0,0,0,7,0,0,0,0f0f7c5c8ffed23483ccfba5ce6118765f3dcddc
+0,2023/04/12 04:22:51,4392,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2113536,10907648,0,0,0,0,0,9,0,0,0,ebe0ae3575b01ed9c5560f4d4065a78143e32bdd
+0,2023/04/12 04:22:51,6264,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,4038656,18358272,0,0,0,0,0,20,0,0,0,8a4152db365284435ed41b1e08158083c9ab3c6f
+0,2023/04/12 04:22:51,12060,dxgiadaptercache.exe,,1912,0,0,C:\Windows\System32\dxgiadaptercache.exe,,,,,,,,,6,0,1388544,7581696,0,0,0,0,0,2,0,0,0,dc1cfa4e8eadb0ba22e0c23567b5582836b506aa
+0,2023/04/12 04:22:51,5008,gcpw_extension.exe,,1052,0,0,C:\Program Files\Google\Credential Provider\101.0.4951.64\extension\gcpw_extension.exe,,,,,,,,,8,0,1957888,10326016,0,0,0,0,0,5,0,0,0,81c4c5e60354adaa44728ead97b3b2a7f4004514
+0,2023/04/12 04:22:51,6324,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2781184,14086144,0,0,0,0,0,11,0,0,0,5e14f2241abf4e9a995b9dfe49566089887b1b4d
+0,2023/04/12 04:22:51,4416,conhost.exe,,4384,0,0,C:\Windows\System32\conhost.exe,,,,,,,,,8,0,5365760,15044608,0,0,0,0,0,4,0,0,0,21d576a623dbaa09db0bfc98bd4391cfbe5bae05
+0,2023/04/12 04:22:51,12072,wermgr.exe,,1912,0,0,C:\Windows\System32\wermgr.exe,,,,,,,,,6,0,1187840,7589888,0,0,0,0,0,2,0,0,0,fd5ab8b64652c3699e901a0ba9a6ef8226e5d26a
+0,2023/04/12 04:22:52,5016,OfficeClickToRun.exe,,1052,0,0,C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe,,,,,,,,,8,0,17625088,57794560,0,0,0,0,0,29,0,0,0,ec3fd91a75a0dd13630ae2cf764d4bde8cc8e0f2
+0,2023/04/12 04:22:52,12096,McUICnt.exe,,1912,0,0,C:\Program Files\Common Files\McAfee\Platform\McUICnt.exe,,,,,,,,,8,0,3563520,17481728,0,0,0,0,1,5,0,0,0,0b1cd36b277278d1ff2e92893216e6c6136fb229
+0,2023/04/12 04:22:52,4616,AsusAppService.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\AsusAppService\AsusAppService.exe,,,,,,,,,8,0,3162112,18980864,0,0,0,0,0,13,0,0,0,603854b2cdb2606d92de38d33795a72555f3ddd8
+0,2023/04/12 04:22:52,6520,MicrosoftEdgeUpdate.exe,,5000,0,0,C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe,,,,,,,,,8,0,2383872,4923392,0,0,0,0,0,8,0,0,0,87ad7a9e06ee12ff601345ebde8a49701e6b2354
+0,2023/04/12 04:22:52,5056,esif_uf.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_82b77f8c4618e2d0\esif_uf.exe,,,,,,,,,13,0,1835008,9027584,0,0,0,0,0,9,0,0,0,43fed38400153b65f27da5e967661dc107d1a758
+0,2023/04/12 04:22:52,4636,AsusLinkRemote.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSLinkRemote\AsusLinkRemote.exe,,,,,,,,,8,0,7880704,21098496,0,0,0,0,0,13,0,0,0,adada832771ad2ac631d3fd7783fcebeb4e444f4
+0,2023/04/12 04:22:52,12108,sc.exe,,1912,0,0,C:\Windows\System32\sc.exe,,,,,,,,,6,0,454656,2654208,0,0,0,0,0,1,0,0,0,3d94874bb7c9a394c38f72c9fc8a9093d5039478
+0,2023/04/12 04:22:52,6872,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2764800,12148736,0,0,0,0,0,16,0,0,0,b7b4395c26f94486dcf322f3eb18a49260ed9f11
+0,2023/04/12 04:22:52,5068,ibtsiva.exe,,1052,0,0,C:\Windows\System32\ibtsiva.exe,,,,,,,,,8,0,1261568,6967296,0,0,0,0,0,6,0,0,0,eba11332d7e4b94817bd16692610ae52ff879743
+0,2023/04/12 04:22:52,7256,OfficeClickToRun.exe,,5016,5,1,C:\Program Files\Common Files\microsoft shared\ClickToRun\Updates\16.0.16227.20258\OfficeClickToRun.exe,,,,,,,,,8,0,32739328,79106048,0,0,0,0,0,19,0,0,0,7ec7eddf8e1b9ab53a7707f5a11c64431a0d3412
+0,2023/04/12 04:22:52,4648,AnyDesk.exe,,1052,1,0,C:\Program Files (x86)\AnyDesk\AnyDesk.exe,,,,,,,,,13,0,22175744,54734848,0,0,0,0,0,13,0,0,0,9fcebac49d32f48c73d0dd9d4e8fe01b98c0d27c
+0,2023/04/12 04:22:52,7268,MMSSHOST.exe,,5372,0,0,C:\Program Files\Common Files\McAfee\MMSSHost\MMSSHOST.exe,,,,,,,,,8,0,10592256,35893248,0,0,0,0,0,27,0,0,0,7966e1b0069753899aa2fbfdb4b8d3af71dd1c7c
+0,2023/04/12 04:22:52,5096,OneApp.IGCC.WinService.exe,,1052,3,0,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_54b736e5be5b50b2\OneApp.IGCC.WinService.exe,,,,,,,,,8,0,20041728,64356352,0,0,0,0,0,17,0,0,0,0898ba2d529999d539fa0461888330315d6bcc28
+0,2023/04/12 04:22:52,5104,ICEsoundService64.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\icesoundapo64.inf_amd64_a5d3270da26fb113\ICEsoundService64.exe,,,,,,,,,8,0,1953792,8220672,0,0,0,0,0,8,0,0,0,ed4858e4a9b831ee1970a9e64cbfb720c7d2d808
+0,2023/04/12 04:22:52,7288,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1794048,8900608,0,0,0,0,0,8,0,0,0,b462e65e4b6afc777c7650fe39ab3daed0704ce6
+0,2023/04/12 04:22:52,5116,TPMProvisioningService.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_a93205b6238060e4\lib\TPMProvisioningService.exe,,,,,,,,,8,0,2629632,15437824,0,0,0,0,0,6,0,0,0,f128ff8cd184efda9dee609e76c038912fc5bbcd
+0,2023/04/12 04:22:52,772,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,13,0,4206592,17383424,0,0,0,0,0,12,0,0,0,e874af7fe2b8217be21ddfbf5cf4d927a8b16b14
+0,2023/04/12 04:22:52,5156,servicehost.exe,,1052,0,0,C:\Program Files\McAfee\WebAdvisor\servicehost.exe,,,,,,,,,8,0,14188544,45555712,0,0,0,0,0,113,0,0,0,95e7209a6e2b059b1adea1d01de2067fd2500291
+0,2023/04/12 04:22:52,8216,WmiPrvSE.exe,,1236,0,0,C:\Windows\System32\wbem\WmiPrvSE.exe,,,,,,,,,8,0,8192000,26767360,0,0,0,0,0,14,0,0,0,26248891c2bd9e541ebf9103fa6491d05ece38a4
+0,2023/04/12 04:22:52,5204,RtkAudUService64.exe,,1236,0,0,C:\Windows\System32\RtkAudUService64.exe,,,,,,,,,8,0,2084864,12480512,0,0,0,0,0,9,0,0,0,d619bdd5aaf979def9e0024ba2c881f84056d9d8
+0,2023/04/12 04:22:52,8224,WmiPrvSE.exe,,1236,0,0,C:\Windows\System32\wbem\WmiPrvSE.exe,,,,,,,,,8,0,2854912,13025280,0,0,0,0,0,9,0,0,0,ad3eb76e65cbdd5f3e80c85e3c624714c59dd06c
+0,2023/04/12 04:22:52,5212,LMS.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,,,,,,,,,8,0,3420160,14483456,0,0,0,0,0,11,0,0,0,734c46c856992587c55e28f8f51501a6b0f7f8f8
+0,2023/04/12 04:22:52,8544,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1314816,7372800,0,0,0,0,0,5,0,0,0,e3980ae89b9ec6879e1a7a73a129d484237f81c9
+0,2023/04/12 04:22:52,12116,UsoClient.exe,,1912,0,0,C:\Windows\System32\UsoClient.exe,,,,,,,,,6,0,1015808,6135808,0,0,0,0,0,1,0,0,0,615a05d41d0c10f93c3b0c2837504123360e54b4
+0,2023/04/12 04:22:53,8616,mcapexe.exe,,1052,0,0,C:\Program Files\Common Files\McAfee\VSCore_21_9\mcapexe.exe,,,,,,,,,8,0,3551232,15585280,0,0,0,0,0,12,0,0,0,769fe98219ea5b46c6bf15c1fbb36d48539a6d7f
+0,2023/04/12 04:22:53,12132,SDXHelper.exe,,1912,0,0,C:\Program Files\Microsoft Office\root\Office16\SDXHelper.exe,,,,,,,,,6,0,667648,3350528,0,0,0,0,1,1,0,0,0,042c5ad93f66b4ecfa37639ae85a78684f75029a
+0,2023/04/12 04:22:53,8636,McCSPServiceHost.exe,,1052,0,0,C:\Program Files\Common Files\McAfee\CSP\4.6.104.0\McCSPServiceHost.exe,,,,,,,,,8,0,7114752,29540352,0,0,0,0,0,21,0,0,0,91f34dd7cb09378483fbe165ce24a7ffffc0980c
+0,2023/04/12 04:22:53,12152,OfficeC2RClient.exe,,1912,0,0,C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeC2RClient.exe,,,,,,,,,6,0,1945600,5869568,0,0,0,0,0,1,0,0,0,6346bc868b37e246e758ee5636fe9740e0fab2e3
+0,2023/04/12 04:22:53,8948,ModuleCoreService.exe,,5256,0,0,C:\Program Files\Common Files\McAfee\ModuleCore\ModuleCoreService.exe,,,,,,,,,8,0,24084480,71213056,0,0,0,0,0,52,0,0,0,c1971410992f48bbc5d29e55b4ce9d38e0b08091
+0,2023/04/12 04:22:53,12224,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2990080,16097280,0,0,0,0,0,8,0,0,0,3c4086a14744de6d77558964f5fb6cad561e82a3
+0,2023/04/12 04:22:53,8964,conhost.exe,,8948,0,0,C:\Windows\System32\conhost.exe,,,,,,,,,8,0,5414912,15347712,0,0,0,0,0,5,0,0,0,2dd6bed704e400642d9521a83146582216ec4ccc
+0,2023/04/12 04:22:53,1236,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,9797632,33415168,0,0,0,0,0,33,0,0,0,595b39ea2e36d6898a7bcd46bb11bc41f8e56006
+0,2023/04/12 04:22:53,9108,MfeAVSvc.exe,,5372,0,0,C:\Program Files\McAfee\MfeAV\MfeAVSvc.exe,,,,,,,,,8,0,8417280,32874496,0,0,0,0,0,49,0,0,0,04ca9b278b18044add6605b4d71451bde9aaa970
+0,2023/04/12 04:22:53,10028,McBootSvcSet.exe,,7268,0,0,C:\Program Files\McAfee\MSC\McBootSvcSet.exe,,,,,,,,,13,0,1458176,8880128,0,0,0,0,1,4,0,0,0,69473aa627d446a50162f6fbd9fc7acb19f0a1f3
+0,2023/04/12 04:22:53,9260,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1818624,9875456,0,0,0,0,1,7,0,0,0,3054b7f603712fe5c6578c973dc0b18500df73c8
+0,2023/04/12 04:22:53,10044,sihost.exe,,2112,0,0,C:\Windows\System32\sihost.exe,,,,,,,,,8,0,4481024,26103808,0,0,0,0,1,18,0,0,0,65801d9b48d1054ab7ccb2cc8ba07ab9142bcff5
+0,2023/04/12 04:22:53,9328,DeviceEnroller.exe,,1912,0,0,C:\Windows\System32\DeviceEnroller.exe,,,,,,,,,6,0,1646592,10039296,0,0,0,0,0,6,0,0,0,65c5aadbd4debc60d1f2a5233ef0948dbdae840c
+0,2023/04/12 04:22:53,3468,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,4079616,15257600,0,0,0,0,0,31,0,0,0,c3805395368f90af0e541cffcaae09a6b9f92796
+0,2023/04/12 04:22:53,9420,igfxEM.exe,,2928,0,0,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_b8e01d9e8716d2a7\igfxEM.exe,,,,,,,,,8,0,4116480,19402752,0,0,0,0,1,11,0,0,0,ffd4c3170211fcd0df604293b4abd7c382a5a189
+0,2023/04/12 04:22:53,3476,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3010560,11616256,0,0,0,0,0,14,0,0,0,54a50a685d69eac5e9302c44a3b730ac38b53a86
+0,2023/04/12 04:22:53,9436,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,7045120,32542720,0,0,0,0,1,19,0,0,0,658174fe78163721f03abdbe6ba81518a2c302c1
+0,2023/04/12 04:22:53,10756,userinit.exe,,1044,0,0,C:\Windows\System32\userinit.exe,,,,,,,,,8,0,1269760,7135232,0,0,0,0,1,4,0,0,0,b4d26e7f6f5cf8d0913734a87f6a9f9c17380772
+0,2023/04/12 04:22:53,3688,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2732032,10657792,0,0,0,0,0,14,0,0,0,d478be4c7d4ca54f024086799bd088d3a683b022
+0,2023/04/12 04:22:54,9500,taskhostw.exe,,1912,0,0,C:\Windows\System32\taskhostw.exe,,,,,,,,,6,0,1613824,9273344,0,0,0,0,0,5,0,0,0,aaf1c373e2cb328bddfea8c0703b4d9a8a5e8dcb
+0,2023/04/12 04:22:54,3764,audiodg.exe,,3352,0,0,C:\Windows\System32\audiodg.exe,,,,,,,,,8,0,8597504,25399296,0,0,0,0,0,8,0,0,0,48dc63814fb67fc37736911fe8fe2b3005247224
+0,2023/04/12 04:22:54,10812,DADUpdater.exe,,1912,0,0,C:\Program Files\Common Files\McAfee\DynamicAppDownloader\1.7.108\DADUpdater.exe,,,,,,,,,6,0,712704,3891200,0,0,0,0,0,2,0,0,0,da0b3a936a87968b320a050c603e73d7a52eb738
+0,2023/04/12 04:22:54,3848,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2813952,14118912,0,0,0,0,0,11,0,0,0,369f0c8d944e91cfeb9b8eb8b81698d6de89d951
+0,2023/04/12 04:22:54,9536,mcshield.exe,,5372,0,0,C:\Program Files\Common Files\McAfee\AMCore\mcshield.exe,,,,,,,,,8,0,33939456,74559488,0,0,0,0,0,27,0,0,0,158f3c6d953613eb53fbc6e0a0ddbac757fc228f
+0,2023/04/12 04:22:54,3812,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,7319552,28721152,0,0,0,0,0,19,0,0,0,edb242f833b8503cd568f12f1f68a6bf75d25bb0
+0,2023/04/12 04:22:54,3856,AsusOptimization.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSOptimization\AsusOptimization.exe,,,,,,,,,8,0,2494464,12460032,0,0,0,0,0,20,0,0,0,9108ac115bab96d967e10a8db3e69173e642e911
+0,2023/04/12 04:22:54,9588,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3813376,15638528,0,0,0,0,0,11,0,0,0,237d5198e81706b5f120dba98bd3831a776cfb33
+0,2023/04/12 04:22:54,9808,taskhostw.exe,,1912,0,0,C:\Windows\System32\taskhostw.exe,,,,,,,,,6,0,2699264,14782464,0,0,0,0,0,12,0,0,0,f4606c08f453d5b346529829513712f19b75fcda
+0,2023/04/12 04:22:54,11408,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1777664,9539584,0,0,0,0,0,6,0,0,0,d2a5f75fbd4f338e212dd0c02955007236ca4fe2
+0,2023/04/12 04:22:54,11416,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2281472,11685888,0,0,0,0,0,8,0,0,0,2c5f8c60487a042449d3c99b8d7de9ee321a6998
+0,2023/04/12 04:22:54,9844,taskhostw.exe,,1912,0,0,C:\Windows\System32\taskhostw.exe,,,,,,,,,8,0,2732032,14622720,0,0,0,0,1,9,0,0,0,9ba262a2380b161f306a1fc5f6e69090ec5114e4
+0,2023/04/12 04:22:54,9884,dptf_helper.exe,,5056,0,0,C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_82b77f8c4618e2d0\dptf_helper.exe,,,,,,,,,8,0,1454080,7544832,0,0,0,0,1,5,0,0,0,d7e60213a9d04af85ba6a31fcb0b5081e8622c8c
+0,2023/04/12 04:22:54,11504,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3244032,14061568,0,0,0,0,0,13,0,0,0,b0527c09ef8ad65e95d9c881c48d0f5f4fe0f5fc
+0,2023/04/12 04:22:54,9892,GoogleUpdate.exe,,1912,0,0,C:\Program Files (x86)\Google\Update\GoogleUpdate.exe,,,,,,,,,6,0,1724416,10752000,0,0,0,0,0,4,0,0,0,60bf0deddd9a16658a4e67504a01fd7ca0e8e326
+0,2023/04/12 04:22:54,9916,AsusOptimizationStartupTask.exe,,3856,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSOptimization\AsusOptimizationStartupTask.exe,,,,,,,,,8,0,1626112,8445952,0,0,0,0,1,14,0,0,0,bcca0b1467d3e0e7b71a6abc3d1cc76bb5b6998f
+0,2023/04/12 04:22:54,9940,uihost.exe,,5156,0,0,C:\Program Files\McAfee\WebAdvisor\uihost.exe,,,,,,,,,8,0,7483392,26796032,0,0,0,0,1,48,0,0,0,20dde850e8c1b5d06e6dc852ae43543556ebde41
+0,2023/04/12 04:22:54,1272,fontdrvhost.exe,,1044,0,0,C:\Windows\System32\fontdrvhost.exe,,,,,,,,,8,0,2043904,6656000,0,0,0,0,1,8,0,0,0,8b4bd32bb4f4e3d17965d83bb046de508dd26335
+0,2023/04/12 04:22:55,1280,fontdrvhost.exe,,872,0,0,C:\Windows\System32\fontdrvhost.exe,,,,,,,,,8,0,1773568,5816320,0,0,0,0,0,9,0,0,0,a6b8a7acd66d0dd8a24c23aa9aaa7ce2ce5e4761
+0,2023/04/12 04:22:55,1552,LogonUI.exe,,1044,0,0,C:\Windows\System32\LogonUI.exe,,,,,,,,,13,0,27955200,118403072,0,0,0,0,1,47,0,0,0,bee6edd80dd8de7e30d1b40d3796613d595062af
+0,2023/04/12 04:22:55,1560,dwm.exe,,1044,1,0,C:\Windows\System32\dwm.exe,,,,,,,,,13,0,27480064,89837568,0,0,0,0,1,26,0,0,0,e638ee92320c2900b0fa1360b25d1839da8e2a8e
+0,2023/04/12 04:22:55,10136,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3088384,16515072,0,0,0,0,0,9,0,0,0,3f9b8fa5c86dffabf59e7250c664def4f3039c00
+0,2023/04/12 04:22:56,1728,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1572864,8441856,0,0,0,0,0,5,0,0,0,d32d7ad972e4163cc0daccd8661f2ef80a4ee528
+0,2023/04/12 04:22:56,10168,OobeHook.exe,,5360,0,0,C:\Program Files\Common Files\McAfee\PEF\CORE\OobeHook.exe,,,,,,,,,8,0,1339392,8208384,0,0,0,0,1,3,0,0,0,54390ae458658278dc8529f50f78afee844d0386
+0,2023/04/12 04:22:56,1772,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3428352,14589952,0,0,0,0,0,13,0,0,0,c23b895c4694f9fcaf12604ec2c9a33a45fec7f4
+0,2023/04/12 04:22:56,10228,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2416640,11890688,0,0,0,0,1,8,0,0,0,feaa61a33391f02b896da242b1f55e6b554d11e9
+0,2023/04/12 04:22:56,1780,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2445312,11255808,0,0,0,0,0,8,0,0,0,b0d10dd9acd29f690f4dd31a0d68c1a9e512a767
+0,2023/04/12 04:22:56,10236,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,4190208,19755008,0,0,0,0,1,17,0,0,0,432b6771e9fed3626d374bba2162dccf0b228224
+0,2023/04/12 04:22:56,10420,net.exe,,5440,0,0,C:\Windows\SysWOW64\net.exe,,,,,,,,,4,0,823296,4210688,0,0,0,0,0,1,0,0,0,b0cfe2c71c13e7f392d80ba32cb64772d66e948c
+0,2023/04/12 04:22:56,1044,winlogon.exe,,772,0,0,C:\Windows\System32\winlogon.exe,,,,,,,,,13,0,2883584,15753216,0,0,0,0,1,9,0,0,0,9120038de9c6395eb3a632f3ee320fbf3770315c
+0,2023/04/12 04:22:56,2768,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1589248,8552448,0,0,0,0,0,7,0,0,0,c74aaf6d2d2807c1204eea7de00a1ae36396e938
+0,2023/04/12 04:22:57,2780,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2318336,10670080,0,0,0,0,0,11,0,0,0,24b30897d9130c86132213ca637477acd56bc35b
+0,2023/04/12 04:22:57,10852,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,4739072,22585344,0,0,0,0,0,15,0,0,0,23af7e7c53621ecca0308ead92643ac3ebb1c695
+0,2023/04/12 04:22:57,1112,lsass.exe,,872,0,0,C:\Windows\System32\lsass.exe,,,,,,,,,9,0,5599232,22147072,0,0,0,0,0,13,0,0,0,7ac7475bc637361d9176c1b64941e33ff8b56366
+0,2023/04/12 04:22:57,3016,dasHost.exe,,2408,0,0,C:\Windows\System32\dasHost.exe,,,,,,,,,8,0,4263936,16142336,0,0,0,0,0,30,0,0,0,66e4eb4cc925fcd6c2bcb24d4c6243eddc11f700
+0,2023/04/12 04:22:57,11304,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1503232,8400896,0,0,0,0,0,5,0,0,0,94c9bd0cd43f1819595ff619b85856ab31d1b7cf
+0,2023/04/12 04:22:57,3028,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2297856,11149312,0,0,0,0,0,9,0,0,0,0e2e7ce20cb31a319f36c275da84975922f6045e
+0,2023/04/12 04:22:57,4020,IntelAudioService.exe,,1052,3,0,C:\Windows\System32\cAVS\Intel(R) Audio Service\IntelAudioService.exe,,,,,,,,,8,0,21368832,47210496,0,0,0,0,0,17,0,0,0,7cb539d4d6f5404391842a3fbfbcfc326f037e2e
+0,2023/04/12 04:22:57,4108,dasHost.exe,,2408,0,0,C:\Windows\System32\dasHost.exe,,,,,,,,,8,0,1404928,7270400,0,0,0,0,0,7,0,0,0,17a48ab5bf357ee17ee71a481c3f872ce20938a7
+0,2023/04/12 04:22:57,4116,spoolsv.exe,,1052,0,0,C:\Windows\System32\spoolsv.exe,,,,,,,,,8,0,6488064,24240128,0,0,0,0,0,19,0,0,0,9d1869e29c6995f2c78e62ae94389c6fda7f6377
+0,2023/04/12 04:22:58,1356,WUDFHost.exe,,1052,0,0,C:\Windows\System32\WUDFHost.exe,,,,,,,,,8,0,8724480,19021824,0,0,0,0,0,14,0,0,0,3e0337fa6e1e9fbccecadae080107b8074850ddc
+0,2023/04/12 04:22:59,1660,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2301952,10571776,0,0,0,0,0,12,0,0,0,afab3e723860f60717a503b62afa8eb781907a4f
+0,2023/04/12 04:22:59,1668,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3399680,16744448,0,0,0,0,0,13,0,0,0,c99ac6ff304be4dcab3d0278577be80ad96d6f14
+0,2023/04/12 04:22:59,1616,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2048000,10194944,0,0,0,0,0,8,0,0,0,7cfcab5fce7c6178c9f35a26784751a940669c79
+0,2023/04/12 04:23:00,1868,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3973120,12136448,0,0,0,0,0,8,0,0,0,6fdc342b731d8dd0ce769cc200c428e9465cb0fa
+0,2023/04/12 04:23:00,1912,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,7667712,25444352,0,0,0,0,0,24,0,0,0,65c9f0cb9ae713c4a364e9e6fea5626a2e0ce595
+0,2023/04/12 04:23:00,2100,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1474560,7634944,0,0,0,0,0,5,0,0,0,7e9278bf62c7a9313d88e936ab0114cb2c2b9501
+0,2023/04/12 04:23:00,2036,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,7614464,24842240,0,0,0,0,0,55,0,0,0,b3ec8a644bd39423f26359242d9f6d6e1d16d09b
+0,2023/04/12 04:23:00,1980,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2584576,12967936,0,0,0,0,0,8,0,0,0,f7fe101f960e07f71229fdfdb90596901bc90161
+0,2023/04/12 04:23:00,2408,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3575808,12083200,0,0,0,0,0,29,0,0,0,0f714b47b5b133964de8d46ab902d0a33ca5ce4b
+0,2023/04/12 04:23:00,2112,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2715648,12914688,0,0,0,0,0,14,0,0,0,0dca77c8d7bdf6d6bb2869ea536b5b3f2aabb8da
+0,2023/04/12 04:23:01,2568,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2625536,13144064,0,0,0,0,0,8,0,0,0,295aa746970f899b74de26015092fe3aba850c6b
+0,2023/04/12 04:23:01,2612,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3178496,12017664,0,0,0,0,0,15,0,0,0,b1f582ebe2296012af12f8b570e94230083382cf
+0,2023/04/12 04:23:01,10560,DeviceEnroller.exe,,1912,0,0,C:\Windows\System32\DeviceEnroller.exe,,,,,,,,,6,0,1654784,10051584,0,0,0,0,0,6,0,0,0,2619743df8e7bdf3980555f6e1e4a83e8a7a6748
+0,2023/04/12 04:23:01,10616,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1970176,10571776,0,0,0,0,0,8,0,0,0,b478025999f1cd33ecb5317e22b5c018f83e2b12
+0,2023/04/12 04:23:01,2788,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1703936,8654848,0,0,0,0,0,6,0,0,0,47130934c63c3fb9f1716c4f6dcb58f38bdd9f8b
+0,2023/04/12 04:23:02,3088,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2551808,11661312,0,0,0,0,0,10,0,0,0,9837f428948532a53d08b70dda559652cbe5d7c1
+0,2023/04/12 04:23:02,10892,explorer.exe,,10756,1,0,C:\Windows\explorer.exe,,,,,,,,,13,0,49623040,147222528,0,0,0,0,1,42,0,0,0,8e1eaf432a091c2596a79c149525921277ba93dd
+0,2023/04/12 04:23:02,3228,svchost.exe,,1052,0,3,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,9207808,25518080,0,0,0,0,0,12,0,0,0,53eb4ca1882eba2179bfc97c64656f335eaf8762
+0,2023/04/12 04:23:02,10984,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2904064,16654336,0,0,0,0,1,10,0,0,0,362cc251b92dfca2bf9d8045942cbf58accf469b
+0,2023/04/12 04:23:02,3380,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1613824,8237056,0,0,0,0,0,7,0,0,0,8ec84519919a6dd4de94488583e9bd60c973142f
+0,2023/04/12 04:23:02,1420,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,5312512,17326080,0,0,0,0,0,18,0,0,0,0319c067b565c238861e88b069a682cac3b27eb4
+0,2023/04/12 04:23:02,1648,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2596864,11894784,0,0,0,0,0,11,0,0,0,d9005f27d4d4c13f4ddfe5ecc53d37d534eb55b0
+0,2023/04/12 04:23:02,1624,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1916928,9445376,0,0,0,0,0,9,0,0,0,9f9da72ec14b7bcf7590fd37d6536f974bb89dc9
+0,2023/04/12 04:23:02,1468,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2752512,11558912,0,0,0,0,0,12,0,0,0,d5e60757ed57826d0f1b82209619f7f30517a9db
+0,2023/04/12 04:23:02,2020,IntelCpHDCPSvc.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e9b40d45ab4dc6b8\IntelCpHDCPSvc.exe,,,,,,,,,8,0,1667072,9781248,0,0,0,0,0,10,0,0,0,7f1f28eb6f062698f2deee2fd98872c5947d08ee
+0,2023/04/12 04:23:02,2028,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3125248,12746752,0,0,0,0,0,19,0,0,0,164e922aba16e89f63db41f70281d436f3003a77
+0,2023/04/12 04:23:03,2296,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1916928,10096640,0,0,0,0,0,7,0,0,0,941a97b4010415673466cecb55e6e261e9d3cdfe
+0,2023/04/12 04:23:03,2692,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,17145856,38686720,0,0,0,0,0,11,0,0,0,076e9a3c7928392eab09ec88ed2baf0ea34d6c62
+0,2023/04/12 04:23:03,2256,IntelCpHeciSvc.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e9b40d45ab4dc6b8\IntelCpHeciSvc.exe,,,,,,,,,8,0,1650688,9207808,0,0,0,0,0,11,0,0,0,1361d9f6c09128cb0c96c6e42f14b7ffc51861f6
+0,2023/04/12 04:23:03,2744,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2215936,11980800,0,0,0,0,0,6,0,0,0,9737b907372404d44f49095d674e876a19169de5
+0,2023/04/12 04:23:03,2828,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1429504,7528448,0,0,0,0,0,6,0,0,0,67a55868650475af391277742ca685c427e497e6
+0,2023/04/12 04:23:03,2928,igfxCUIService.exe,,1052,0,0,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_b8e01d9e8716d2a7\igfxCUIService.exe,,,,,,,,,8,0,2183168,12087296,0,0,0,0,0,10,0,0,0,4e2175018c50e72e343c771f9e51e28f66377437
+0,2023/04/12 04:23:03,3180,WUDFHost.exe,,1052,0,0,C:\Windows\System32\WUDFHost.exe,,,,,,,,,13,0,7188480,27070464,0,0,0,0,0,22,0,0,0,d1cddaa43020974a9320b74b6e464df734492b7c
+0,2023/04/12 04:23:03,3248,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2887680,14708736,0,0,0,0,0,9,0,0,0,86a52b0dc617eff21f62d2e030b4c72f7ed24bea
+0,2023/04/12 04:23:03,3096,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1953792,10706944,0,0,0,0,0,10,0,0,0,40ba2b44e3ec12ee567dd01ed2a567c17e67b1ca
+0,2023/04/12 04:23:03,3352,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3858432,17588224,0,0,0,0,0,17,0,0,0,2deef04fde2927e2cf90725bb3e9b79ab8fd80c5
+0,2023/04/12 04:23:03,3420,ctfmon.exe,,3380,0,0,C:\Windows\System32\ctfmon.exe,,,,,,,,,13,0,3158016,18763776,0,0,0,0,1,15,0,0,0,d52a37a190cf3ee176e64b9310cccf27a69482ad
+0,2023/04/12 04:23:03,3460,svchost.exe,,1052,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2080768,9297920,0,0,0,0,0,10,0,0,0,5f923abd81899bee1585598cb6560c16e8e3c5c8

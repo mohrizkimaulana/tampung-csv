@@ -1,0 +1,6 @@
+scan_id,iface,proto,address,netmask,broadcast,checksum,item_id
+0,Loopback Pseudo-Interface 1,ipv6,::1,, ,fa94c2aa68c8820fe69ba72c5ed91ac0fa9428f9,55604a20b704e491c9afb7320962fe4a0d9d6288
+0,Loopback Pseudo-Interface 1,ipv4,127.0.0.1,255.0.0.0,127.255.255.255,2e5cd3256e1553d8dbb8d176563d964fc654a2a9,976387d31be037d781b9ff2285b6f44fd28b0650
+0,Local Area Connection* 9,ipv6,fe80::225c:3fe6:343f:411a,ffff:ffff:ffff:ffff::, ,541f79290b109ef0bb85a38c4054790e6040f6de,bddeb9eb7eae691ddcc3060944f9a3829b2b4814
+0,Wi-Fi,ipv4,192.168.0.101,255.255.255.0,192.168.0.255,310ad4d51becdda2da4abcdd726b087344c88f33,1444ee9cb994bebaa96bf9498d9c9bef913f5ad6
+0,Wi-Fi,ipv6,fe80::d6d1:6460:6d0c:8143,ffff:ffff:ffff:ffff::, ,5937390a156df7b658112986a9cfc17ab7492c26,c6aa07b0d189bab4e4d074e44e97abfec2612d67

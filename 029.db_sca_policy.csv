@@ -1,0 +1,2 @@
+name,file,id,description,references,hash_file
+CIS Benchmark for Windows 11 Enterprise (Release 21H2),cis_win11_enterprise.yml,cis_win11_enterprise_21H2,This document provides prescriptive guidance for establishing a secure configuration posture for Microsoft Windows 11.,https://www.cisecurity.org/cis-benchmarks/,1fd394d1108179b86e56243419e430e96299cf96ef92b61f2cbcaa81bfd9ba3e

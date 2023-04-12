@@ -1,0 +1,9 @@
+scan_id,iface,proto,address,netmask,broadcast,checksum,item_id
+0,Wi-Fi,ipv6,fe80::b410:a632:1950:af5,ffff:ffff:ffff:ffff::, ,a84daa3414627f624857c663f02ffd0b18f200c8,033a2ae459ae50cef19c293c047e8e97fc1d2f64
+0,Local Area Connection* 3,ipv4,169.254.174.95,255.255.0.0,169.254.255.255,56edc725cb0daf7fc83c8b41ecf0d78ec2ea8e02,3636f5722ca1586c498d3b57ab8788d6f9f4d99e
+0,Loopback Pseudo-Interface 1,ipv6,::1,, ,fa94c2aa68c8820fe69ba72c5ed91ac0fa9428f9,55604a20b704e491c9afb7320962fe4a0d9d6288
+0,Wi-Fi,ipv4,192.168.11.180,255.255.255.0,192.168.11.255,2e8468f8a2bc12a49b8d6b71a6e96380cbf15979,6c35e14fd238690bd9c6a924a50edae3a186db8f
+0,Bluetooth Network Connection,ipv4,169.254.228.151,255.255.0.0,169.254.255.255,c7434ee5e214be5599977ad3889326e6bdae4230,af750cd342d2307dbda3d01bc448a93a069ec471
+0,Loopback Pseudo-Interface 1,ipv4,127.0.0.1,255.0.0.0,127.255.255.255,2e5cd3256e1553d8dbb8d176563d964fc654a2a9,976387d31be037d781b9ff2285b6f44fd28b0650
+0,Local Area Connection* 3,ipv6,fe80::84bb:dd68:b8bb:822a,ffff:ffff:ffff:ffff::, ,0966687af2d80fc46629fe3f9858ec012d79d6b8,c323e6db14cafb4b90906b7f1e2475538a625cff
+0,Bluetooth Network Connection,ipv6,fe80::b054:604f:a05c:ffb5,ffff:ffff:ffff:ffff::, ,408acba9986ef398183b6773bbb717e6315844b7,e95867847fc4dacc43c950721aabfa92906deb07

@@ -1,0 +1,1 @@
+scan_id,scan_time,protocol,local_ip,local_port,remote_ip,remote_port,tx_queue,rx_queue,inode,state,PID,process,checksum,item_id

@@ -1,0 +1,5 @@
+scan_id,scan_time,name,adapter,type,state,mtu,mac,tx_packets,rx_packets,tx_bytes,rx_bytes,tx_errors,rx_errors,tx_dropped,rx_dropped,checksum,item_id
+0,2023/04/12 03:31:38,Local Area Connection* 3,Microsoft Wi-Fi Direct Virtual Adapter #3,wireless,down,1500,38:00:25:a4:3e:d7:,0,0,0,0,0,0,0,0,be3c767f47a4a8093e46c4f23b258652a9551a32,49af25e304c4f4f9e2ce31c4b83e82c72695ea45
+0,2023/04/12 03:31:38,Local Area Connection* 12,Microsoft Wi-Fi Direct Virtual Adapter #4,wireless,down,1500,3a:00:25:a4:3e:d6:,0,0,0,0,0,0,0,0,c0f246cb8c710158220bc79bdbb66c9f6d03180f,561ad28dcc97dba548751ef3cc076de5b855a2fd
+0,2023/04/12 03:31:38,Loopback Pseudo-Interface 1,Software Loopback Interface 1, ,up,,00:00:00:00:00:00,0,0,0,0,0,0,0,0,e4a92faeea2613dab29a772ec7f3540be951b478,56e07d1bb3aeca5febd3a26616defa115f6a881b
+0,2023/04/12 04:31:40,Wi-Fi,Intel(R) Wireless-AC 9461,wireless,up,1472,38:00:25:a4:3e:d6:,184410,180926,62208818,57225954,0,0,0,0,5fa47e4e5896740dbd3196769758a18d302a5b55,cb3c55a69a004fc9173b8e447693bea8e6cf884b

@@ -1,0 +1,2 @@
+scan_id,scan_time,hostname,architecture,os_name,os_version,os_codename,os_major,os_minor,os_patch,os_build,os_platform,sysname,release,version,os_release,checksum,os_display_version,triaged,reference
+0,2023/04/12 05:59:57,LAPTOP-6K28R1S8,x86_64,Microsoft Windows 11 Enterprise,10.0.22000,,10,0,,22000,,,,,2009,1681279196655873900,21H2,0,829f93ff9647a2a3db8d66d075721114acdf9b48

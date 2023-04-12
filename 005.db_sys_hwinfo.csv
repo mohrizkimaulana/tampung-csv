@@ -1,0 +1,2 @@
+scan_id,scan_time,board_serial,cpu_name,cpu_cores,cpu_mhz,ram_total,ram_free,ram_usage,checksum
+0,2023/04/12 05:59:57,PF3HTNVP,11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz,8,2419.0,24960312,10765632,56,426f44205dfd52abd207f9d67ed7860a085555cf

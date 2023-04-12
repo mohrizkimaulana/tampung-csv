@@ -1,0 +1,13 @@
+component,last_attempt,last_completion,n_attempts,n_completions,last_manager_checksum,last_agent_checksum
+fim,0,0,0,0,,
+fim_file,1681275946,1681275946,2,1,2fdecbb08db5a03141ca3ff61629c91aa5628c46,2fdecbb08db5a03141ca3ff61629c91aa5628c46
+fim_registry,1681275946,0,2,0,,d2763c522b4861c29f8ed7adc398af59a42d5936
+syscollector-processes,1681275910,0,3,0,,912fec6a325bd067266bb73265d5526a1d07f561
+syscollector-packages,1681275910,0,3,0,,f143d131a3a9d85470b68b7724425c1f12ecdf0f
+syscollector-hotfixes,1681275910,1681275910,3,1,ed33700967c743da79cbb0fdd4a063c27b1a0434,ed33700967c743da79cbb0fdd4a063c27b1a0434
+syscollector-ports,1681275910,0,3,0,,1893ce4819120ffe3be62fc6a2c05400b990f70a
+syscollector-netproto,1681275910,0,3,0,,df6380f056d3c7cdbe9b51ceb8891b9ad7b4e701
+syscollector-netaddress,1681275910,0,3,0,,21d69ffe8fe0ffd88c8250315e8dc7e60df62a03
+syscollector-netinfo,1681275910,0,3,0,,7dbc1761a3e0ddf86bcea50a85a451b1041f82f2
+syscollector-hwinfo,1681275910,0,3,0,,c1671b2e2a676f7001f289751cdfc3c06d0bdd70
+syscollector-osinfo,1681275910,0,3,0,,41a4e6c73279cfc09dbde67cb0f0acbf62644f1c

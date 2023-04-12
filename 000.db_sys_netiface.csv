@@ -1,0 +1,2 @@
+scan_id,scan_time,name,adapter,type,state,mtu,mac,tx_packets,rx_packets,tx_bytes,rx_bytes,tx_errors,rx_errors,tx_dropped,rx_dropped,checksum,item_id
+0,2023/04/12 05:09:05,eth0,,ethernet,up,1500,02:42:c0:a8:40:06,135050,143196,22458076,123675910,0,0,0,0,211f241e791b4bd0ce62d520bcb4b0ca2c4d82e3,d4aa8b01955e438235d586585492f3f5edceec1b

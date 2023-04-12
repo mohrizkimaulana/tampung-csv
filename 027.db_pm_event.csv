@@ -1,0 +1,3 @@
+id,date_first,date_last,log,pci_dss,cis
+1,1681271681,1681273365,Starting rootcheck scan.,,
+2,1681271686,1681273365,Ending rootcheck scan.,,

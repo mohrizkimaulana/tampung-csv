@@ -1,0 +1,5 @@
+scan_id,iface,type,gateway,dhcp,metric,checksum,item_id
+0,Local Area Connection* 1,ipv4, ,enabled,0,88dda31a18bf9d61ac0c39b426ee7bb7b952d369,58e67ac398f0e6cbf22bd25c6e101a64ad96117b
+0,Local Area Connection* 2,ipv4, ,enabled,0,dc7022cadcb119438a1d22f0097dce6743c99fd8,67af5ce80d78e86bb4a53622e18873991d0320ad
+0,Loopback Pseudo-Interface 1,ipv4, ,disabled,0,c8e2003d6e3992ca9900667faa094ae195fbb98f,e6db7b9f540419ba6258e01fbadd8336d35c8c0a
+0,Wi-Fi,ipv4,"fe80::1,192.168.100.1",enabled,0,74f862d4330979538767a13661207143a4fdb133,503edc4f0c8e50bd6d1af82566725214fdc0e8ae

@@ -1,0 +1,2 @@
+scan_id,scan_time,board_serial,cpu_name,cpu_cores,cpu_mhz,ram_total,ram_free,ram_usage,checksum
+0,2023/04/12 04:31:39,L415NBCX002APCMB,Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz,8,1800.0,4042048,764296,81,4490eeba597a999286f9c98eb3ce6f8f41fa1051

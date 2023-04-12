@@ -1,0 +1,2 @@
+id,start_scan,end_scan,policy_id,pass,fail,invalid,total_checks,score,hash
+203925346,1681268945,1681268945,cis_ubuntu20-04,43,70,78,191,38,b8a01c74eccd45558fd9735ff4dc313e6f3ecc1f6b292864fe7457ee3c58d5f4

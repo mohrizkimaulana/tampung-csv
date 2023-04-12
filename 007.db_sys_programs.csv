@@ -1,0 +1,15 @@
+scan_id,scan_time,format,name,priority,section,size,vendor,install_time,version,architecture,multiarch,source,description,location,triaged,cpe,msu_name,checksum,item_id
+0,2023/04/12 04:21:49,win,NVIDIA Install Application,,,0,NVIDIA Corporation,20230316,2.1002.370.0,x86_64,,,,C:\Program Files\NVIDIA Corporation\Installer2\InstallerCore,0,,,8289a04572472fb19602585efbb53567fd0a50ed,086fe93b542712d26cc8609d6111bce571cf0961
+0,2023/04/12 04:21:49,win,Microsoft Edge WebView2 Runtime,,,0,Microsoft Corporation,20230409,112.0.1722.34,i686,,,,C:\Program Files (x86)\Microsoft\EdgeWebView\Application,0,,,89eb5e5d1d9946bbda726a6ebb59d75c19206103,12abb6bfea83094b0facd36434e7aab40f5c58be
+0,2023/04/12 04:21:49,win,Microsoft Update Health Tools,,,0,Microsoft Corporation,20230318,5.69.0.0,x86_64,,,,,0,,,9530cb5932c50678ff50433c9167e282cb035b9b,16930fd77564a442beb7404c302d16e0536aa739
+0,2023/04/12 04:21:49,win,Google Chrome,,,0,Google LLC,20230330,111.0.5563.147,i686,,,,C:\Program Files\Google\Chrome\Application,0,,,4f360edfab3161e31471309361440e7933b4ce93,313d0669b1061501acf5a37a23e961ffd1582821
+0,2023/04/12 04:21:49,win,Wazuh Agent,,,0,"Wazuh, Inc.",20230316,4.3.10,i686,,,,,0,,,369783dc00a32716a5db04f8a6fa07b09d056e87,346c7a0f5278b7d581cf90c7eac127d2231e59f6
+0,2023/04/12 04:21:49,win,Microsoft OneDrive,,,0,Microsoft Corporation,,23.066.0326.0005, ,,,,,0,,,c12e23d85dcd3e21b4495fff96b0560ce702a57b,7161c253cb497781385a1bae950d1b9763f648a1
+0,2023/04/12 04:21:50,win,Flock,,,0,Flock FZ LLC,,2.2.511, ,,,,,0,,,938a895a828e9253840d47f6f01a16e9f089d089,742d7b4ee70f3a571c59cdc62ca2ed8e9f04bd27
+0,2023/04/12 04:21:50,win,Microsoft Edge Update,,,0,,,1.3.173.55,i686,,,,,0,,,8c5d332b49cd4930959ab198d2b19c01c0332fe3,a608d1efe707eb3e51bbbf671e096e1cd529c055
+0,2023/04/12 04:21:50,win,AnyDesk,,,0,AnyDesk Software GmbH,,ad 7.1.11,i686,,,,"""C:\Program Files (x86)\AnyDesk""",0,,,7060e0ad0c24f1ff0fe7c3f94827f0f95698b4c7,a681db3cf84b06f2dcabfaaeec831253241037e1
+0,2023/04/12 04:21:50,win,Google Credential Provider for Windows,,,0,Google LLC,20230316,68.127.32824,x86_64,,,,,0,,,253c62b59a21b53781312aad817b2c8b26378dff,db4558bf479b276aaf17b31b16a30ce54ec8db8e
+0,2023/04/12 04:21:50,win,NVIDIA Graphics Driver 512.36,,,0,NVIDIA Corporation,20230316,512.36,x86_64,,,,C:\Program Files\NVIDIA Corporation\Installer2\Display.Driver.{08CF5C60-D6B6-4A2F-8236-F503287FB87F},0,,,99d450ffdbc8d37f55475460fd9bdcdbdde7f365,e49ed799674fd2e579428a55b9c7e0ab9cb64321
+0,2023/04/12 04:21:50,win,Microsoft Edge,,,0,Microsoft Corporation,20230409,112.0.1722.34,i686,,,,C:\Program Files (x86)\Microsoft\Edge\Application,0,,,ee9a35ad2cf5c3585369b4040ca01bd5064e65e1,e90b120a5d453f938f84185312de024e820d0c29
+0,2023/04/12 04:21:50,win,Zoom,,,0,"Zoom Video Communications, Inc.",,5.13.11 (13434), ,,,,C:\Users\isrofia.kiswanto_mek\AppData\Roaming\Zoom\bin,0,,,c7405f79238c421e959ef62844a0be810953b560,f2466f39b856b17ac28e84c4e70ce41860ab1bc4
+0,2023/04/12 04:21:50,win,Notion 2.0.41,,,0,"Notion Labs, Inc",,2.0.41, ,,,,,0,,,b23d310a7776e727236efcfada2239267d2dcb64,f2efbb5391d327e815a93b5f1a417ff715dd29d9

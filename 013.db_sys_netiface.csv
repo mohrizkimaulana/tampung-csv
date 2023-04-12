@@ -1,0 +1,9 @@
+scan_id,scan_time,name,adapter,type,state,mtu,mac,tx_packets,rx_packets,tx_bytes,rx_bytes,tx_errors,rx_errors,tx_dropped,rx_dropped,checksum,item_id
+0,2023/04/12 04:11:22,Bluetooth Network Connection,Bluetooth Device (Personal Area Network),ethernet,down,1500,28:11:a8:cf:b8:f3:,0,0,0,0,0,0,0,0,56d607f343f75a25445e12461e47995ca1c645ee,126c5bae16aa975c5beaeaf4ddf67a0367e4b9ca
+0,2023/04/12 04:11:22,Local Area Connection* 9,Microsoft Wi-Fi Direct Virtual Adapter,wireless,down,1500,28:11:a8:cf:b8:f0:,0,0,0,0,0,0,0,0,43209bdf10bb9b7558b9647962d29586fb074800,4163755ed2929ea71086df21d07862a023418f45
+0,2023/04/12 04:11:22,Loopback Pseudo-Interface 1,Software Loopback Interface 1, ,up,,00:00:00:00:00:00,0,0,0,0,0,0,0,0,e4a92faeea2613dab29a772ec7f3540be951b478,56e07d1bb3aeca5febd3a26616defa115f6a881b
+0,2023/04/12 04:11:22,Local Area Connection* 10,Microsoft Wi-Fi Direct Virtual Adapter #2,wireless,down,1500,2a:11:a8:cf:b8:ef:,0,0,0,0,0,0,0,0,48f449529301f4dc6bbce17a75a502d9ec06a2f7,6b4577c4d250a932d76165bcd2a74c189502bedf
+0,2023/04/12 04:11:22,Pritunl 3,TAP-Windows Adapter V9 #3, ,down,1500,00:ff:21:3b:1b:8c:,0,0,0,0,0,0,0,0,43fd645d158cdd9c946489380f91d4c8b62628cf,ae56a7672934de0025ea06c72d26cfbd5c50850b
+0,2023/04/12 04:11:23,Pritunl 2,TAP-Windows Adapter V9 #2, ,down,1500,00:ff:06:fb:c8:19:,0,0,0,0,0,0,0,0,6902659189836970291b4bea545be6d733b55217,f3969aaba218b66f7d2106b91d31502cdc04928c
+0,2023/04/12 05:11:24,Wi-Fi,Intel(R) Wireless-AC 9560,wireless,up,1472,28:11:a8:cf:b8:ef:,125470,501548,56554020,201816164,0,0,0,0,120da2ab4bc51e6fc0a6d11a548f3e5a05d30041,b86fa4663434e23455e77b71b615e69b7394195f
+0,2023/04/12 05:11:24,Pritunl 1,TAP-Windows Adapter V9, ,up,1500,00:ff:8b:7f:eb:2b:,53140,28608,16624040,8693040,0,0,0,0,64976ce6fb6bb61323f19dc66c81703159682199,f2521b76591bcd7071e9cf571bbece35f1fcec46

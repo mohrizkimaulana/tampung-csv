@@ -1,0 +1,2 @@
+scan_id,scan_time,board_serial,cpu_name,cpu_cores,cpu_mhz,ram_total,ram_free,ram_usage,checksum
+0,2023/04/12 05:09:05,,Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz,4,2500.0,16195060,158432,100,da4d84bca970b3ec5ea857e55c31ce116872a881

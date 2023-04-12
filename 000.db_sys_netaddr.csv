@@ -1,0 +1,2 @@
+scan_id,iface,proto,address,netmask,broadcast,checksum,item_id
+0,eth0,ipv4,192.168.64.6,255.255.240.0,192.168.79.255,b5b94e47dd89b2cfa2dbc720b8c6c4187a83b412,3f9e2b5869e75a9a52b71c0e77814ca82ea841d1

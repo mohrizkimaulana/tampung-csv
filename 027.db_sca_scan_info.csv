@@ -1,0 +1,2 @@
+id,start_scan,end_scan,policy_id,pass,fail,invalid,total_checks,score,hash
+1993380109,1681273363,1681273363,cis_win11_enterprise_21H2,128,263,4,395,32,fc654b6eddc67c5651945d97c494a2b3ad83acacb28effa0c6595a6db8213650

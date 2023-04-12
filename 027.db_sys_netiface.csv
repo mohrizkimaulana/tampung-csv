@@ -1,0 +1,5 @@
+scan_id,scan_time,name,adapter,type,state,mtu,mac,tx_packets,rx_packets,tx_bytes,rx_bytes,tx_errors,rx_errors,tx_dropped,rx_dropped,checksum,item_id
+0,2023/04/12 03:54:42,Bluetooth Network Connection,Bluetooth Device (Personal Area Network),ethernet,down,1500,7c:b2:7d:1e:b8:82:,0,0,0,0,0,0,0,0,0ba9b5a6133667f888f27e4d606101286665e1e8,126c5bae16aa975c5beaeaf4ddf67a0367e4b9ca
+0,2023/04/12 03:54:42,Local Area Connection* 3,Microsoft Wi-Fi Direct Virtual Adapter #3,wireless,down,1500,7c:b2:7d:1e:b8:7f:,0,0,0,0,0,0,0,0,de36ad359b7793b4fe8173719a3bb01c6f360058,49af25e304c4f4f9e2ce31c4b83e82c72695ea45
+0,2023/04/12 03:54:42,Loopback Pseudo-Interface 1,Software Loopback Interface 1, ,up,,00:00:00:00:00:00,0,0,0,0,0,0,0,0,e4a92faeea2613dab29a772ec7f3540be951b478,56e07d1bb3aeca5febd3a26616defa115f6a881b
+0,2023/04/12 04:22:50,Wi-Fi,Intel(R) Wireless-AC 9560 160MHz,wireless,up,1500,7c:b2:7d:1e:b8:7e:,92,115,13499,28566,0,0,0,0,0cd4f0c34644f5bf445c1eb1f86fe9622b044267,6577511e93d28dff265674d527e9c92707edbce8

@@ -1,0 +1,2 @@
+scan_id,scan_time,hostname,architecture,os_name,os_version,os_codename,os_major,os_minor,os_patch,os_build,os_platform,sysname,release,version,os_release,checksum,os_display_version,triaged,reference
+0,2023/04/12 05:09:05,wazuh.master,x86_64,Ubuntu,20.04.5 LTS (Focal Fossa),focal,20,04,5,,ubuntu,Linux,5.15.0-1028-aws,#32-Ubuntu SMP Mon Jan 9 12:28:07 UTC 2023,,1681276144239785254,,0,c25d8297a11afa5e4eadf858f0e9ae744d3b4ec6

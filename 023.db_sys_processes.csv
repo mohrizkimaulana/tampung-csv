@@ -1,0 +1,291 @@
+scan_id,scan_time,pid,name,state,ppid,utime,stime,cmd,argvs,euser,ruser,suser,egroup,rgroup,sgroup,fgroup,priority,nice,size,vm_size,resident,share,start_time,pgrp,session,nlwp,tgid,tty,processor,checksum
+0,2023/04/12 04:00:14,12836,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,30625792,110039040,0,0,0,0,7,17,0,0,0,a1631d00a3c7b264a21dee3c067b27318cd6f395
+0,2023/04/12 04:00:15,14752,LenovoUtilityService.exe,,1036,0,1,C:\Windows\System32\DriverStore\FileRepository\lenovofnandfunctionkeys.inf_amd64_f425cd32ef5787cd\LenovoUtilityService.exe,,,,,,,,,8,0,3125248,16072704,0,0,0,0,0,3,0,0,0,d84aca30c68776c9bfd7e9e0f4737abaf4c6f77b
+0,2023/04/12 04:00:15,1480,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2347008,12455936,0,0,0,0,0,3,0,0,0,7408a44f67d923bd0f5f0e0058506a649e44cc8d
+0,2023/04/12 04:00:25,4328,ElevocControlService.exe,,1036,72,220,C:\Windows\System32\ElevocControlService.exe,,,,,,,,,8,0,249151488,257544192,0,0,0,0,0,9,0,0,0,eed63fd996ae2a12e411ccd201b27f5eb3cda8b5
+0,2023/04/12 04:00:25,4372,gcpw_extension.exe,,1036,0,0,C:\Program Files\Google\Credential Provider\94.0.4606.56\extension\gcpw_extension.exe,,,,,,,,,8,0,8646656,23695360,0,0,0,0,0,5,0,0,0,f365c1ab00f7030bd683e9a74b177d6b9d0179b4
+0,2023/04/12 04:00:26,44116,WhatsApp.exe,,1180,9,3,C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2310.3.0_x64__cv1g1gvanyjgm\WhatsApp.exe,,,,,,,,,8,0,133750784,325144576,0,0,0,0,7,25,0,0,0,76e21fbd5d1e71f817b08cfea9ac96f2aca1b46b
+0,2023/04/12 04:00:26,44276,Canva.exe,,58580,0,0,C:\Users\adi.irawan_mekari\AppData\Local\Programs\Canva\Canva.exe,,,,,,,,,8,0,11599872,39206912,0,0,0,0,7,7,0,0,0,630b4ef1e2da982cdb22b2f7c40ba9c39041ac4b
+0,2023/04/12 04:00:26,44396,Flock.exe,,5044,39,14,C:\Users\adi.irawan_mekari\AppData\Local\Flock\Flock.exe,,,,,,,,,10,0,224006144,490045440,0,0,0,0,7,15,0,0,0,a6f5f4ea84b4f0e48fe0150db058b866bffc6f12
+0,2023/04/12 04:00:26,4448,svchost.exe,,1036,2,3,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2854912,11485184,0,0,0,0,0,5,0,0,0,5b86e726bdacb8c6649135e2d89a150f85a3e268
+0,2023/04/12 04:00:29,50764,GoogleCrashHandler64.exe,,59348,0,0,C:\Program Files (x86)\Google\Update\1.3.36.202\GoogleCrashHandler64.exe,,,,,,,,,8,0,1855488,2961408,0,0,0,0,0,3,0,0,0,4d6bf224e3c7952d34d2c8b7193f15ee1fd5fe3c
+0,2023/04/12 04:00:38,73524,msedge.exe,,71892,5,4,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,8,0,34328576,95027200,0,0,0,0,7,15,0,0,0,18c79272d5f1cbb62b713fd612c9714324bb83fa
+0,2023/04/12 04:00:39,73956,msedge.exe,,71892,18,42,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,10,0,335212544,698306560,0,0,0,0,7,27,0,0,0,f51de3e4f0adae4331d0da0157dac0bb54a3ee91
+0,2023/04/12 04:00:39,74008,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,26284032,87879680,0,0,0,0,7,22,0,0,0,b9832ad7625e33d645d18f082e18fa0c349bd7ae
+0,2023/04/12 05:19:08,75044,chrome.exe,,75648,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,26984448,84619264,0,0,0,0,7,20,0,0,0,42266a7134c7611f2653b32e617e4cbb14dfb38e
+0,2023/04/12 05:19:08,75176,chrome.exe,,75648,7,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,54460416,130551808,0,0,0,0,7,20,0,0,0,1c8db11d96430bf7c499a5a554e73e1ad514fdb3
+0,2023/04/12 05:19:08,75284,audiodg.exe,,3572,0,0,C:\Windows\System32\audiodg.exe,,,,,,,,,8,0,8720384,24895488,0,0,0,0,0,4,0,0,0,972c2fd73525acf44ccb6b4698487af17f028fc0
+0,2023/04/12 05:19:08,75396,chrome.exe,,75648,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,24154112,73076736,0,0,0,0,7,20,0,0,0,4525b108c1a95599c5480dedfb614bc408797f2f
+0,2023/04/12 05:19:08,75516,taskhostw.exe,,2852,0,0,C:\Windows\System32\taskhostw.exe,,,,,,,,,6,0,1462272,8617984,0,0,0,0,0,6,0,0,0,9064ea658a5e6ab0102630ff01ba8f5b18ff6d6c
+0,2023/04/12 05:19:08,75648,chrome.exe,,26232,15,17,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,146853888,356093952,0,0,0,0,7,40,0,0,0,abfc3babc934d1adf271a90af42d8b027912eb2f
+0,2023/04/12 05:19:08,75680,chrome.exe,,75648,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,2256896,10027008,0,0,0,0,7,7,0,0,0,1d951e33447f6ba188f8287ddbc193f9c21026a2
+0,2023/04/12 05:19:08,75872,cmd.exe,,75648,0,0,C:\Windows\System32\cmd.exe,,,,,,,,,8,0,2195456,5943296,0,0,0,0,7,1,0,0,0,cc7e73273d7893eecb0d11cab72709b18a3dab47
+0,2023/04/12 05:19:09,75876,cmd.exe,,75648,0,0,C:\Windows\System32\cmd.exe,,,,,,,,,8,0,2203648,5951488,0,0,0,0,7,1,0,0,0,5a350b6e41bfe14ecc27de3d05a53aa45281df12
+0,2023/04/12 05:19:10,75888,conhost.exe,,75876,0,0,C:\Windows\System32\conhost.exe,,,,,,,,,8,0,5963776,13971456,0,0,0,0,7,3,0,0,0,616bd2c0b6da9d8bec18732caf31c700a6ebd52d
+0,2023/04/12 05:19:10,75896,conhost.exe,,75872,0,0,C:\Windows\System32\conhost.exe,,,,,,,,,8,0,5959680,13967360,0,0,0,0,7,3,0,0,0,391eacf6831aa6e311736524cb056e22a33a90e9
+0,2023/04/12 05:19:11,75964,browserhost.exe,,75872,0,0,C:\Program Files\McAfee\WebAdvisor\browserhost.exe,,,,,,,,,8,0,4771840,14614528,0,0,0,0,7,31,0,0,0,2a16cb4518651b8f6de1c5003269122fff14e395
+0,2023/04/12 05:19:11,75972,MfeBrowserHost.exe,,75876,0,0,C:\Program Files\McAfee\MSC\MfeBrowserHost.exe,,,,,,,,,8,0,5083136,17969152,0,0,0,0,7,20,0,0,0,5da4cca1d888a8e3abca228f0710a462cbd1cacb
+0,2023/04/12 05:42:07,10176,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1802240,8867840,0,0,0,0,0,8,0,0,0,504c033e78135bec4a128aee0d74dd023738e1fd
+0,2023/04/12 05:42:07,1060,lsass.exe,,960,99,40,C:\Windows\System32\lsass.exe,,,,,,,,,9,0,13885440,45842432,0,0,0,0,0,11,0,0,0,d6e8f214e2958b6a559ef4a2574f7e3b6f6daf74
+0,2023/04/12 05:42:07,1180,svchost.exe,,1036,154,79,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,21377024,61931520,0,0,0,0,0,32,0,0,0,d779efd19ed80a670441f3e0bdbdb5ebd08dba6a
+0,2023/04/12 05:42:07,10724,svchost.exe,,1036,1,1,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,5443584,22761472,0,0,0,0,0,10,0,0,0,55c3375d45f5f50802a7efb2a7318af3b3520a79
+0,2023/04/12 05:42:07,1196,svchost.exe,,1036,2,5,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2179072,9850880,0,0,0,0,0,3,0,0,0,ba8c21efdb74be7e9a5676d8ae53427e192dca18
+0,2023/04/12 05:42:07,11608,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2957312,16060416,0,0,0,0,0,1,0,0,0,65d9a6a6c97d974d46087a99063136041ceaf9e0
+0,2023/04/12 05:42:07,70356,OneDrive.exe,,51696,102,40,C:\Program Files\Microsoft OneDrive\OneDrive.exe,,,,,,,,,8,0,81313792,235950080,0,0,0,0,7,34,0,0,0,bdb7df65a501b0fe16170ebf0210b7bb06617302
+0,2023/04/12 05:42:07,70600,backgroundTaskHost.exe,,1180,0,0,C:\Windows\System32\backgroundTaskHost.exe,,,,,,,,,8,0,6066176,7737344,0,0,0,0,7,12,0,0,0,73e6e139e50c9e9f48a560ff0764a0649a425bea
+0,2023/04/12 05:42:07,1208,fontdrvhost.exe,,960,0,0,C:\Windows\System32\fontdrvhost.exe,,,,,,,,,8,0,1990656,4927488,0,0,0,0,0,5,0,0,0,122c66120919ab981102eee7656e2926cca9a324
+0,2023/04/12 05:42:07,71460,RuntimeBroker.exe,,1180,0,0,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,1400832,9420800,0,0,0,0,7,1,0,0,0,fb87db4519b8e322d519cc61449372fc348826fe
+0,2023/04/12 05:42:08,71464,MoUsoCoreWorker.exe,,13432,0,0,C:\Windows\UUS\amd64\MoUsoCoreWorker.exe,,,,,,,,,8,0,5697536,27430912,0,0,0,0,0,14,0,0,0,2b2b2f6344e16624da492f330eddb1084df71cbd
+0,2023/04/12 05:42:08,12668,svchost.exe,,1036,2,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,12267520,35627008,0,0,0,0,0,16,0,0,0,4efbdd729562784b603012e780bdc9022acbe618
+0,2023/04/12 05:42:08,1268,WUDFHost.exe,,1036,2,2,C:\Windows\System32\WUDFHost.exe,,,,,,,,,13,0,15749120,37613568,0,0,0,0,0,16,0,0,0,d4db121d03afe61871b48f97a16b4545b6098128
+0,2023/04/12 05:42:08,14352,LenovoVantage-(DeviceSettingsSystemAddin).exe,,56372,0,0,C:\Program Files (x86)\Lenovo\VantageService\3.13.43.0\LenovoVantage-(DeviceSettingsSystemAddin).exe,,,,,,,,,8,0,31477760,70201344,0,0,0,0,7,12,0,0,0,051f7efba7f01a3c3af609f4932a2672da3a3345
+0,2023/04/12 05:42:08,12892,svchost.exe,,1036,0,1,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2125824,10010624,0,0,0,0,0,6,0,0,0,7edafe75e849a30dae1f57d76098c5dabc173197
+0,2023/04/12 05:42:08,1316,svchost.exe,,1036,121,58,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,25489408,53903360,0,0,0,0,0,11,0,0,0,2e74bea32c367db17de620e303a40630e3d51e41
+0,2023/04/12 05:42:08,14916,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,8,0,2310144,10637312,0,0,0,0,7,8,0,0,0,26c4e202cde2739dfb3f1529fc26408d2c0d724a
+0,2023/04/12 05:42:08,74064,chrome.exe,,75648,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,18161664,60456960,0,0,0,0,7,15,0,0,0,90d89f533862a395552ab48ba6632251b3066bf0
+0,2023/04/12 05:42:08,1368,svchost.exe,,1036,5,11,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3522560,13037568,0,0,0,0,0,6,0,0,0,2be3136e2ab1987e24addaf86693c2d061f0a9f4
+0,2023/04/12 05:42:08,13432,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,4313088,19111936,0,0,0,0,0,14,0,0,0,d7ad7d91023602f5871c7316ba33201686eabed9
+0,2023/04/12 05:42:08,1592,svchost.exe,,1036,4,3,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,8744960,20619264,0,0,0,0,0,3,0,0,0,8a87e3ff2028032b34905a6cef3303ed913c6dc7
+0,2023/04/12 05:42:08,74136,chrome.exe,,75648,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,16785408,48300032,0,0,0,0,7,13,0,0,0,f3cbecd79bbae5075044999e5510bce947c378bc
+0,2023/04/12 05:42:08,4924,PEFService.exe,,1036,1,1,C:\Program Files\Common Files\McAfee\PEF\CORE\PEFService.exe,,,,,,,,,8,0,20926464,45092864,0,0,0,0,0,11,0,0,0,c386d7a97b548d865860bf03e20fa9c939dc1675
+0,2023/04/12 05:42:08,74772,chrome.exe,,75648,7,1,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,77193216,197472256,0,0,0,0,7,19,0,0,0,87319fb9ae11fb06670014ce7f9d6c595ff135d9
+0,2023/04/12 05:42:08,15960,Lenovo.Modern.ImController.exe,,1036,18,12,C:\Windows\Lenovo\ImController\Service\Lenovo.Modern.ImController.exe,,,,,,,,,8,0,99823616,185516032,0,0,0,0,0,45,0,0,0,969b9dd29a152903f4b17375f9669f6eb5afa081
+0,2023/04/12 05:42:08,15080,OfficeClickToRun.exe,,1036,9,11,C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe,,,,,,,,,8,0,43999232,99028992,0,0,0,0,0,19,0,0,0,aa03881f190d1dd2ab2e070da97cccc8e8bdf523
+0,2023/04/12 05:42:08,49464,LocationNotificationWindows.exe,,2852,0,0,C:\Windows\System32\LocationNotificationWindows.exe,,,,,,,,,6,0,2101248,7749632,0,0,0,0,7,4,0,0,0,6372fc45a39b2d1dc7e7d0670753d5ac56f4728d
+0,2023/04/12 05:42:08,74784,chrome.exe,,75648,22,126,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,10,0,218927104,433905664,0,0,0,0,7,27,0,0,0,7644a6339ebfca2beef2ae185899e32605ab3cdf
+0,2023/04/12 05:42:08,15300,svchost.exe,,1036,2,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,10141696,34013184,0,0,0,0,0,3,0,0,0,1999ab16c329b5e58aae5ced5f053e7323614886
+0,2023/04/12 05:42:08,49316,taskhostw.exe,,2852,0,0,C:\Windows\System32\taskhostw.exe,,,,,,,,,8,0,10645504,33656832,0,0,0,0,7,8,0,0,0,bd02bf136b6464c329f93cbdf0aa6f279406cc3e
+0,2023/04/12 05:42:08,16028,svchost.exe,,1036,5,7,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,5492736,27222016,0,0,0,0,0,11,0,0,0,f1db02ed02d93cd5baf0db7d4ed1a165f90931f5
+0,2023/04/12 05:42:08,4972,RtkBtManServ.exe,,1036,0,1,C:\Windows\RtkBtManServ.exe,,,,,,,,,8,0,2211840,10207232,0,0,0,0,0,8,0,0,0,8fbb4b59f3978c53213e80d98a40fa64c5f93335
+0,2023/04/12 05:42:08,74820,chrome.exe,,75648,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,8896512,26619904,0,0,0,0,7,13,0,0,0,906115395356f667a94d2ac348778cf618ef0b82
+0,2023/04/12 05:42:09,4948,RstMwService.exe,,1036,0,0,C:\Windows\System32\DriverStore\FileRepository\iastorvd.inf_amd64_d9aa4f0713cc07ec\RstMwService.exe,,,,,,,,,8,0,2215936,10457088,0,0,0,0,0,9,0,0,0,ed48bbe4e894d92bb1ccb7a2bfc2d9d13bb088e1
+0,2023/04/12 05:42:09,5004,UDClientService.exe,,1036,5,12,C:\Windows\System32\drivers\Lenovo\udc\Service\UDClientService.exe,,,,,,,,,8,0,25743360,62488576,0,0,0,0,0,22,0,0,0,c7af0bc3457160158031c3fb7c37018b2461849c
+0,2023/04/12 05:42:08,1544,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1368064,7282688,0,0,0,0,0,3,0,0,0,baa173c0d8555e7257ef9514420de179d0c6ef0e
+0,2023/04/12 05:42:09,1608,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1912832,9752576,0,0,0,0,0,2,0,0,0,15f88e2f224f1426f052a069dd072f853f04f5b1
+0,2023/04/12 05:42:09,49732,backgroundTaskHost.exe,,1180,0,0,C:\Windows\System32\backgroundTaskHost.exe,,,,,,,,,8,0,2646016,4317184,0,0,0,0,7,8,0,0,0,e571c8f5381d145fb4db9e8dbebb97aa121a452b
+0,2023/04/12 05:42:09,1616,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2093056,11313152,0,0,0,0,0,4,0,0,0,4fe42f0bcb5a2295c271d0431e6f397349cf45e6
+0,2023/04/12 05:42:09,1628,svchost.exe,,1036,1,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3547136,16216064,0,0,0,0,0,10,0,0,0,153f84d08f1038129adf89660d086e8cb7b53807
+0,2023/04/12 05:42:09,5056,wazuh-agent.exe,,1036,3849,1227,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,,,,,,,,,8,0,22372352,48549888,0,0,0,0,0,31,0,0,0,9ccd46e349a56c78d84850fb4a21c360a20555b5
+0,2023/04/12 05:42:09,1648,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,27877376,39219200,0,0,0,0,7,17,0,0,0,d9f6f4b5f9fc4ad2d08475cd3f89f2ef073fa43d
+0,2023/04/12 05:42:09,50628,RuntimeBroker.exe,,1180,0,0,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,6533120,32026624,0,0,0,0,7,5,0,0,0,6d12d8c38280484a4d143b02277bbbd8f9dc8121
+0,2023/04/12 05:42:09,5076,WMIRegistrationService.exe,,1036,0,0,C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_cad1db73e8c782a6\WMIRegistrationService.exe,,,,,,,,,8,0,2805760,16842752,0,0,0,0,0,2,0,0,0,5aaffe6e04578a59ac95803c394276986a45d63e
+0,2023/04/12 05:42:09,5124,RtkAudUService64.exe,,1036,0,2,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_05fe713c4fadacd3\RtkAudUService64.exe,,,,,,,,,8,0,4550656,17977344,0,0,0,0,0,13,0,0,0,f2a4280c3f45c057df2a778ec9aefcdf583bbe26
+0,2023/04/12 05:42:09,1720,svchost.exe,,1036,2,3,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3461120,14573568,0,0,0,0,0,7,0,0,0,4a39135078d2de85852bbb37fd2d57b1b6cd77e0
+0,2023/04/12 05:42:09,51340,sihost.exe,,2016,3,6,C:\Windows\System32\sihost.exe,,,,,,,,,8,0,7819264,43094016,0,0,0,0,7,13,0,0,0,72e112abf4402cfce0582aec57944bc17d157bc8
+0,2023/04/12 05:42:09,3088,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1478656,7835648,0,0,0,0,0,1,0,0,0,90acb7996fc023f97a0a09fb110672968071bf87
+0,2023/04/12 05:42:09,18280,Locator.exe,,1036,0,0,C:\Windows\System32\Locator.exe,,,,,,,,,8,0,684032,4034560,0,0,0,0,0,2,0,0,0,ca7108718200cf8729d9835c777c19402e9d0e9e
+0,2023/04/12 05:42:09,51524,msteams.exe,,51340,1,5,C:\Program Files\WindowsApps\MicrosoftTeams_23062.1103.1944.2725_x64__8wekyb3d8bbwe\msteams.exe,,,,,,,,,8,0,13590528,38723584,0,0,0,0,7,32,0,0,0,7fda474ba62ca104f13b3d3810122281b8695da4
+0,2023/04/12 05:42:09,1956,svchost.exe,,1036,6,8,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,4853760,13680640,0,0,0,0,0,7,0,0,0,7517e6798744730ae34fe5b9878794f30958493d
+0,2023/04/12 05:42:09,17632,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,7380992,17997824,0,0,0,0,0,4,0,0,0,0b9ad118cb402886c6e10aed5d0d2b5fd3c29ba1
+0,2023/04/12 05:42:09,1800,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2478080,12500992,0,0,0,0,0,2,0,0,0,dfd96862dcab7bd37199bd1e6b671e7021a260f3
+0,2023/04/12 05:42:09,52164,ModuleCoreService.exe,,4860,1,2,C:\Program Files\Common Files\McAfee\ModuleCore\ModuleCoreService.exe,,,,,,,,,8,0,14856192,39456768,0,0,0,0,7,28,0,0,0,f867901503046526e38892135491d144d83e67f2
+0,2023/04/12 05:42:09,3136,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2445312,12644352,0,0,0,0,0,2,0,0,0,980fccaca25b305dfbd5e8efe2830bffa84a0fe9
+0,2023/04/12 05:42:09,1808,svchost.exe,,1036,1,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3158016,13778944,0,0,0,0,0,5,0,0,0,999dd351b2ea26380928e8c1f8512bef83171c1c
+0,2023/04/12 05:42:09,1868,svchost.exe,,1036,19,22,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,14708736,34992128,0,0,0,0,0,16,0,0,0,24b41389b63461c2a9ecbcb4d60d11a1aa43928d
+0,2023/04/12 05:42:09,31212,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,24739840,34299904,0,0,0,0,7,18,0,0,0,bb69573191ad980a565e7b54151fec7bae8226b1
+0,2023/04/12 05:42:09,58712,msedgewebview2.exe,,58056,2,1,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,8,0,12218368,19050496,0,0,0,0,7,9,0,0,0,baf761a6755513e9f1910c50dd5edecd15cfbe5c
+0,2023/04/12 05:42:09,31936,LockApp.exe,,1180,4,1,C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe,,,,,,,,,8,0,29278208,101613568,0,0,0,0,7,14,0,0,0,4654bdbdfeb30dd3625b4b73a91c422b50f11665
+0,2023/04/12 05:42:09,52304,conhost.exe,,52164,0,0,C:\Windows\System32\conhost.exe,,,,,,,,,8,0,5464064,11370496,0,0,0,0,7,2,0,0,0,2cb1b7095a2c869c33fb5deb5e077d2049756ddf
+0,2023/04/12 05:42:09,2108,svchost.exe,,1036,29,92,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,7368704,19927040,0,0,0,0,0,11,0,0,0,63ffc0c1bcc128d8f59372a02fa36a80f9e17e69
+0,2023/04/12 05:42:09,5332,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2682880,14643200,0,0,0,0,0,2,0,0,0,6579828cb4807aa921db55b4381d692ed946bd7e
+0,2023/04/12 05:42:09,3288,svchost.exe,,1036,2,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2285568,11747328,0,0,0,0,0,6,0,0,0,d15592014a80d7d08dd159abf19e03832d397303
+0,2023/04/12 05:42:09,58768,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,5238784,25120768,0,0,0,0,7,4,0,0,0,a476e16ad107b55604ebf1bddfdf2290a52a816f
+0,2023/04/12 05:42:09,5344,svchost.exe,,1036,3,3,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,5947392,27353088,0,0,0,0,0,10,0,0,0,3621473d339e6987544094c00d7b1d7afb44de7d
+0,2023/04/12 05:42:09,31840,RuntimeBroker.exe,,1180,0,0,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,5496832,24969216,0,0,0,0,7,3,0,0,0,6f6503de36b35aa9e74b8a302db0be2dc069b529
+0,2023/04/12 05:42:09,54092,Flock.exe,,5044,0,0,C:\Users\adi.irawan_mekari\AppData\Local\Flock\Flock.exe,,,,,,,,,8,0,10371072,36728832,0,0,0,0,7,7,0,0,0,a111612ea3af2529baba3bdfde80dc581a1136b7
+0,2023/04/12 05:42:09,32136,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,6254592,34803712,0,0,0,0,7,10,0,0,0,12e0bdef0e3092b7762bf137ade2b044a8b33364
+0,2023/04/12 05:42:09,21252,igfxEMN.exe,,3256,0,0,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_b18a4e283f67c0b5\igfxEMN.exe,,,,,,,,,8,0,3825664,17743872,0,0,0,0,7,3,0,0,0,c2fa087096dc72661fad0297e99277996a7935bc
+0,2023/04/12 05:42:09,33052,conhost.exe,,15892,0,0,C:\Windows\System32\conhost.exe,,,,,,,,,8,0,5963776,13930496,0,0,0,0,7,3,0,0,0,daba39b3b9c8e6b62e274e4fc272ae565481eccc
+0,2023/04/12 05:42:09,58808,QSHelper.exe,,52156,0,0,C:\ProgramData\Lenovo\Vantage\Addins\LenovoBatteryGaugeAddin\1.0.0.71\x64\QSHelper.exe,,,,,,,,,8,0,3362816,21561344,0,0,0,0,7,4,0,0,0,5f7fd5458a78abb70d6cf3c89d63e1f081c66898
+0,2023/04/12 05:42:09,21316,chrome.exe,,75648,13,1,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,57708544,164995072,0,0,0,0,7,19,0,0,0,872585a00f73b62a2243b2ef479846f4ad1a3c6b
+0,2023/04/12 05:42:09,66676,dllhost.exe,,1180,0,0,C:\Windows\System32\dllhost.exe,,,,,,,,,8,0,1912832,11108352,0,0,0,0,7,3,0,0,0,5d1ca04506d95054410707c308caf7c22728b18d
+0,2023/04/12 05:42:09,3228,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,27533312,38080512,0,0,0,0,7,17,0,0,0,d9813e6bb1810fcdc07a634f3e246e4f8e3d8613
+0,2023/04/12 05:42:09,54508,dllhost.exe,,1180,0,0,C:\Windows\System32\dllhost.exe,,,,,,,,,8,0,1646592,10235904,0,0,0,0,7,2,0,0,0,193eb490763196fdc86df25984c75328661f9645
+0,2023/04/12 05:42:09,59432,msedgewebview2.exe,,58056,0,0,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,8,0,10735616,11190272,0,0,0,0,7,7,0,0,0,56a16d69050b71885924c4b337d0e6063c4148e0
+0,2023/04/12 05:42:09,54912,RuntimeBroker.exe,,1180,0,1,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,13459456,61194240,0,0,0,0,7,16,0,0,0,7ee036d2d76f7c5798e0b6572481746de7cce702
+0,2023/04/12 05:42:09,2152,WUDFHost.exe,,1036,0,0,C:\Windows\System32\WUDFHost.exe,,,,,,,,,8,0,1609728,7507968,0,0,0,0,0,5,0,0,0,818a2f674e848a63aad341bb98480691d0bd3eec
+0,2023/04/12 05:42:09,59608,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3248128,20045824,0,0,0,0,7,4,0,0,0,bfa3e99fb3c3440e5f69571cc2d49633baa4d53b
+0,2023/04/12 05:42:10,3500,svchost.exe,,1036,39,19,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,16179200,40509440,0,0,0,0,0,25,0,0,0,8bac91f9c0454932528892393a713ff35717db61
+0,2023/04/12 05:42:10,3328,GlobalPresenter.exe,,58688,15,85,C:\Program Files\WindowsApps\E046963F.LenovoVoiceWorldWide_3.0.26.0_x64__k1h2ywk1493x8\GlobalPresenter\GlobalPresenter.exe,,,,,,,,,8,0,129122304,231129088,0,0,0,0,7,20,0,0,0,079b717be7c6293d341a00ef2a4533eeab2f0d07
+0,2023/04/12 05:42:10,55392,StartMenuExperienceHost.exe,,1180,2,1,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe,,,,,,,,,8,0,54870016,151748608,0,0,0,0,7,14,0,0,0,31fe512cd297f8aa3f20ac7663fe3e298d204f13
+0,2023/04/12 05:42:10,67064,LenovoVantage-(LenovoServiceBridgeAddin).exe,,56372,0,0,C:\Program Files (x86)\Lenovo\VantageService\3.13.43.0\LenovoVantage-(LenovoServiceBridgeAddin).exe,,,,,,,,,8,0,30416896,69623808,0,0,0,0,7,11,0,0,0,5af5dd1d842a2490906559e5f1e4ee8c518d8ad4
+0,2023/04/12 05:42:10,60720,SystemSettings.exe,,1180,0,0,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,,,,,,,,,8,0,49352704,51818496,0,0,0,0,7,26,0,0,0,fe2db2087c53bdca49db18cb9b55cb7e4adaa632
+0,2023/04/12 05:42:10,3404,svchost.exe,,1036,123,26,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,36638720,63614976,0,0,0,0,0,6,0,0,0,6b8f81f6ebe3cfcacfaf9bfff527083c91ad7821
+0,2023/04/12 05:42:10,2176,IntelCpHDCPSvc.exe,,1036,0,0,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9b41cef4891594fc\IntelCpHDCPSvc.exe,,,,,,,,,8,0,1339392,6852608,0,0,0,0,0,3,0,0,0,777489c64fc88d93730d2c50b1c7f52370256b36
+0,2023/04/12 05:42:10,59612,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,22876160,73510912,0,0,0,0,7,17,0,0,0,6212a3e00d5edf3aa1145da0195adb7b152f31a2
+0,2023/04/12 05:42:10,59676,msedgewebview2.exe,,51524,3,3,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\111.0.1661.62\msedgewebview2.exe,,,,,,,,,8,0,36651008,86130688,0,0,0,0,7,29,0,0,0,051e72afefe16535ae0f4801b39261ba45822d04
+0,2023/04/12 05:42:10,22456,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2039808,10297344,0,0,0,0,0,6,0,0,0,6647fa827b1cc53514d4144e6eae75b3610044dc
+0,2023/04/12 05:42:10,59864,AnyDesk.exe,,26232,0,0,C:\Program Files (x86)\AnyDesk\AnyDesk.exe,,,,,,,,,8,0,22814720,36356096,0,0,0,0,7,7,0,0,0,0a8c989074aaac364a61773c00a47f80dd9b0d33
+0,2023/04/12 05:42:10,67276,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,22630400,32223232,0,0,0,0,7,17,0,0,0,777b7d51a4897ed06004f1c843b0b2f0ea50c68e
+0,2023/04/12 05:42:10,35464,SystemSettingsBroker.exe,,1180,0,0,C:\Windows\System32\SystemSettingsBroker.exe,,,,,,,,,8,0,8396800,40747008,0,0,0,0,7,13,0,0,0,d279361cede710742c4c1666c21059958af58cb2
+0,2023/04/12 05:42:10,2208,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3502080,13197312,0,0,0,0,0,11,0,0,0,7eba53f2e796af872e6e236eaf031a700f7a4de7
+0,2023/04/12 05:42:10,57492,Flock.exe,,5044,263,73,C:\Users\adi.irawan_mekari\AppData\Local\Flock\Flock.exe,,,,,,,,,4,0,211259392,451825664,0,0,0,0,7,21,0,0,0,7024d51fd2578203ae45c39ec5863f06ea47de3c
+0,2023/04/12 05:42:10,56372,LenovoVantageService.exe,,1036,33,19,C:\Program Files (x86)\Lenovo\VantageService\3.13.43.0\LenovoVantageService.exe,,,,,,,,,8,0,71602176,161353728,0,0,0,0,0,24,0,0,0,8cce8c02a38a6379be839d085907aea5b7a58add
+0,2023/04/12 05:42:10,56860,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,24260608,33587200,0,0,0,0,7,17,0,0,0,3f21e1b9b28e515168f74634e911deb557dd5e41
+0,2023/04/12 05:42:10,60960,PhoneExperienceHost.exe,,1180,1,1,C:\Program Files\WindowsApps\Microsoft.YourPhone_1.23022.140.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe,,,,,,,,,8,0,60473344,198852608,0,0,0,0,7,16,0,0,0,02e26d52f9636880001e4b88d6652ec1c03ad493
+0,2023/04/12 05:42:10,67452,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,16011264,42639360,0,0,0,0,7,12,0,0,0,8f5054439960fc4eb26402c378efdfba266bdba6
+0,2023/04/12 05:42:10,59988,msedgewebview2.exe,,59676,0,0,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\111.0.1661.62\msedgewebview2.exe,,,,,,,,,10,0,38453248,47390720,0,0,0,0,7,23,0,0,0,75433a0850ad8ca8ccb9f5ff640ce0c021f027e0
+0,2023/04/12 05:42:10,61088,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,21475328,30494720,0,0,0,0,7,17,0,0,0,64ba1c6eca934abd3e6656af3c40dc814a40fada
+0,2023/04/12 05:42:10,67512,chrome.exe,,75648,8,2,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,83046400,195764224,0,0,0,0,7,19,0,0,0,306684e646724221fb2f0c545eaf10e452bd671d
+0,2023/04/12 05:42:10,60108,msedgewebview2.exe,,59676,8,2,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\111.0.1661.62\msedgewebview2.exe,,,,,,,,,8,0,135032832,206299136,0,0,0,0,7,19,0,0,0,6509da2c4a4b1d85c1b2839b757144814357f66e
+0,2023/04/12 05:42:10,35600,svchost.exe,,1036,9,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,11501568,55406592,0,0,0,0,7,7,0,0,0,f9b8d8efc4fa1e8e43cebb469d299b66c2a9e560
+0,2023/04/12 05:42:10,576,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,32755712,45117440,0,0,0,0,7,17,0,0,0,6fef617b23eb65786ca7764cd1defd35199bcb4c
+0,2023/04/12 05:42:10,61132,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1716224,9330688,0,0,0,0,0,4,0,0,0,5ffc8fd04f4a20b0691c9215710402804577be3f
+0,2023/04/12 05:42:10,56960,ctfmon.exe,,3600,11,16,C:\Windows\System32\ctfmon.exe,,,,,,,,,13,0,26066944,54702080,0,0,0,0,7,12,0,0,0,5e29040ecc675ac7152317377d317d44f0b93dbb
+0,2023/04/12 05:42:10,67888,msedge.exe,,71892,2,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,75128832,89509888,0,0,0,0,7,22,0,0,0,dda80044cd0d794b85a6a7a42d4ebaccda7ba8ce
+0,2023/04/12 05:42:10,60520,Flock.exe,,5044,0,0,C:\Users\adi.irawan_mekari\AppData\Local\Flock\Flock.exe,,,,,,,,,8,0,11255808,80400384,0,0,0,0,7,9,0,0,0,06d3de2a47e00b51df66dcab0d34e3ff73d45387
+0,2023/04/12 05:42:10,61144,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,28090368,38866944,0,0,0,0,7,17,0,0,0,6404db7f9f28ce85dee78b8ccbe8b82a7c149d72
+0,2023/04/12 05:42:10,61124,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1593344,11296768,0,0,0,0,7,1,0,0,0,fe48f75988620802d69a6d6e4d4787c6ded62a46
+0,2023/04/12 05:42:10,60000,msedgewebview2.exe,,59676,1,1,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\111.0.1661.62\msedgewebview2.exe,,,,,,,,,8,0,11333632,32272384,0,0,0,0,7,10,0,0,0,7f2f7cc170971825923621af53f42faca26ab4b7
+0,2023/04/12 05:42:10,58056,msedgewebview2.exe,,41808,4,7,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,8,0,32636928,45809664,0,0,0,0,7,28,0,0,0,49b528ab2dd3963fa1dfab2311a757e13cc8416b
+0,2023/04/12 05:42:10,67936,WmiPrvSE.exe,,1180,0,0,C:\Windows\System32\wbem\WmiPrvSE.exe,,,,,,,,,8,0,4984832,17215488,0,0,0,0,0,9,0,0,0,2bbcd875a18984a5aa96fcd544451df152a9416f
+0,2023/04/12 05:42:10,61356,splwow64.exe,,65384,0,0,C:\Windows\splwow64.exe,,,,,,,,,8,0,4923392,25083904,0,0,0,0,7,6,0,0,0,ac77fda40e6cd5e7b63ce40a8151f4f2711716e8
+0,2023/04/12 05:42:10,60024,msedgewebview2.exe,,59676,0,0,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\111.0.1661.62\msedgewebview2.exe,,,,,,,,,8,0,8359936,15204352,0,0,0,0,7,7,0,0,0,a1d5434bceb7d48a3f138b07b4c66d81a1eabdb8
+0,2023/04/12 05:42:10,60540,UserOOBEBroker.exe,,1180,0,0,C:\Windows\System32\oobe\UserOOBEBroker.exe,,,,,,,,,8,0,2154496,10874880,0,0,0,0,7,1,0,0,0,3e241d395c70f5a8c521cbd0789a4b0c92ce17ed
+0,2023/04/12 05:42:10,6284,MMSSHOST.exe,,4852,88,124,C:\Program Files\Common Files\McAfee\MMSSHost\MMSSHOST.exe,,,,,,,,,8,0,56049664,118845440,0,0,0,0,0,90,0,0,0,c10adf5666fb48eab803bc5e21e73fadeee3d9f9
+0,2023/04/12 05:42:10,6872,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1949696,10149888,0,0,0,0,0,3,0,0,0,c6be15c33873387a67ae5df60dc4febb4a3d05c8
+0,2023/04/12 05:42:10,65656,RuntimeBroker.exe,,1180,0,0,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,6438912,27848704,0,0,0,0,7,3,0,0,0,56299b290eb2e7d3502526ec4aa560d782532421
+0,2023/04/12 05:42:10,63612,msedge.exe,,71892,10,1,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,58818560,135925760,0,0,0,0,7,18,0,0,0,55809600439e0a1a21d8b9e8c9f098977033bb16
+0,2023/04/12 05:42:10,6976,unsecapp.exe,,1180,0,0,C:\Windows\System32\wbem\unsecapp.exe,,,,,,,,,8,0,1650688,9826304,0,0,0,0,7,3,0,0,0,e7873effda680e4e8120a1a0e4e574bd72035a17
+0,2023/04/12 05:42:10,63440,msedge.exe,,71892,1,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,43462656,59506688,0,0,0,0,7,17,0,0,0,0cd3bfa3d729fd31265a8d16d4d8b7f8c83d8368
+0,2023/04/12 05:42:10,36268,msedge.exe,,71892,4,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,85049344,115834880,0,0,0,0,7,17,0,0,0,e2b5b11e616c09a2187598adf68f4755dd85642c
+0,2023/04/12 05:42:10,70008,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,24088576,33468416,0,0,0,0,7,17,0,0,0,b23f69b64340546c2eee7ead6d04a16ddb7cdd8f
+0,2023/04/12 05:42:10,3600,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1523712,8658944,0,0,0,0,0,3,0,0,0,f1301c7ce6390835e721973d312a7fab65e3374e
+0,2023/04/12 05:42:10,3764,svchost.exe,,1036,6,6,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,7729152,28413952,0,0,0,0,0,14,0,0,0,79fc4aa6f45cd986719400679997cfc33ed3ec5c
+0,2023/04/12 05:42:10,65880,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,35860480,48971776,0,0,0,0,7,17,0,0,0,a1ee1425056becf729e19a60d2428ea7d56b2317
+0,2023/04/12 05:42:10,36036,McSecDashboardService.exe,,1036,0,0,C:\Program Files\McAfeeDashboard\McSecDashboardService.exe,,,,,,,,,8,0,4960256,19320832,0,0,0,0,0,11,0,0,0,e3ef474d8b8d0e8cc22c32a061f546cfa6ff782e
+0,2023/04/12 05:42:10,37928,svchost.exe,,1036,3,1,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,7581696,32595968,0,0,0,0,7,11,0,0,0,7ec04b6eaec3799b5081aa1b50d723343b64eaeb
+0,2023/04/12 05:42:10,36768,dwm.exe,,42276,772,194,C:\Windows\System32\dwm.exe,,,,,,,,,13,0,289222656,481705984,0,0,0,0,7,15,0,0,0,f905bd41985bd2b35c7a41f1cb26d4afd616a757
+0,2023/04/12 05:42:10,2372,dasHost.exe,,2524,0,0,C:\Windows\System32\dasHost.exe,,,,,,,,,8,0,1503232,8364032,0,0,0,0,0,2,0,0,0,f33b1aa0e401ccac667d76fd398f6d20cbec57cf
+0,2023/04/12 05:42:10,4000,svchost.exe,,1036,28,37,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,12517376,32743424,0,0,0,0,0,16,0,0,0,4582a1457b7c85916a96e4fc205c28d3bc15f790
+0,2023/04/12 05:42:11,23980,SearchHost.exe,,1180,9,4,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe,,,,,,,,,8,0,258703360,608231424,0,0,0,0,7,65,0,0,0,fe1445ee26061f2572eae933f2ed00deeeee67a2
+0,2023/04/12 05:42:11,23908,LenovoVantage-(VantageCoreAddin).exe,,56372,1,0,C:\Program Files (x86)\Lenovo\VantageService\3.13.43.0\LenovoVantage-(VantageCoreAddin).exe,,,,,,,,,8,0,36401152,84226048,0,0,0,0,0,14,0,0,0,97a3e0952c6cb951fee73e762d153bc346d284cf
+0,2023/04/12 05:42:11,7012,AggregatorHost.exe,,4288,0,0,C:\Windows\System32\AggregatorHost.exe,,,,,,,,,8,0,2768896,12599296,0,0,0,0,0,4,0,0,0,d638098397e080335f822dc92e896a5650980ebd
+0,2023/04/12 05:42:11,3800,WmiPrvSE.exe,,1180,1,3,C:\Windows\System32\wbem\WmiPrvSE.exe,,,,,,,,,8,0,11718656,28033024,0,0,0,0,0,4,0,0,0,c4f3eae7abdd3e4658af75aa09005dcd7027c24f
+0,2023/04/12 05:42:11,66220,Lenovo.Modern.ImController.PluginHost.Device.exe,,15960,2,7,C:\Windows\Lenovo\ImController\PluginHost86\Lenovo.Modern.ImController.PluginHost.Device.exe,,,,,,,,,8,0,48562176,118710272,0,0,0,0,7,19,0,0,0,fa12eeddb76a1013f7a0cc1627fbad272d812db1
+0,2023/04/12 05:42:11,71124,AnyDesk.exe,,1036,0,0,C:\Program Files (x86)\AnyDesk\AnyDesk.exe,,,,,,,,,13,0,22888448,38965248,0,0,0,0,0,4,0,0,0,2e5dd228fb5aea0227e580df32656d4acf796568
+0,2023/04/12 05:42:11,38432,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2215936,11423744,0,0,0,0,7,3,0,0,0,7d49a0ae449beb52b625c269ec6ae02ee541b5c1
+0,2023/04/12 05:42:11,24572,WmiApSrv.exe,,1036,0,0,C:\Windows\System32\wbem\WmiApSrv.exe,,,,,,,,,8,0,1880064,11046912,0,0,0,0,0,3,0,0,0,42525c7f32be9f1a7dcde83a64035c1f1a51a2f0
+0,2023/04/12 05:42:11,4072,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1990656,10199040,0,0,0,0,0,5,0,0,0,906f304640274b463e9f07baf849298de0412b89
+0,2023/04/12 05:42:11,3684,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1912832,8798208,0,0,0,0,0,5,0,0,0,c16cf23960ff0a5efecf29e6d059939db37a1e9b
+0,2023/04/12 05:42:11,27384,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2576384,12251136,0,0,0,0,0,3,0,0,0,bb0ea4fe83156b993d92452a923e973ec77b1748
+0,2023/04/12 05:42:11,7136,unsecapp.exe,,1180,2,3,C:\Windows\System32\wbem\unsecapp.exe,,,,,,,,,8,0,7577600,19369984,0,0,0,0,0,3,0,0,0,135abffb065f8fc0a5e9a145ed49b8e7b52c2e42
+0,2023/04/12 05:42:11,70764,QcShm.exe,,1180,0,0,C:\Program Files\McAfee\MQS\QcShm.exe,,,,,,,,,8,0,3309568,16637952,0,0,0,0,0,11,0,0,0,4e5891410ea7c249cf48ae1715fdb52c7ab24294
+0,2023/04/12 05:42:11,40568,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,31571968,45027328,0,0,0,0,7,17,0,0,0,b950cfe3e9fd0167d90d69a36934c01150bc917b
+0,2023/04/12 05:42:11,40744,FnHotkeyUtility.exe,,14752,0,2,C:\Windows\System32\DriverStore\FileRepository\lenovofnandfunctionkeys.inf_amd64_f425cd32ef5787cd\FnHotkeyUtility.exe,,,,,,,,,8,0,25698304,60702720,0,0,0,0,7,14,0,0,0,aa97f8a841aab38bf5901d64335f6931452bcb61
+0,2023/04/12 05:42:11,27988,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2797568,15228928,0,0,0,0,0,3,0,0,0,3416ce3f62a8ddb7f3192837dfd931caeaf18ec2
+0,2023/04/12 05:42:11,38972,chrome.exe,,75648,6,1,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,145068032,341241856,0,0,0,0,7,21,0,0,0,6387c92408be1234093c68b9635dfe7f85361913
+0,2023/04/12 05:42:11,37140,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,8,0,9035776,33243136,0,0,0,0,7,8,0,0,0,ae6e9bba7945845b830315e2c2ead3f13a534d75
+0,2023/04/12 05:42:11,24712,uihost.exe,,48204,5,13,C:\Program Files\McAfee\WebAdvisor\uihost.exe,,,,,,,,,8,0,18837504,40398848,0,0,0,0,7,65,0,0,0,0704ac3b194c80aea0a48a4573ea7679399e7ced
+0,2023/04/12 05:42:11,12304,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3846144,16936960,0,0,0,0,0,12,0,0,0,2b75f53f7f5226cdc02754156ef3928c9dd09df7
+0,2023/04/12 05:42:11,37100,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1617920,8839168,0,0,0,0,0,5,0,0,0,3f11588e8f1395ed5e429c1de54f368e2639f02d
+0,2023/04/12 05:42:11,2512,WUDFHost.exe,,1036,0,0,C:\Windows\System32\WUDFHost.exe,,,,,,,,,8,0,1568768,7405568,0,0,0,0,0,5,0,0,0,8b7016406a3cd26d7c3ccbb90caf830b46077b49
+0,2023/04/12 05:42:11,2524,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1961984,9785344,0,0,0,0,0,4,0,0,0,9939d9ddf91df1cf399ea9e06907980141296681
+0,2023/04/12 05:42:11,3912,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3588096,16592896,0,0,0,0,0,5,0,0,0,825c23a14f52de24c06b02674fe0afc2797fa67a
+0,2023/04/12 05:42:11,12388,svchost.exe,,1036,0,1,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2412544,14368768,0,0,0,0,0,1,0,0,0,4634463e883ca0b8327e9048827822874c15608a
+0,2023/04/12 05:42:11,3964,spoolsv.exe,,1036,0,1,C:\Windows\System32\spoolsv.exe,,,,,,,,,8,0,7770112,26648576,0,0,0,0,0,10,0,0,0,844785196bd53d021a7214ba0b99d9b0efc53052
+0,2023/04/12 05:42:11,71720,LogonUI.exe,,42276,0,0,C:\Windows\System32\LogonUI.exe,,,,,,,,,13,0,28762112,106614784,0,0,0,0,7,29,0,0,0,8ec1e684c76a701c58eafe13c4b5c20216e2ace7
+0,2023/04/12 05:42:11,2852,svchost.exe,,1036,7,13,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,8142848,25710592,0,0,0,0,0,14,0,0,0,3fcf6000174443ddc807652097bd6448ffbc8ddd
+0,2023/04/12 05:42:11,71936,msedge.exe,,71892,3,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,41852928,55914496,0,0,0,0,7,17,0,0,0,4a7fedd561f1e6c297703b1cdd8c70663cc1a857
+0,2023/04/12 05:42:11,71892,msedge.exe,,62992,22,13,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,8,0,200011776,453505024,0,0,0,0,7,58,0,0,0,afc6d61b86951a4b30bad8cf094ae47017f11505
+0,2023/04/12 05:42:11,41808,Widgets.exe,,1180,3,2,C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_423.8900.0.0_x64__cw5n1h2txyewy\Dashboard\Widgets.exe,,,,,,,,,8,0,11972608,63340544,0,0,0,0,7,15,0,0,0,d07ee7267081b386b545b2f800d090c0137d1eb3
+0,2023/04/12 05:42:11,42292,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,22106112,31342592,0,0,0,0,7,17,0,0,0,18f0f96f3d1e3d1b0ab108d3e1ffd179065218dc
+0,2023/04/12 05:42:11,4280,svchost.exe,,1036,72,159,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,42336256,92131328,0,0,0,0,0,20,0,0,0,3db85b3362809a3196d4c1dc817f4ef5ac77b9fa
+0,2023/04/12 05:42:11,2928,NVDisplay.Container.exe,,1036,2,0,C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_e9610ab3c6c447ff\Display.NvContainer\NVDisplay.Container.exe,,,,,,,,,8,0,9007104,32256000,0,0,0,0,0,9,0,0,0,15fcc0b1fe0f143ec779a510d447207e9d2fbc53
+0,2023/04/12 05:42:11,42276,winlogon.exe,,35844,0,0,C:\Windows\System32\winlogon.exe,,,,,,,,,13,0,2785280,18386944,0,0,0,0,7,5,0,0,0,c6fe3baec7719efc62e6221a6869eeff11475c4a
+0,2023/04/12 05:42:11,72264,chrome.exe,,75648,2,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,223682560,493395968,0,0,0,0,7,20,0,0,0,12ebc570cb554bdd0b7fcdb3f7d03c30e068dbe7
+0,2023/04/12 05:42:11,3004,svchost.exe,,1036,10,27,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,23732224,43323392,0,0,0,0,0,14,0,0,0,178fb591597f076e3aff573593483fee0de2b0b4
+0,2023/04/12 05:42:11,4288,svchost.exe,,1036,14,8,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,25993216,62554112,0,0,0,0,0,13,0,0,0,fd496f855cfeec373f5c8be98903d5c6dd590658
+0,2023/04/12 05:42:11,4388,OneApp.IGCC.WinService.exe,,1036,4,1,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_5fe2e31c542e0065\OneApp.IGCC.WinService.exe,,,,,,,,,8,0,29073408,72269824,0,0,0,0,0,8,0,0,0,0a593070226d176fcc9f235f648841aa1ba8f619
+0,2023/04/12 05:42:11,3052,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2162688,12263424,0,0,0,0,7,1,0,0,0,ce0f95183eb43c0d005a5a8e31783e4fcf62394b
+0,2023/04/12 05:42:11,72328,msedge.exe,,71892,4,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,97411072,124428288,0,0,0,0,7,19,0,0,0,0786f00e8496911abbfff8fa06b243e92b16f9db
+0,2023/04/12 05:42:11,73716,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,22261760,31490048,0,0,0,0,7,17,0,0,0,4a25b2a4ee19cfc846dbb565872cc63b0aaaaa7b
+0,2023/04/12 05:42:11,4396,esif_uf.exe,,1036,0,0,C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_897ea327b3fe52f7\esif_uf.exe,,,,,,,,,13,0,2150400,9191424,0,0,0,0,0,4,0,0,0,c5d964e407165b0635e82cdea729765e0509fac4
+0,2023/04/12 05:42:11,7440,mcapexe.exe,,1036,0,1,C:\Program Files\Common Files\McAfee\VSCore_22_12\mcapexe.exe,,,,,,,,,8,0,3846144,7589888,0,0,0,0,0,9,0,0,0,8771fcf1221af5656455c9a47c43df1bfbeca96f
+0,2023/04/12 05:42:11,73724,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,24608768,33914880,0,0,0,0,7,17,0,0,0,f77df01a9d77f31958c63fc8b98284affd633b55
+0,2023/04/12 05:42:11,7380,svchost.exe,,1036,0,1,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2539520,14024704,0,0,0,0,0,4,0,0,0,af2218dacd1fa7113c9b7465f6f69a2dc404259f
+0,2023/04/12 05:42:11,45432,RtkAudUService64.exe,,26232,0,0,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_05fe713c4fadacd3\RtkAudUService64.exe,,,,,,,,,8,0,5001216,19791872,0,0,0,0,7,8,0,0,0,cc457b8a692c490d5e52927fa340cfea745d9c2c
+0,2023/04/12 05:42:11,45144,Flock.exe,,5044,2,2,C:\Users\adi.irawan_mekari\AppData\Local\Flock\Flock.exe,,,,,,,,,8,0,16035840,60735488,0,0,0,0,7,10,0,0,0,aeaf0e34c8c0fade987fb8844e1391d5491b65ec
+0,2023/04/12 05:42:11,45220,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,8,0,10358784,29552640,0,0,0,0,7,8,0,0,0,76b31e98e1c1fe5556b4c758921222270e5f921f
+0,2023/04/12 05:42:11,74616,msedge.exe,,71892,4,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,96591872,130371584,0,0,0,0,7,17,0,0,0,5d51bb07afc67dc05a033d8088c5480b3dca7b2d
+0,2023/04/12 05:42:11,46764,RuntimeBroker.exe,,1180,0,0,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,2301952,13422592,0,0,0,0,7,2,0,0,0,5ac02421303eef1d2a2216c2faf6cc08ca702336
+0,2023/04/12 05:42:11,13832,RuntimeBroker.exe,,1180,0,0,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,7794688,37781504,0,0,0,0,7,5,0,0,0,e4d410c66fbc7da7d18fed14d993a87cc8e365e8
+0,2023/04/12 05:42:12,4700,LNBITSSvc.exe,,1036,3,24,C:\Windows\System32\LNBITSSvc.exe,,,,,,,,,8,0,13512704,31191040,0,0,0,0,0,12,0,0,0,14f05652344a4bb4f6ac38453f901fbc94ada680
+0,2023/04/12 05:42:12,4584,svchost.exe,,1036,2,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3084288,14581760,0,0,0,0,0,5,0,0,0,3a85481fa47b5d55d811fa828ee8fe6d2b6c6c5b
+0,2023/04/12 05:42:12,48204,servicehost.exe,,1036,2,4,C:\Program Files\McAfee\WebAdvisor\servicehost.exe,,,,,,,,,8,0,22892544,47423488,0,0,0,0,0,130,0,0,0,6c48eaa9dc9372d00fbcb99e044cf5c3f86709c3
+0,2023/04/12 05:42:12,45684,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2060288,10973184,0,0,0,0,7,2,0,0,0,11ca5723aa915ab3797e91825a47d87692098748
+0,2023/04/12 05:42:12,14316,SearchIndexer.exe,,1036,8,2,C:\Windows\System32\SearchIndexer.exe,,,,,,,,,8,0,23961600,52531200,0,0,0,0,0,10,0,0,0,084739a28e78f0fd1686ae2d9618282e450dd49c
+0,2023/04/12 05:42:12,4724,LMS.exe,,1036,0,0,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,,,,,,,,,8,0,3297280,13451264,0,0,0,0,0,3,0,0,0,5c30b9c1762221336e9ceb46ea867f1babb35253
+0,2023/04/12 05:42:12,1580,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2703360,12021760,0,0,0,0,0,3,0,0,0,d6dcac2f14cad12af5079dcf6ad4e305c3970da5
+0,2023/04/12 05:42:12,7944,ModuleCoreService.exe,,4860,54,21,C:\Program Files\Common Files\McAfee\ModuleCore\ModuleCoreService.exe,,,,,,,,,8,0,53882880,114028544,0,0,0,0,0,56,0,0,0,54ee6802c18593d7a22b50078b4fd8bfec1f772f
+0,2023/04/12 05:42:12,48736,NVDisplay.Container.exe,,2928,7,2,C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_e9610ab3c6c447ff\Display.NvContainer\NVDisplay.Container.exe,,,,,,,,,8,0,37249024,86478848,0,0,0,0,7,37,0,0,0,4a66b91aef9c4ef10c0c92832f9d585a0dd2991d
+0,2023/04/12 05:42:12,4860,ModuleCoreService.exe,,1036,5,2,C:\Program Files\Common Files\McAfee\ModuleCore\ModuleCoreService.exe,,,,,,,,,8,0,9781248,19881984,0,0,0,0,0,45,0,0,0,645ca328e2e91f6aca0144ed7ae53a1c39f08cfc
+0,2023/04/12 05:42:12,5012,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1355776,7352320,0,0,0,0,0,3,0,0,0,5acbdb600b196ea0afbcab9c443d9a3c1683f6ac
+0,2023/04/12 05:42:12,15892,AutoModeDetect.exe,,4700,0,0,C:\Windows\System32\AutoModeDetect.exe,,,,,,,,,8,0,2891776,14708736,0,0,0,0,7,10,0,0,0,9725fdc355d25f1b82cdb06424fd729f035e6ab8
+0,2023/04/12 05:42:12,5044,Flock.exe,,26232,84,42,C:\Users\adi.irawan_mekari\AppData\Local\Flock\Flock.exe,,,,,,,,,8,0,51130368,154583040,0,0,0,0,7,31,0,0,0,f8a86d985fedfc05d2a7879ed11a407fb580afe7
+0,2023/04/12 05:42:12,9336,svchost.exe,,1036,2,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1773568,9461760,0,0,0,0,0,3,0,0,0,c5ea7b2ca66ce268039d0cbd65fc787abb38b0ee
+0,2023/04/12 05:42:12,7984,conhost.exe,,7944,0,0,C:\Windows\System32\conhost.exe,,,,,,,,,8,0,5353472,10854400,0,0,0,0,0,2,0,0,0,8cd4f36a5b3b36f853dcefd76103b73273a9eb1e
+0,2023/04/12 05:42:12,9508,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,4071424,19210240,0,0,0,0,0,5,0,0,0,447da5f5acb853432353dc4b23605c816dc1c6c8
+0,2023/04/12 05:42:12,76368,chrome.exe,,75648,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,19693568,67047424,0,0,0,0,7,19,0,0,0,30ca8f38dd42a6142848104f73f9f99645115262
+0,2023/04/12 05:42:12,7656,McCSPServiceHost.exe,,1036,6,4,C:\Program Files\Common Files\McAfee\CSP\5.5.107.0\McCSPServiceHost.exe,,,,,,,,,8,0,11558912,29724672,0,0,0,0,0,21,0,0,0,462b09bc4ef305b71cd9798d45718c6ae850c0db
+0,2023/04/12 05:42:12,76696,chrome.exe,,75648,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,8249344,26689536,0,0,0,0,7,9,0,0,0,e1550450ee6a21295ced1695fe678852adb23db1
+0,2023/04/12 05:42:12,8256,mcshield.exe,,4852,177,54,C:\Program Files\Common Files\McAfee\AMCore\mcshield.exe,,,,,,,,,8,0,90537984,127578112,0,0,0,0,0,22,0,0,0,d21a55e9b5ca85575aee3956ad1862f5a92eea05
+0,2023/04/12 05:42:12,16708,ShellExperienceHost.exe,,1180,2,2,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe,,,,,,,,,8,0,78151680,224436224,0,0,0,0,7,39,0,0,0,a8e1f1ad6722be48a057abcf3e444c582548251f
+0,2023/04/12 05:42:12,16760,svchost.exe,,1036,0,1,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2580480,9895936,0,0,0,0,0,5,0,0,0,6975c2d5b8a313d7b72b11bec3f2c8a6edf9ce20
+0,2023/04/12 05:42:12,9476,svchost.exe,,1036,14,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,10354688,33345536,0,0,0,0,0,24,0,0,0,f51ad23807738e9873a8cfdd30efb68f384df82a
+0,2023/04/12 05:42:12,2016,svchost.exe,,1036,5,8,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3485696,16400384,0,0,0,0,0,6,0,0,0,333456772799bde552dced8626b4f92b72b41edb
+0,2023/04/12 05:42:12,51628,msedgewebview2.exe,,58056,4,2,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,10,0,99598336,105156608,0,0,0,0,7,25,0,0,0,5d7bdf6137c9c75c9a0324a818eef6c94dae6120
+0,2023/04/12 05:42:12,20792,ApplicationFrameHost.exe,,1180,0,0,C:\Windows\System32\ApplicationFrameHost.exe,,,,,,,,,8,0,18087936,53010432,0,0,0,0,7,12,0,0,0,a9c1ebbc2d62ed065df572b6f2025537c86dbd24
+0,2023/04/12 05:42:12,5180,jhi_service.exe,,1036,0,0,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_b5484efd38adbe8d\jhi_service.exe,,,,,,,,,8,0,1327104,7991296,0,0,0,0,0,2,0,0,0,ae4f74a03f2b7128a8bfb5614e909558d88d01f1
+0,2023/04/12 05:42:12,55224,McUICnt.exe,,40192,1,4,C:\Program Files\Common Files\McAfee\Platform\McUICnt.exe,,,,,,,,,8,0,17342464,41287680,0,0,0,0,7,25,0,0,0,aabad10d7d74c870e9fee1a391111ec090c2c08a
+0,2023/04/12 05:42:12,3280,svchost.exe,,1036,0,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2093056,11046912,0,0,0,0,0,3,0,0,0,0f5f49430947c46604424fdc61b63c2d03fac2fc
+0,2023/04/12 05:42:12,55312,dllhost.exe,,1180,0,0,C:\Windows\System32\dllhost.exe,,,,,,,,,8,0,7393280,25206784,0,0,0,0,7,7,0,0,0,ac5275e711e012995d66bad32afbdbccfd5870fa
+0,2023/04/12 05:42:12,23048,fontdrvhost.exe,,42276,0,0,C:\Windows\System32\fontdrvhost.exe,,,,,,,,,8,0,4763648,15441920,0,0,0,0,7,5,0,0,0,6341e68f2db81e1cb296c191863326f32f5df329
+0,2023/04/12 05:42:12,5972,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2637824,11546624,0,0,0,0,0,8,0,0,0,8eb72b53e72f7519a66ebd9f7a7edfe363980f8e
+0,2023/04/12 05:42:12,3256,igfxCUIServiceN.exe,,1036,0,0,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_b18a4e283f67c0b5\igfxCUIServiceN.exe,,,,,,,,,8,0,2859008,14053376,0,0,0,0,0,6,0,0,0,0a8374d576d05a770929e08093bf2e4495a2b1a5
+0,2023/04/12 05:42:12,60572,msedgewebview2.exe,,58056,0,0,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,8,0,2207744,10002432,0,0,0,0,7,7,0,0,0,8f6d780d3e2930f8abf44302b60fca94a06b27eb
+0,2023/04/12 05:42:12,35736,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1720320,8880128,0,0,0,0,0,1,0,0,0,606c287d5875cb090f6d3379c046156312791af4
+0,2023/04/12 05:42:12,23444,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1208320,7356416,0,0,0,0,0,1,0,0,0,a821b70e762c416ec5a5b85a43745a798ea670a7
+0,2023/04/12 05:42:12,3572,svchost.exe,,1036,5,6,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,4558848,20287488,0,0,0,0,0,9,0,0,0,d856cc3a9a8ef70ad583a4016673c51d167f80e6
+0,2023/04/12 05:42:12,59732,msedgewebview2.exe,,59676,0,0,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\111.0.1661.62\msedgewebview2.exe,,,,,,,,,8,0,2166784,9908224,0,0,0,0,7,7,0,0,0,6855c35de0f5f9f3fcb347dc9897e4e0bc0b4038
+0,2023/04/12 05:42:12,68064,RuntimeBroker.exe,,1180,0,0,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,1499136,9175040,0,0,0,0,7,2,0,0,0,98044e47c8299b231829ecb79265428f8825098a
+0,2023/04/12 05:42:12,6200,msedgewebview2.exe,,58056,56,11,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,4,0,110039040,113610752,0,0,0,0,7,16,0,0,0,b10cf3b76fefe70a96139e7f1d0578d540473720
+0,2023/04/12 05:42:12,60620,WidgetService.exe,,1180,0,0,C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_423.8900.0.0_x64__cw5n1h2txyewy\Dashboard\WidgetService.exe,,,,,,,,,8,0,4657152,27389952,0,0,0,0,7,6,0,0,0,9ff81d0fcc11242357f000d0459b5569458a73a6
+0,2023/04/12 05:42:12,62772,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1269760,6918144,0,0,0,0,0,3,0,0,0,51c65cb7e2286528174a0dc054d43080605f1e92
+0,2023/04/12 05:42:12,68352,msedge.exe,,71892,3,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,94912512,123408384,0,0,0,0,7,19,0,0,0,20454f39ed4d17dab8ccd2dc7acef3fa8e101498
+0,2023/04/12 05:42:12,5824,chrome.exe,,75648,10,11,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,141185024,325390336,0,0,0,0,7,22,0,0,0,dc54ef2737f3a0927cdfe793fdbf01c5b35c8b96
+0,2023/04/12 05:42:12,64828,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,23502848,75468800,0,0,0,0,7,17,0,0,0,1a881a434063fb3cfd5f7515127a45c3dfc77ef5
+0,2023/04/12 05:42:12,66260,Lenovo.Modern.ImController.PluginHost.Device.exe,,15960,0,0,C:\Windows\Lenovo\ImController\PluginHost86\Lenovo.Modern.ImController.PluginHost.Device.exe,,,,,,,,,8,0,33267712,80080896,0,0,0,0,7,11,0,0,0,11c09290d7bc1bc89b6a96d0c590528599fd5adc
+0,2023/04/12 05:42:12,65384,EXCEL.EXE,,26232,6,6,C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE,,,,,,,,,8,0,157995008,367190016,0,0,0,0,7,28,0,0,0,86154ddfbae94c0d96a1631390113e586686d048
+0,2023/04/12 05:42:12,66404,McAMTaskAgent.exe,,1180,0,0,C:\Program Files\Common Files\McAfee\TaskScheduler\McAMTaskAgent.exe,,,,,,,,,8,0,1953792,11583488,0,0,0,0,0,8,0,0,0,84f0c567f893d9d54a416a81e9cf1437761b625f
+0,2023/04/12 05:42:12,70864,msedge.exe,,71892,8,5,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,108204032,127619072,0,0,0,0,7,19,0,0,0,f1a9ed1717d4aadb65630d6a105224f64711d2df
+0,2023/04/12 05:42:12,58392,RuntimeBroker.exe,,1180,0,1,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,9797632,46944256,0,0,0,0,7,19,0,0,0,20ea9d9f61439ce8c699c9e3359cefa2c4572415
+0,2023/04/12 05:42:12,37228,Microsoft.AAD.BrokerPlugin.exe,,1180,1,0,C:\Windows\SystemApps\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\Microsoft.AAD.BrokerPlugin.exe,,,,,,,,,8,0,129114112,320143360,0,0,0,0,7,41,0,0,0,0102f7f3494630ba1f2e34ee0451f6550f217743
+0,2023/04/12 05:42:12,70980,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,24113152,33742848,0,0,0,0,7,17,0,0,0,26c4ad2fc53bd45b60d300c19fe5ff2f3da261a5
+0,2023/04/12 05:42:12,26232,explorer.exe,,51504,50,50,C:\Windows\explorer.exe,,,,,,,,,8,0,203636736,461754368,0,0,0,0,7,110,0,0,0,a1bfd5ad7b4d27355f2dfe32f9c1b0784783b163
+0,2023/04/12 05:42:12,39788,backgroundTaskHost.exe,,1180,0,0,C:\Windows\System32\backgroundTaskHost.exe,,,,,,,,,8,0,18194432,20131840,0,0,0,0,7,13,0,0,0,042ee22aa0221a214d62f1bd4ef89681bbdcab1d
+0,2023/04/12 05:42:12,37340,DAX3API.exe,,4248,0,0,C:\Windows\System32\DriverStore\FileRepository\DAX3_S~1.INF\DAX3API.exe,,,,,,,,,8,0,2752512,12013568,0,0,0,0,7,3,0,0,0,fe6a99458f6b1de005743e2dda09dc161abaad82
+0,2023/04/12 05:42:12,2888,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3416064,9904128,0,0,0,0,0,2,0,0,0,c6134733499a49fc770affddc1ea8ef45eb2225a
+0,2023/04/12 05:42:12,2644,svchost.exe,,1036,31,50,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,4911104,20426752,0,0,0,0,0,5,0,0,0,2a378518198f07688c7dd7efbd4a5d2ade11aa5b
+0,2023/04/12 05:42:12,72180,msedge.exe,,71892,9,1,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,84348928,113315840,0,0,0,0,7,19,0,0,0,d517e00777616afeef2d79f655c82b00b501874a
+0,2023/04/12 05:42:12,3996,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1548288,7872512,0,0,0,0,0,5,0,0,0,29aa0bb019ba70a0b4257e86eec815fe60bea6ff
+0,2023/04/12 05:42:12,2900,McAWFwk.exe,,1036,0,0,C:\Program Files\Common Files\McAfee\ActWiz\McAWFwk.exe,,,,,,,,,8,0,3051520,7102464,0,0,0,0,0,3,0,0,0,6f9750524588b48f9cede491bf9442c5881967fa
+0,2023/04/12 05:42:13,4264,svchost.exe,,1036,2,3,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,7380992,24051712,0,0,0,0,0,5,0,0,0,57637ab244ea22e1958b34b4ffae99eddecc9e0e
+0,2023/04/12 05:42:13,72200,msedge.exe,,71892,16,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,186318848,215863296,0,0,0,0,7,26,0,0,0,88a89462bccd9adc5a1339b779c88a578e5dc4be
+0,2023/04/12 05:42:13,3056,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2367488,10616832,0,0,0,0,0,8,0,0,0,f529b9c64c22662dda914dbc7376184d700fd25e
+0,2023/04/12 05:42:13,4248,DAX3API.exe,,1036,1,1,C:\Windows\System32\DriverStore\FileRepository\dax3_swc_aposvc.inf_amd64_771d64c55bc6db71\DAX3API.exe,,,,,,,,,8,0,9682944,25026560,0,0,0,0,0,25,0,0,0,cf8fa8fe2659dccd892f688b2e76f0a51958b7b3
+0,2023/04/12 05:42:13,73884,msedge.exe,,71892,152,11,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,207015936,404291584,0,0,0,0,7,26,0,0,0,14bb83eb078f0f2451f7c8c322db0b12e8305f92
+0,2023/04/12 05:42:13,73948,msedge.exe,,71892,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,8,0,8884224,30871552,0,0,0,0,7,8,0,0,0,d8ebe5280d180198dd78f7508a58d0de7fb2e3c6
+0,2023/04/12 05:42:13,3064,svchost.exe,,1036,20,267,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,5595136,20893696,0,0,0,0,0,5,0,0,0,3277420e7437e5ff406d70b1b3595b1538bca1fc
+0,2023/04/12 05:42:13,4612,IntelAudioService.exe,,1036,4,1,C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_dd6a7ef14d856351\AS\IAS\IntelAudioService.exe,,,,,,,,,8,0,42291200,73113600,0,0,0,0,0,11,0,0,0,08f7d73727a1801dfa11f41e8fdc3bd2d332d8e0
+0,2023/04/12 05:42:13,48904,TextInputHost.exe,,1180,17,9,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,,,,,,,,,13,0,146309120,268324864,0,0,0,0,7,43,0,0,0,0926e7d3c2757a0de59c821f6e8ab03b39e95011
+0,2023/04/12 05:42:13,4796,VoiceAssistantService.exe,,1036,2,0,C:\Program Files\Lenovo\LVA Pro Service\VoiceAssistantService.exe,,,,,,,,,8,0,29192192,63156224,0,0,0,0,0,9,0,0,0,2e2f5995c6f72adb51f9f44d22cc4318bee46bb8
+0,2023/04/12 05:42:13,47984,GoogleCrashHandler.exe,,59348,0,0,C:\Program Files (x86)\Google\Update\1.3.36.202\GoogleCrashHandler.exe,,,,,,,,,8,0,1863680,3588096,0,0,0,0,0,3,0,0,0,9fdff7d0d575f86f82dc0e51c7267da789a5a7c2
+0,2023/04/12 05:42:13,4656,svchost.exe,,1036,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2482176,12025856,0,0,0,0,0,5,0,0,0,12420eb990d1926e7d39b1b15a99f42148423143
+0,2023/04/12 05:42:13,48964,SecurityHealthSystray.exe,,26232,0,0,C:\Windows\System32\SecurityHealthSystray.exe,,,,,,,,,8,0,1875968,12107776,0,0,0,0,7,1,0,0,0,cc215e4d8caaf561a8e103113c5755bee50cd844
+0,2023/04/12 05:42:13,77400,chrome.exe,,75648,6,8,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,72265728,195235840,0,0,0,0,7,19,0,0,0,ca72802800b368169d188ea69d8a92268d7e65bc
+0,2023/04/12 05:42:13,9076,svchost.exe,,1036,3,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,6963200,30965760,0,0,0,0,0,13,0,0,0,b00423dd1cf8d4e34f0c8589a8843302c7c5d96a
+0,2023/04/12 05:42:13,9600,svchost.exe,,1036,17,9,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,5775360,28237824,0,0,0,0,0,8,0,0,0,94734a6cbaf51258fe894967a3b9085a92ebdf21
+0,2023/04/12 05:42:13,7876,MfeAVSvc.exe,,4852,126,396,C:\Program Files\McAfee\MfeAV\MfeAVSvc.exe,,,,,,,,,8,0,87945216,148340736,0,0,0,0,0,71,0,0,0,9757f61e41a7348583d8298dacd2a0ec9e9834a3
+0,2023/04/12 05:42:13,9896,Canva.exe,,58580,0,0,C:\Users\adi.irawan_mekari\AppData\Local\Programs\Canva\Canva.exe,,,,,,,,,8,0,24743936,63217664,0,0,0,0,7,12,0,0,0,9a008282d80dc9f2ec039b2dd8c8a1d069821d72
+0,2023/04/12 05:42:13,9116,RuntimeBroker.exe,,1180,5,3,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,13762560,52404224,0,0,0,0,7,10,0,0,0,62ec13f6ca13bc30e4687aba2cb7e34ab5ed02ad

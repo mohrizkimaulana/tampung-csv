@@ -1,0 +1,117 @@
+id,key,value
+4,"#""_agent_ip""",192.168.18.68
+4,"#""_manager_hostname""",wazuh.worker
+4,"#""_node_name""",worker01
+4,"#""_wazuh_version""",Wazuh v4.3.10
+6,"#""_agent_ip""",192.168.0.105
+6,"#""_manager_hostname""",wazuh.worker
+6,"#""_node_name""",worker01
+6,"#""_wazuh_version""",Wazuh v4.3.10
+27,"#""_manager_hostname""",wazuh.master
+27,"#""_agent_ip""",192.168.11.180
+27,"#""_node_name""",manager
+27,"#""_wazuh_version""",Wazuh v4.3.10
+3,"#""_agent_ip""",192.168.100.77
+3,"#""_manager_hostname""",wazuh.worker
+3,"#""_node_name""",worker01
+3,"#""_wazuh_version""",Wazuh v4.3.10
+29,"#""_manager_hostname""",wazuh.master
+29,"#""_agent_ip""",192.168.0.101
+29,"#""_node_name""",manager
+29,"#""_wazuh_version""",Wazuh v4.3.10
+2,"#""_agent_ip""",192.168.22.74
+2,"#""_manager_hostname""",wazuh.worker
+2,"#""_node_name""",worker01
+2,"#""_wazuh_version""",Wazuh v4.3.10
+26,"#""_manager_hostname""",wazuh.master
+26,"#""_agent_ip""",192.168.100.8
+26,"#""_node_name""",manager
+26,"#""_wazuh_version""",Wazuh v4.3.10
+23,"#""_manager_hostname""",wazuh.master
+23,"#""_agent_ip""",192.168.1.71
+23,"#""_node_name""",manager
+23,"#""_wazuh_version""",Wazuh v4.3.10
+1,"#""_agent_ip""",10.10.29.20
+1,"#""_manager_hostname""",wazuh.worker
+1,"#""_node_name""",worker01
+1,"#""_wazuh_version""",Wazuh v4.3.10
+20,"#""_agent_ip""",172.20.10.5
+20,"#""_manager_hostname""",wazuh.worker
+20,"#""_node_name""",worker01
+20,"#""_wazuh_version""",Wazuh v4.3.10
+7,"#""_manager_hostname""",wazuh.master
+7,"#""_agent_ip""",192.168.0.9
+7,"#""_node_name""",manager
+7,"#""_wazuh_version""",Wazuh v4.3.10
+15,"#""_manager_hostname""",wazuh.master
+15,"#""_agent_ip""",192.168.1.5
+15,"#""_node_name""",manager
+15,"#""_wazuh_version""",Wazuh v4.3.10
+16,"#""_manager_hostname""",wazuh.master
+16,"#""_agent_ip""",192.168.11.14
+16,"#""_node_name""",manager
+16,"#""_wazuh_version""",Wazuh v4.3.10
+5,"#""_manager_hostname""",wazuh.master
+5,"#""_agent_ip""",192.168.100.14
+5,"#""_node_name""",manager
+5,"#""_wazuh_version""",Wazuh v4.3.10
+13,"#""_manager_hostname""",wazuh.master
+13,"#""_agent_ip""",192.168.97.31
+13,"#""_node_name""",manager
+13,"#""_wazuh_version""",Wazuh v4.3.10
+17,"#""_manager_hostname""",wazuh.master
+17,"#""_agent_ip""",192.168.100.20
+17,"#""_node_name""",manager
+17,"#""_wazuh_version""",Wazuh v4.3.10
+8,"#""_agent_ip""",192.168.1.125
+8,"#""_manager_hostname""",wazuh.worker
+8,"#""_node_name""",worker01
+8,"#""_wazuh_version""",Wazuh v4.3.10
+9,"#""_agent_ip""",192.168.43.7
+9,"#""_manager_hostname""",wazuh.worker
+9,"#""_node_name""",worker01
+9,"#""_wazuh_version""",Wazuh v4.3.10
+10,"#""_agent_ip""",192.168.1.10
+10,"#""_manager_hostname""",wazuh.worker
+10,"#""_node_name""",worker01
+10,"#""_wazuh_version""",Wazuh v4.3.10
+11,"#""_agent_ip""",192.168.1.8
+11,"#""_manager_hostname""",wazuh.worker
+11,"#""_node_name""",worker01
+11,"#""_wazuh_version""",Wazuh v4.3.10
+12,"#""_agent_ip""",192.168.1.8
+12,"#""_manager_hostname""",wazuh.worker
+12,"#""_node_name""",worker01
+12,"#""_wazuh_version""",Wazuh v4.3.10
+14,"#""_agent_ip""",192.168.43.119
+14,"#""_manager_hostname""",wazuh.worker
+14,"#""_node_name""",worker01
+14,"#""_wazuh_version""",Wazuh v4.3.10
+18,"#""_agent_ip""",192.168.100.38
+18,"#""_manager_hostname""",wazuh.worker
+18,"#""_node_name""",worker01
+18,"#""_wazuh_version""",Wazuh v4.3.10
+19,"#""_agent_ip""",192.168.1.9
+19,"#""_manager_hostname""",wazuh.worker
+19,"#""_node_name""",worker01
+19,"#""_wazuh_version""",Wazuh v4.3.10
+21,"#""_agent_ip""",192.168.1.10
+21,"#""_manager_hostname""",wazuh.worker
+21,"#""_node_name""",worker01
+21,"#""_wazuh_version""",Wazuh v4.3.10
+22,"#""_agent_ip""",192.168.18.22
+22,"#""_manager_hostname""",wazuh.worker
+22,"#""_node_name""",worker01
+22,"#""_wazuh_version""",Wazuh v4.3.10
+24,"#""_agent_ip""",192.168.18.44
+24,"#""_manager_hostname""",wazuh.worker
+24,"#""_node_name""",worker01
+24,"#""_wazuh_version""",Wazuh v4.3.10
+25,"#""_agent_ip""",192.168.0.16
+25,"#""_manager_hostname""",wazuh.worker
+25,"#""_node_name""",worker01
+25,"#""_wazuh_version""",Wazuh v4.3.10
+28,"#""_agent_ip""",172.20.10.3
+28,"#""_manager_hostname""",wazuh.worker
+28,"#""_node_name""",worker01
+28,"#""_wazuh_version""",Wazuh v4.3.10

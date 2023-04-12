@@ -1,0 +1,217 @@
+scan_id,scan_time,pid,name,state,ppid,utime,stime,cmd,argvs,euser,ruser,suser,egroup,rgroup,sgroup,fgroup,priority,nice,size,vm_size,resident,share,start_time,pgrp,session,nlwp,tgid,tty,processor,checksum
+0,2023/04/12 04:04:22,13328,ShellExperienceHost.exe,,1168,0,0,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe,,,,,,,,,8,0,18112512,77426688,0,0,0,0,19,17,0,0,0,485ad3e9a48dfad3f38dc1b8e2f71f37029b7ff9
+0,2023/04/12 04:04:23,15028,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1310720,7507968,0,0,0,0,0,2,0,0,0,e80d931c9227ffa4b0c708c1e45c8b921a6b6b66
+0,2023/04/12 04:04:28,18852,backgroundTaskHost.exe,,1168,0,0,C:\Windows\System32\backgroundTaskHost.exe,,,,,,,,,8,0,18157568,19845120,0,0,0,0,19,12,0,0,0,b9d3ae26645795e9e3b42ac09103f8e210cea8c3
+0,2023/04/12 04:04:30,21004,backgroundTaskHost.exe,,1168,0,0,C:\Windows\System32\backgroundTaskHost.exe,,,,,,,,,8,0,18063360,20197376,0,0,0,0,19,12,0,0,0,39ce785d4bd1dbff563b366d611af3b37aca25ea
+0,2023/04/12 04:04:32,2684,svchost.exe,,680,1,1,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2035712,10625024,0,0,0,0,0,2,0,0,0,7733f3acae2a1ceac591671b821dfd2264471ea9
+0,2023/04/12 04:04:37,4604,esif_uf.exe,,680,0,0,C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_c2c5b0e17a28a48f\esif_uf.exe,,,,,,,,,13,0,1966080,8298496,0,0,0,0,0,3,0,0,0,ced422ccc7a582254ae97ee9ed91e25ea72aa5a2
+0,2023/04/12 04:04:39,6608,RtkAudUService64.exe,,3736,0,0,C:\Windows\System32\RtkAudUService64.exe,,,,,,,,,8,0,208896,266240,0,0,0,0,0,0,0,0,0,af75738353adf02840eb3efde98febb21f510115
+0,2023/04/12 04:04:41,8320,svchost.exe,,680,7,4,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,9519104,28389376,0,0,0,0,0,7,0,0,0,69ae462caacd0b5b40f5e49d698e4917a291942a
+0,2023/04/12 04:04:42,9748,GoogleCrashHandler64.exe,,17744,0,0,C:\Program Files (x86)\Google\Update\1.3.36.202\GoogleCrashHandler64.exe,,,,,,,,,8,0,1855488,2166784,0,0,0,0,0,3,0,0,0,9099418336fe0baca2ea952e9cc934d04febe9aa
+0,2023/04/12 05:23:55,10084,msedgewebview2.exe,,10308,3,3,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,8,0,37634048,85307392,0,0,0,0,19,32,0,0,0,cb0c8fc49ab18a822f2d87665821d218835d6fbe
+0,2023/04/12 05:23:55,10384,taskhostw.exe,,1696,0,0,C:\Windows\System32\taskhostw.exe,,,,,,,,,8,0,6221824,22781952,0,0,0,0,19,8,0,0,0,541db349cfece275240fcefe2ed77d7c7c121afa
+0,2023/04/12 05:23:55,10600,svchost.exe,,680,4,3,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3158016,14827520,0,0,0,0,0,9,0,0,0,ccae38681b0a9f6c15a6d4c6ce5470b37896aaca
+0,2023/04/12 05:23:56,11076,RuntimeBroker.exe,,1168,0,0,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,7983104,39051264,0,0,0,0,19,13,0,0,0,21040bb2d900db708123bcc953e35ed76b07fd4e
+0,2023/04/12 05:23:56,15884,SearchIndexer.exe,,680,17,6,C:\Windows\System32\SearchIndexer.exe,,,,,,,,,8,0,21073920,48988160,0,0,0,0,0,10,0,0,0,c973ef0962bcff75c15a57e970bb2e7cdadf86ce
+0,2023/04/12 05:23:56,1284,WUDFHost.exe,,680,17,35,C:\Windows\System32\WUDFHost.exe,,,,,,,,,13,0,14479360,33722368,0,0,0,0,0,14,0,0,0,e43a8b85ba0abbaea1c34a95e2b958006354ca91
+0,2023/04/12 05:23:56,1200,fontdrvhost.exe,,972,0,0,C:\Windows\System32\fontdrvhost.exe,,,,,,,,,8,0,1908736,5341184,0,0,0,0,0,5,0,0,0,be5842ed46d5ae8d2f8f3446b57377f2610812ab
+0,2023/04/12 05:23:56,13208,chrome.exe,,15244,3,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,61947904,162701312,0,0,0,0,19,19,0,0,0,09d1a57ec5137512e0ee3eff0be1862e8d685327
+0,2023/04/12 05:23:56,1388,svchost.exe,,680,5,10,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3104768,11984896,0,0,0,0,0,4,0,0,0,b88d96a70afed55174d7ba7858645dace2cf27a2
+0,2023/04/12 05:23:56,16032,Flock.exe,,6420,0,0,C:\Users\cahya.maharani_mekar\AppData\Local\Flock\Flock.exe,,,,,,,,,8,0,10330112,36524032,0,0,0,0,19,7,0,0,0,f3583e6f381834e2acaf8b4e677f10d8aac0164e
+0,2023/04/12 05:23:56,16200,Teams.exe,,20684,0,0,C:\Users\cahya.maharani_mekar\AppData\Local\Microsoft\Teams\current\Teams.exe,,,,,,,,,8,0,23162880,110120960,0,0,0,0,19,17,0,0,0,4b78452779814d4f9d7a3b2a866704863a575de4
+0,2023/04/12 05:23:57,14976,ApplicationFrameHost.exe,,1168,0,0,C:\Windows\System32\ApplicationFrameHost.exe,,,,,,,,,8,0,11583488,40669184,0,0,0,0,19,2,0,0,0,6ff8ed2fc97a408757075364e66cd2598a1e57c7
+0,2023/04/12 05:23:57,1704,IntelCpHDCPSvc.exe,,680,0,0,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e9b40d45ab4dc6b8\IntelCpHDCPSvc.exe,,,,,,,,,8,0,1572864,8802304,0,0,0,0,0,3,0,0,0,9edc131fbbeff776cc2fb93dca127d310b89ec9b
+0,2023/04/12 05:23:57,21644,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3477504,20062208,0,0,0,0,19,8,0,0,0,77df7330e7876ea9ed4cb6070be66dac23b68e2d
+0,2023/04/12 05:23:57,15392,chrome.exe,,15244,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,21606400,67543040,0,0,0,0,19,19,0,0,0,ab337d79b79458fef91b40038800bb64d0624342
+0,2023/04/12 05:23:57,17584,svchost.exe,,680,1,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,12091392,34799616,0,0,0,0,0,15,0,0,0,e554de599e18c4bfca5596d99e64d6a34d516108
+0,2023/04/12 05:23:57,22020,dllhost.exe,,1168,0,0,C:\Windows\System32\dllhost.exe,,,,,,,,,8,0,6696960,20643840,0,0,0,0,19,9,0,0,0,aab5d441fb30a0e1ec03c5000e6e86bc9fa021e0
+0,2023/04/12 05:23:57,2740,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1613824,7933952,0,0,0,0,0,2,0,0,0,71d414064e97c8229384e36b96c2ca8d4d61eff3
+0,2023/04/12 05:23:57,2364,svchost.exe,,680,85,150,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,20217856,38895616,0,0,0,0,0,7,0,0,0,2c5a4c4f31a87773012e304fe1c7ff44c5ecb316
+0,2023/04/12 05:23:57,18484,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1568768,8065024,0,0,0,0,0,5,0,0,0,db02228b84e1b849db10d8349cb8eaa78495a5e4
+0,2023/04/12 05:23:57,10284,msedge.exe,,18012,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,8,0,7794688,25456640,0,0,0,0,19,8,0,0,0,17a3f5b921f9dfc38c2a9a61657c596925130116
+0,2023/04/12 05:23:58,2996,svchost.exe,,680,35,40,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,5017600,20951040,0,0,0,0,0,11,0,0,0,1cc7510797604d5c2f745f321bed570b80b1b68b
+0,2023/04/12 05:23:58,10308,msteams.exe,,14200,1,1,C:\Program Files\WindowsApps\MicrosoftTeams_23062.1103.1944.2725_x64__8wekyb3d8bbwe\msteams.exe,,,,,,,,,8,0,13438976,37044224,0,0,0,0,19,34,0,0,0,25064690e7d286029765ce60cc6b0109c760abfa
+0,2023/04/12 05:23:58,19004,AsusAppService.exe,,680,12,5,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\AsusAppService\AsusAppService.exe,,,,,,,,,8,0,7938048,25071616,0,0,0,0,0,4,0,0,0,190fd55ffc6c554edda3f3676baf517f59088a4c
+0,2023/04/12 05:23:58,19304,msedgewebview2.exe,,17156,0,0,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,8,0,2076672,9674752,0,0,0,0,19,7,0,0,0,cfeea8482c7ecf4dea5b05da8cd9d53f3b7a7016
+0,2023/04/12 05:23:58,2008,dwm.exe,,17356,40,28,C:\Windows\System32\dwm.exe,,,,,,,,,13,0,541581312,821698560,0,0,0,0,19,20,0,0,0,258e05c1929b8b3bc12fa1a1b4fe506b4a5d2b47
+0,2023/04/12 05:23:58,3268,chrome.exe,,15244,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,35872768,110436352,0,0,0,0,19,19,0,0,0,98c6cdc9fda7be4960218a6dd3660789b820ddfc
+0,2023/04/12 05:23:58,1072,svchost.exe,,680,2,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,5996544,12140544,0,0,0,0,0,3,0,0,0,b3a0ec9cbff0133bf35979ea889b7cf2bf2eb29e
+0,2023/04/12 05:23:58,10420,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1228800,7299072,0,0,0,0,0,3,0,0,0,96cc6af568dd1b6833e00612e652cdf7219989c8
+0,2023/04/12 05:23:58,10896,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1409024,7696384,0,0,0,0,0,2,0,0,0,11d74789fc9b5ccd99b5dbd318771fbd87c94a39
+0,2023/04/12 05:23:58,1044,lsass.exe,,972,968,176,C:\Windows\System32\lsass.exe,,,,,,,,,9,0,12689408,40570880,0,0,0,0,0,9,0,0,0,4cb7468dbd4c2cad54da57f3557f9b462a894327
+0,2023/04/12 05:23:58,3536,PresentationFontCache.exe,,680,0,0,C:\Windows\Microsoft.NET\Framework64\v3.0\WPF\PresentationFontCache.exe,,,,,,,,,8,0,24682496,40865792,0,0,0,0,0,4,0,0,0,9099d51ad8ba1ecb49adb307bbaa9ef2fbc6dcd1
+0,2023/04/12 05:23:58,1100,svchost.exe,,680,23,41,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3567616,15716352,0,0,0,0,0,6,0,0,0,038a89c78fa2727c752bbbd019a0cced79638280
+0,2023/04/12 05:23:58,11028,Teams.exe,,20684,1,0,C:\Users\cahya.maharani_mekar\AppData\Local\Microsoft\Teams\current\Teams.exe,,,,,,,,,8,0,15286272,61710336,0,0,0,0,19,10,0,0,0,249980b3d97e6f13f7fb90ee1416c76ad3a5cce3
+0,2023/04/12 05:23:58,10864,msedgewebview2.exe,,10084,0,0,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,8,0,2072576,9543680,0,0,0,0,19,7,0,0,0,17b66cbeceb4a2f66a4816f88c183804914498bb
+0,2023/04/12 05:23:58,11048,chrome.exe,,15244,20,40,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,25800704,75563008,0,0,0,0,19,18,0,0,0,1e5a1525af3894a74d261e6b6acc2accd249c74b
+0,2023/04/12 05:23:58,11368,wazuh-agent.exe,,680,2243,555,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,,,,,,,,,8,0,22409216,49225728,0,0,0,0,0,33,0,0,0,7529d258b608b4a8d114c830a91fa02673be5337
+0,2023/04/12 05:23:58,3628,msedge.exe,,18012,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,17702912,43503616,0,0,0,0,19,12,0,0,0,bacf27cd90329222f01871960bbc11ad54a0ef0b
+0,2023/04/12 05:23:58,11620,SystemSettings.exe,,1168,0,0,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,,,,,,,,,8,0,41406464,43855872,0,0,0,0,19,26,0,0,0,77de47b429007aa4f0fc0ca73ba73b4070918a0a
+0,2023/04/12 05:23:58,4376,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1355776,6852608,0,0,0,0,0,3,0,0,0,00d0d0c97355987ad4b7aa7314ef2487089ccd4d
+0,2023/04/12 05:23:58,11376,RuntimeBroker.exe,,1168,0,0,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,3452928,22482944,0,0,0,0,19,3,0,0,0,6ee54af73b85e625c6ab7255011b443e57675787
+0,2023/04/12 05:23:58,1168,svchost.exe,,680,481,148,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,33243136,83136512,0,0,0,0,0,21,0,0,0,0ae5c3dbf6d8dd511ef8a21fd7eb3bc9012c90f4
+0,2023/04/12 05:23:58,11788,UserOOBEBroker.exe,,1168,0,0,C:\Windows\System32\oobe\UserOOBEBroker.exe,,,,,,,,,8,0,2150400,11313152,0,0,0,0,19,1,0,0,0,4c5960061c2db15cc86cf371d5e94e99439c7c57
+0,2023/04/12 05:23:58,4500,svchost.exe,,680,9,7,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,6512640,25542656,0,0,0,0,0,7,0,0,0,e479bb3b6334327fb89e3a1a4500a2e0e0dd9d33
+0,2023/04/12 05:23:58,1192,msedgewebview2.exe,,17156,0,0,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,8,0,10326016,10764288,0,0,0,0,19,7,0,0,0,ee2961a7260e91c55c64b3dc3c89f013cf44ee3c
+0,2023/04/12 05:23:58,4060,msedge.exe,,18012,3,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,4,0,71770112,140910592,0,0,0,0,19,18,0,0,0,893ee647bf9fbbf75389986a3017c2326177a43a
+0,2023/04/12 05:23:58,4232,AsusSoftwareManager.exe,,680,3,7,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSSoftwareManager\AsusSoftwareManager.exe,,,,,,,,,8,0,9695232,27938816,0,0,0,0,0,12,0,0,0,2d3e2de303369d87e0e23c5c8d32dd5cee758257
+0,2023/04/12 05:23:58,5612,Microsoft.SharePoint.exe,,21664,0,0,C:\Program Files\Microsoft OneDrive\23.071.0402.0001\Microsoft.SharePoint.exe,,,,,,,,,6,0,13008896,22937600,0,0,0,0,19,19,0,0,0,1d546a9c639b974b10011ed2ce8dddf8e0b56b3f
+0,2023/04/12 05:23:59,12124,Flock.exe,,6420,2,0,C:\Users\cahya.maharani_mekar\AppData\Local\Flock\Flock.exe,,,,,,,,,10,0,135335936,272318464,0,0,0,0,19,12,0,0,0,7896308baeb93a0f5a9d9e0f6acb2e9c403a2f16
+0,2023/04/12 05:23:59,15996,AsusSoftwareManagerAgent.exe,,4232,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSSoftwareManager\AsusSoftwareManagerAgent.exe,,,,,,,,,8,0,32972800,64692224,0,0,0,0,19,6,0,0,0,4508465f62014514960f7a9be6e417d001d9ffbe
+0,2023/04/12 05:23:59,13036,msedge.exe,,18012,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,10,0,30494720,63565824,0,0,0,0,19,11,0,0,0,5a0750d8bab160c9ed662f85d4b625b3ab856e83
+0,2023/04/12 05:23:59,16020,chrome.exe,,15244,42,4,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,127467520,289779712,0,0,0,0,19,22,0,0,0,41c84d2638324da2f2eb63f4c6766caac86e0ef2
+0,2023/04/12 05:23:59,13064,GoogleCrashHandler.exe,,17744,0,0,C:\Program Files (x86)\Google\Update\1.3.36.202\GoogleCrashHandler.exe,,,,,,,,,8,0,1835008,2965504,0,0,0,0,0,3,0,0,0,faa84c1ae363c26ab6c55aab9b10751bc3c5627f
+0,2023/04/12 05:23:59,12272,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1253376,7086080,0,0,0,0,0,1,0,0,0,4d893e6bd81d174ed92401a34b3ae1ba6dfc33c9
+0,2023/04/12 05:23:59,12736,svchost.exe,,680,3,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,8540160,40816640,0,0,0,0,19,5,0,0,0,38824f78fc0eeb2a9b072797a12443d0d1df2a00
+0,2023/04/12 05:23:59,12388,msedgewebview2.exe,,17156,0,0,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,8,0,11214848,13737984,0,0,0,0,19,9,0,0,0,1e599d3d654ce872be94401591cdadbb814cca1a
+0,2023/04/12 05:23:59,6320,svchost.exe,,680,1,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2101248,9715712,0,0,0,0,0,6,0,0,0,2883c8505441350d6bb7760025b87f91d6fce04b
+0,2023/04/12 05:23:59,1340,svchost.exe,,680,254,155,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,20885504,44482560,0,0,0,0,0,12,0,0,0,709229292aa39584edfd666b832ee0264a40499a
+0,2023/04/12 05:23:59,1264,msedgewebview2.exe,,17156,22,2,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,4,0,103432192,105754624,0,0,0,0,19,16,0,0,0,b6fc446d15aa85cd8d81d0351e45c2a4a2546d18
+0,2023/04/12 05:23:59,16096,AsusLinkNear.exe,,680,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSLinkNear\AsusLinkNear.exe,,,,,,,,,8,0,3543040,14557184,0,0,0,0,0,4,0,0,0,4d66e4c27c3dd7567fd6efadfda129547b9f700d
+0,2023/04/12 05:23:59,12820,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2854912,15818752,0,0,0,0,0,5,0,0,0,94485933a5c13d7650e105c064cd718a10df529d
+0,2023/04/12 05:23:59,16432,Flock.exe,,6420,26,2,C:\Users\cahya.maharani_mekar\AppData\Local\Flock\Flock.exe,,,,,,,,,4,0,103202816,241766400,0,0,0,0,19,25,0,0,0,077d5e5a6c9e1259d52965dcdff74220640c6366
+0,2023/04/12 05:23:59,14112,chrome.exe,,15244,127,207,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,10,0,325660672,656113664,0,0,0,0,19,27,0,0,0,befb3c9f9a71a267d322d56f11c6939bc2289476
+0,2023/04/12 05:23:59,14200,sihost.exe,,1100,1,2,C:\Windows\System32\sihost.exe,,,,,,,,,8,0,6721536,39931904,0,0,0,0,19,12,0,0,0,4dc9faddb46f361429e6a063c65afd84141f7acf
+0,2023/04/12 05:23:59,16616,Teams.exe,,20684,4,1,C:\Users\cahya.maharani_mekar\AppData\Local\Microsoft\Teams\current\Teams.exe,,,,,,,,,8,0,74706944,204468224,0,0,0,0,19,59,0,0,0,237c5941d1f33d4ea5c7453da999bb0b091cede1
+0,2023/04/12 05:23:59,6956,msedgewebview2.exe,,10084,22,2,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,8,0,124694528,200036352,0,0,0,0,19,19,0,0,0,d21bd971f5b7282e0755e539f388ca00aa71a224
+0,2023/04/12 05:23:59,1616,msedgewebview2.exe,,10084,0,0,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,8,0,11145216,30781440,0,0,0,0,19,9,0,0,0,7270b78c687b35730f8aa8f7ff58c035b9ec9cdc
+0,2023/04/12 05:23:59,14216,svchost.exe,,680,1,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2256896,11825152,0,0,0,0,0,3,0,0,0,6e6ca86b7b8de8c02bd265ba3cf2dfd89477707a
+0,2023/04/12 05:23:59,6812,svchost.exe,,680,155,54,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,6709248,25788416,0,0,0,0,0,3,0,0,0,65e5e32d744b4dee3127613e375d4cf811ac4050
+0,2023/04/12 05:23:59,1672,WUDFHost.exe,,680,0,1,C:\Windows\System32\WUDFHost.exe,,,,,,,,,8,0,6549504,14168064,0,0,0,0,0,7,0,0,0,3f5a3b885b4629854dc8b64e06436ae59c83303c
+0,2023/04/12 05:23:59,14364,igfxEM.exe,,2760,0,0,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_b8e01d9e8716d2a7\igfxEM.exe,,,,,,,,,8,0,7430144,34308096,0,0,0,0,19,18,0,0,0,a8f7bed282bf5eb25bdb6058d61a44cc9bbd18b9
+0,2023/04/12 05:23:59,14272,chrome.exe,,15244,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,8454144,25071616,0,0,0,0,19,8,0,0,0,7818b44f84d440634032cbe7fa2d879ad03a3b4d
+0,2023/04/12 05:23:59,7840,fontdrvhost.exe,,17356,0,0,C:\Windows\System32\fontdrvhost.exe,,,,,,,,,8,0,1863680,6635520,0,0,0,0,19,5,0,0,0,0611a54581c87154a6a86eeae8e89f7d40d33d86
+0,2023/04/12 05:23:59,15104,Teams.exe,,20684,1,0,C:\Users\cahya.maharani_mekar\AppData\Local\Microsoft\Teams\current\Teams.exe,,,,,,,,,10,0,65368064,129564672,0,0,0,0,19,16,0,0,0,5de49cbcdf6bce8fb89189416c05d379b946df96
+0,2023/04/12 05:23:59,16912,Flock.exe,,6420,0,0,C:\Users\cahya.maharani_mekar\AppData\Local\Flock\Flock.exe,,,,,,,,,8,0,14696448,57610240,0,0,0,0,19,8,0,0,0,f041243929c291767056768dc71cbe3420c94ee7
+0,2023/04/12 05:23:59,14984,msedgewebview2.exe,,10084,0,0,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,8,0,8155136,14811136,0,0,0,0,19,7,0,0,0,bfb9b29023de32a32e114e6e1374a5f42c199a71
+0,2023/04/12 05:23:59,16732,chrome.exe,,15244,44,24,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,198361088,428441600,0,0,0,0,19,19,0,0,0,d18b40e3d1a3f5d915e5321fe97ddc3e55be0ed0
+0,2023/04/12 05:23:59,15180,msedgewebview2.exe,,10084,0,0,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,10,0,30806016,38445056,0,0,0,0,19,22,0,0,0,2f4d6ea3f04ea55e90c52b62b8e15a8a41b82b2a
+0,2023/04/12 05:23:59,14684,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,5332992,25329664,0,0,0,0,19,6,0,0,0,088223573867c29aebf51fba1a439ccd2dc91e59
+0,2023/04/12 05:23:59,17092,OneDrive.exe,,19280,5,4,C:\Program Files\Microsoft OneDrive\OneDrive.exe,,,,,,,,,8,0,32768000,131670016,0,0,0,0,19,31,0,0,0,fb59813415c04ea23312a8cd1398547516afa3a1
+0,2023/04/12 05:23:59,15244,chrome.exe,,19280,100,55,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,226328576,515031040,0,0,0,0,19,49,0,0,0,dc7e368296f66a7bf4a7f046d0d482d4868a0e00
+0,2023/04/12 05:23:59,1696,svchost.exe,,680,13,22,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,7135232,24088576,0,0,0,0,0,8,0,0,0,27295008b1fb2e1690e98bd30aef74d112791701
+0,2023/04/12 05:24:00,17116,chrome.exe,,15244,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,9687040,28254208,0,0,0,0,19,10,0,0,0,f8e16706977fb9b0e0186751a51346a9d7557529
+0,2023/04/12 05:24:00,21844,RuntimeBroker.exe,,1168,0,0,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,2514944,15917056,0,0,0,0,19,1,0,0,0,f31e9fc244dc96931c51841e311b71f0cebd9c49
+0,2023/04/12 05:24:00,22012,PhoneExperienceHost.exe,,1168,1,0,C:\Program Files\WindowsApps\Microsoft.YourPhone_1.23022.140.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe,,,,,,,,,8,0,51785728,191246336,0,0,0,0,19,19,0,0,0,3cdafea3c223274527656a39c44fa882c3545897
+0,2023/04/12 05:24:00,8560,msteamsupdate.exe,,1168,0,0,C:\Program Files\WindowsApps\MicrosoftTeams_23062.1103.1944.2725_x64__8wekyb3d8bbwe\msteamsupdate.exe,,,,,,,,,8,0,5226496,30486528,0,0,0,0,19,9,0,0,0,dbb2d92b8a2d90bc68df18f9a450bf07aeb5d706
+0,2023/04/12 05:24:00,1528,svchost.exe,,680,91,32,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,41246720,79814656,0,0,0,0,0,17,0,0,0,91330b3a63a5e8d84207f0a66cd25f4c3f0e9b67
+0,2023/04/12 05:24:00,17156,msedgewebview2.exe,,9832,1,2,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,8,0,32935936,40361984,0,0,0,0,19,28,0,0,0,4e31ea4923ab90755f1dbdcf20e7e9794b95898e
+0,2023/04/12 05:24:00,18012,msedge.exe,,3800,1,1,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,8,0,48635904,150814720,0,0,0,0,19,32,0,0,0,ed49734d34b4837b66fada6c7fad8ef490e9eeec
+0,2023/04/12 05:24:00,17284,chrome.exe,,15244,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,14520320,44167168,0,0,0,0,19,13,0,0,0,895e6a09cb817dd3df6e9fdf54d578d935a48942
+0,2023/04/12 05:24:00,18280,TextInputHost.exe,,1168,1,0,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,,,,,,,,,13,0,77393920,180944896,0,0,0,0,19,40,0,0,0,f181102ed0d22acf46f55e02b939a323be8759b5
+0,2023/04/12 05:24:00,15660,Flock.exe,,6420,0,0,C:\Users\cahya.maharani_mekar\AppData\Local\Flock\Flock.exe,,,,,,,,,8,0,11145216,80142336,0,0,0,0,19,8,0,0,0,0d45c9dd4582eea1747f328dedb033211f4d6f04
+0,2023/04/12 05:24:00,1732,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,4354048,13615104,0,0,0,0,0,13,0,0,0,846bbe0f35873e9a7fde9bab1f9ad4ee4e918035
+0,2023/04/12 05:24:00,22216,msedgewebview2.exe,,17156,0,0,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\112.0.1722.34\msedgewebview2.exe,,,,,,,,,10,0,73449472,79196160,0,0,0,0,19,22,0,0,0,93986102075e45a3439b1b1297c45119cfd04510
+0,2023/04/12 05:24:00,15464,AnyDesk.exe,,680,1,0,C:\Program Files (x86)\AnyDesk\AnyDesk.exe,,,,,,,,,13,0,22495232,39403520,0,0,0,0,0,4,0,0,0,270177ec03577acfc4cefe5a582390f67e7a7685
+0,2023/04/12 05:24:00,1812,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2519040,12525568,0,0,0,0,0,3,0,0,0,f8806fbcaef4cec58ac038b0f37d76569c68766f
+0,2023/04/12 05:24:00,17356,winlogon.exe,,8936,0,0,C:\Windows\System32\winlogon.exe,,,,,,,,,13,0,2478080,13545472,0,0,0,0,19,3,0,0,0,690933547b018b4641bed3be1e95f7f9780a8231
+0,2023/04/12 05:24:00,15516,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3178496,20070400,0,0,0,0,19,5,0,0,0,573ae099488ad57bb79a3a4b05abc165e2f63454
+0,2023/04/12 05:24:00,15700,StartMenuExperienceHost.exe,,1168,0,0,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe,,,,,,,,,8,0,40816640,122175488,0,0,0,0,19,9,0,0,0,636cfd4d3067a6822913e1d77b66a2b00b9b67a4
+0,2023/04/12 05:24:00,1836,svchost.exe,,680,35,32,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,8679424,20729856,0,0,0,0,0,10,0,0,0,c7c268d0252abfce58a45e96fd5d0cb278f1428b
+0,2023/04/12 05:24:00,2384,svchost.exe,,680,43,158,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,4255744,13869056,0,0,0,0,0,10,0,0,0,28aececcf763f14b8839df4a64098cfa8c5e7da0
+0,2023/04/12 05:24:00,2352,svchost.exe,,680,169,205,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,5963776,22007808,0,0,0,0,0,5,0,0,0,84a63232fe5e7a11e4b9f1f3d0b3fd9a36a95068
+0,2023/04/12 05:24:00,2760,igfxCUIService.exe,,680,0,0,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_b8e01d9e8716d2a7\igfxCUIService.exe,,,,,,,,,8,0,2211840,11255808,0,0,0,0,0,2,0,0,0,4a4ca29d664241a165ed3ddb298dc89f87ea8ada
+0,2023/04/12 05:24:00,1576,svchost.exe,,680,5,3,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3461120,14159872,0,0,0,0,0,4,0,0,0,f7ccb39bc4c9e31587d170fdb5aa4fb601141ce1
+0,2023/04/12 05:24:00,2440,svchost.exe,,680,53,1196,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2875392,11563008,0,0,0,0,0,4,0,0,0,d254148cbe0414f2915076977fefa1da22c5445d
+0,2023/04/12 05:24:00,2828,svchost.exe,,680,420,84,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,45154304,70234112,0,0,0,0,0,2,0,0,0,169858328708b9b6d068712536cfd271befdd661
+0,2023/04/12 05:24:00,18440,WmiApSrv.exe,,680,11,25,C:\Windows\System32\wbem\WmiApSrv.exe,,,,,,,,,8,0,2461696,12521472,0,0,0,0,0,3,0,0,0,96d6b53f89e44c924f16401b379efddccd02045a
+0,2023/04/12 05:24:00,18444,AsusSwitch.exe,,680,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSSwitch\AsusSwitch.exe,,,,,,,,,8,0,2088960,10649600,0,0,0,0,0,7,0,0,0,d52e401a61314df44173cbc21bb92e08c8d8fcb3
+0,2023/04/12 05:24:00,2860,svchost.exe,,680,2,8,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2469888,11927552,0,0,0,0,0,3,0,0,0,749df09b057165e873d6179062347861ffbcc2c1
+0,2023/04/12 05:24:00,2432,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1310720,6959104,0,0,0,0,0,3,0,0,0,8091c273172d64e14756fa886ca3de23cd7935af
+0,2023/04/12 05:24:00,2780,svchost.exe,,680,2,1,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,9613312,37707776,0,0,0,0,19,11,0,0,0,def9eefe50ed4393b03159fa1c51a9eb29b510cd
+0,2023/04/12 05:24:00,18856,chrome.exe,,15244,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,8781824,32129024,0,0,0,0,19,10,0,0,0,a48ac95440e73d9cb427cf170f12d8d7cf7592f1
+0,2023/04/12 05:24:00,2448,svchost.exe,,680,1,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2240512,10035200,0,0,0,0,0,5,0,0,0,0f169c1a469d56572bac394b565f1225e6b452db
+0,2023/04/12 05:24:00,2888,svchost.exe,,680,28,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2453504,11096064,0,0,0,0,0,7,0,0,0,cede22f7d05a8ff74269eb52965b5c08e628593f
+0,2023/04/12 05:24:00,1588,svchost.exe,,680,1,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2502656,12353536,0,0,0,0,0,2,0,0,0,1e271c8f673cc83751bc07c64ed41144f81cfed2
+0,2023/04/12 05:24:00,2936,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1486848,7413760,0,0,0,0,0,4,0,0,0,9566e431dee8a12422faa05c45c5c858258a4cc9
+0,2023/04/12 05:24:00,19020,chrome.exe,,15244,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,23465984,71913472,0,0,0,0,19,20,0,0,0,7b5c3432e92da5ec15b41e6046326f20f1ea6f86
+0,2023/04/12 05:24:00,19280,explorer.exe,,6628,10,9,C:\Windows\explorer.exe,,,,,,,,,8,0,99459072,293474304,0,0,0,0,19,71,0,0,0,462c71dda4a5c838f101a47e631476cfb2d23fb4
+0,2023/04/12 05:24:00,20468,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1396736,9240576,0,0,0,0,19,1,0,0,0,be94082bfe102b79329b941ba015456c68bd04e0
+0,2023/04/12 05:24:00,3020,chrome.exe,,15244,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,21794816,65990656,0,0,0,0,19,19,0,0,0,3e8304560994ff999d4389023e956fe49a5dbbb4
+0,2023/04/12 05:24:00,2716,svchost.exe,,680,2,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,7524352,17707008,0,0,0,0,0,4,0,0,0,3cdffcbdaa7f1ac0c00496ac0318420b72cc806e
+0,2023/04/12 05:24:00,1944,svchost.exe,,680,53,61,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,12099584,32157696,0,0,0,0,0,22,0,0,0,f16d37d709d40450a24a65f959105745582b37eb
+0,2023/04/12 05:24:00,1956,IntelCpHeciSvc.exe,,680,0,0,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e9b40d45ab4dc6b8\IntelCpHeciSvc.exe,,,,,,,,,8,0,1720320,8904704,0,0,0,0,0,3,0,0,0,47afb0876a4fae7e83b944d2d1653da901a74631
+0,2023/04/12 05:24:00,3372,svchost.exe,,680,17,14,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,7725056,26836992,0,0,0,0,0,14,0,0,0,8cd73cff9ab8656e6c069416f8ec4a4112bf91c6
+0,2023/04/12 05:24:00,3024,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1613824,8564736,0,0,0,0,0,4,0,0,0,94f46c4284162945e7b68eee2b1982d613f7d64f
+0,2023/04/12 05:24:00,3412,svchost.exe,,680,1,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,4186112,16297984,0,0,0,0,0,4,0,0,0,bbf04ee05dcdf62fc9b9bef2c6d9655db44f91df
+0,2023/04/12 05:24:00,3548,svchost.exe,,680,13,14,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,9019392,27246592,0,0,0,0,0,10,0,0,0,50c25be06065b555be4dd9b098496025ef97ce5b
+0,2023/04/12 05:24:00,19640,chrome.exe,,15244,8,1,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,47169536,144429056,0,0,0,0,19,21,0,0,0,a6dde557d05d1ce98761005bdc7995ca6b72bbcd
+0,2023/04/12 05:24:00,19532,ctfmon.exe,,3024,1,3,C:\Windows\System32\ctfmon.exe,,,,,,,,,13,0,5603328,28520448,0,0,0,0,19,11,0,0,0,fdada2337ce6ff6e1a18b3c5b0bdc73f5b9a5c0b
+0,2023/04/12 05:24:00,3064,svchost.exe,,680,5,6,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3178496,13422592,0,0,0,0,0,9,0,0,0,3ed63777e784f2e5538d3366c43a2a88273ad880
+0,2023/04/12 05:24:00,20576,Teams.exe,,20684,59,9,C:\Users\cahya.maharani_mekar\AppData\Local\Microsoft\Teams\current\Teams.exe,,,,,,,,,8,0,211386368,416215040,0,0,0,0,19,21,0,0,0,10382a72f73259198b0f0849227d106e67f43074
+0,2023/04/12 05:24:00,19760,AsusLinkRemote.exe,,680,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSLinkRemote\AsusLinkRemote.exe,,,,,,,,,8,0,6287360,16543744,0,0,0,0,0,6,0,0,0,3e44f5aa6565182500469c8a0856b35b1da935fd
+0,2023/04/12 05:24:00,20624,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1511424,9203712,0,0,0,0,19,2,0,0,0,818d799b90a08fe52fcbe2995f8b6d40cb675236
+0,2023/04/12 05:24:00,3704,svchost.exe,,680,42,25,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,29106176,66580480,0,0,0,0,0,11,0,0,0,9acf93d539ede726e282659e97612e91ec826f30
+0,2023/04/12 05:24:00,3112,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2113536,11857920,0,0,0,0,0,1,0,0,0,718d2a0c75147e376911da9e0834412f26dbbf59
+0,2023/04/12 05:24:00,3580,spoolsv.exe,,680,0,1,C:\Windows\System32\spoolsv.exe,,,,,,,,,8,0,7163904,24576000,0,0,0,0,0,7,0,0,0,ceeb8a4738ef030b92f412c75311b87084fbe942
+0,2023/04/12 05:24:00,20036,chrome.exe,,15244,3,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,30445568,90513408,0,0,0,0,19,20,0,0,0,117c414aef5b394b7855c3826df02b1b710dccdb
+0,2023/04/12 05:24:00,3188,LocationNotificationWindows.exe,,1696,0,0,C:\Windows\System32\LocationNotificationWindows.exe,,,,,,,,,6,0,1941504,5148672,0,0,0,0,19,1,0,0,0,d95249e2d10ce1c3e86e6b947fd9e918eaca6988
+0,2023/04/12 05:24:00,20684,Teams.exe,,17240,8,4,C:\Users\cahya.maharani_mekar\AppData\Local\Microsoft\Teams\current\Teams.exe,,,,,,,,,8,0,82571264,192270336,0,0,0,0,19,43,0,0,0,7da1a74112d3d3a972689b12b758c467fb008040
+0,2023/04/12 05:24:00,2072,svchost.exe,,680,19,16,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3702784,12001280,0,0,0,0,0,5,0,0,0,1d12c942e33ca4df2be7f40cbd406bacaaf1bc8e
+0,2023/04/12 05:24:00,3632,svchost.exe,,680,313,233,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,38957056,81555456,0,0,0,0,0,18,0,0,0,ad9bf1da32a11cd5d078a41b0e8362cb182229f0
+0,2023/04/12 05:24:00,2116,Teams.exe,,20684,0,0,C:\Users\cahya.maharani_mekar\AppData\Local\Microsoft\Teams\current\Teams.exe,,,,,,,,,8,0,12161024,76828672,0,0,0,0,19,7,0,0,0,cf9846e62928c8976dca75c03a7356838e1b030c
+0,2023/04/12 05:24:00,3256,svchost.exe,,680,11,23,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2318336,9830400,0,0,0,0,0,4,0,0,0,4dfd1a4cf3d2bd367a808ffe18f46f48cb323999
+0,2023/04/12 05:24:00,3772,svchost.exe,,680,1,4,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2039808,9510912,0,0,0,0,0,6,0,0,0,ed760c5f717292712ee804808f425a3cd7e66420
+0,2023/04/12 05:24:00,4444,Intel_PIE_Service.exe,,680,0,0,C:\Windows\System32\DriverStore\FileRepository\piecomponent.inf_amd64_e72614dff5a8a910\Intel_PIE_Service.exe,,,,,,,,,8,0,2228224,11177984,0,0,0,0,0,4,0,0,0,c2c1c89675754a49c22a19a96e121f5ecf4eaf13
+0,2023/04/12 05:24:00,20736,chrome.exe,,15244,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,2224128,9809920,0,0,0,0,19,8,0,0,0,6442362b89ec6a3bd7245bedecb3ab23dd14f2f6
+0,2023/04/12 05:24:01,3664,svchost.exe,,680,34,29,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,15704064,42078208,0,0,0,0,0,13,0,0,0,cd52434e0e8ef81c38a05cac9586e63ab6af6797
+0,2023/04/12 05:24:01,21288,msedge.exe,,18012,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,8,0,12013568,45318144,0,0,0,0,19,12,0,0,0,85230fe9c0cb6724fcaf02268f5b5b188c56b355
+0,2023/04/12 05:24:01,3916,wlanext.exe,,3372,5,1,C:\Windows\System32\wlanext.exe,,,,,,,,,8,0,2383872,11485184,0,0,0,0,0,5,0,0,0,b54ceaf9c02049ac1cbd0d28e8e26cf8be3e85c6
+0,2023/04/12 05:24:01,21336,SearchHost.exe,,1168,4,1,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe,,,,,,,,,8,0,114769920,217165824,0,0,0,0,19,58,0,0,0,47f03ecd22e61b4c343f86c0774d099e51080649
+0,2023/04/12 05:24:01,4480,svchost.exe,,680,46,19,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,9424896,26583040,0,0,0,0,0,9,0,0,0,50f6856d8bfaf983e65e26466764c285a966e1f2
+0,2023/04/12 05:24:01,4572,RstMwService.exe,,680,0,0,C:\Windows\System32\DriverStore\FileRepository\iastorac.inf_amd64_ba273d0ffb93e225\RstMwService.exe,,,,,,,,,8,0,1654784,8708096,0,0,0,0,0,7,0,0,0,523d95dcef04dafaba4a7dffe3ad34eba961c223
+0,2023/04/12 05:24:01,4616,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2371584,11390976,0,0,0,0,0,5,0,0,0,4e87e336fcf3b876b8713e6132b171803cff35b1
+0,2023/04/12 05:24:01,3932,conhost.exe,,3916,0,0,C:\Windows\System32\conhost.exe,,,,,,,,,8,0,5328896,10801152,0,0,0,0,0,2,0,0,0,7010fd723597a25c1ebb7c08541e4aa9b1b119ac
+0,2023/04/12 05:24:01,21428,chrome.exe,,15244,80,61,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,212946944,460406784,0,0,0,0,19,19,0,0,0,44c708c270ad1578d0c3fa7980545c36e0750a8e
+0,2023/04/12 05:24:01,21404,RuntimeBroker.exe,,1168,0,0,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,6168576,29843456,0,0,0,0,19,3,0,0,0,c507b080f63c9fd13bff42221cb44a4c9ae6c5aa
+0,2023/04/12 05:24:01,4244,OneApp.IGCC.WinService.exe,,680,0,1,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_54b736e5be5b50b2\OneApp.IGCC.WinService.exe,,,,,,,,,8,0,31313920,43528192,0,0,0,0,0,5,0,0,0,b3c4e3b204337d847036618caff4c85c3e9fd2ff
+0,2023/04/12 05:24:01,4156,gcpw_extension.exe,,680,0,1,C:\Program Files\Google\Credential Provider\94.0.4606.56\extension\gcpw_extension.exe,,,,,,,,,8,0,8740864,23384064,0,0,0,0,0,3,0,0,0,73004097f99dbb7198427488225ab4b8974045c5
+0,2023/04/12 05:24:01,4588,LMS.exe,,680,0,0,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,,,,,,,,,8,0,3239936,12075008,0,0,0,0,0,3,0,0,0,2df823db65a7d19ab0cca8872865c1275adcef03
+0,2023/04/12 05:24:01,4104,AsusOptimizationStartupTask.exe,,7452,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSOptimization\AsusOptimizationStartupTask.exe,,,,,,,,,8,0,1495040,8609792,0,0,0,0,19,6,0,0,0,a18d4de841a2b51e9160890c59726d908d66909a
+0,2023/04/12 05:24:01,4980,chrome.exe,,15244,5,1,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,67067904,157474816,0,0,0,0,19,19,0,0,0,36cfd0a2117628e5f93f6b9b21a54ea5b62e20d7
+0,2023/04/12 05:24:01,21464,WidgetService.exe,,1168,0,0,C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_423.8900.0.0_x64__cw5n1h2txyewy\Dashboard\WidgetService.exe,,,,,,,,,8,0,4587520,28508160,0,0,0,0,19,6,0,0,0,002e3e0414fb77cccc8f14704c236b45e5678b84
+0,2023/04/12 05:24:01,4804,RtkAudUService64.exe,,1696,0,0,C:\Windows\System32\RtkAudUService64.exe,,,,,,,,,6,0,2355200,6311936,0,0,0,0,19,7,0,0,0,d6e2d639e7855036989493127e845ef5ab4f5c2c
+0,2023/04/12 05:24:01,4300,unsecapp.exe,,1168,0,0,C:\Windows\System32\wbem\unsecapp.exe,,,,,,,,,8,0,1867776,10276864,0,0,0,0,0,3,0,0,0,7b5bcb935ec1d1fc5c370fc59e683c3875f6671a
+0,2023/04/12 05:24:01,4112,ELANFPService.exe,,680,0,0,C:\Windows\System32\ELANFPService.exe,,,,,,,,,8,0,1458176,6971392,0,0,0,0,0,2,0,0,0,013eca1c6d7c31eba57351643400021a70d6a33f
+0,2023/04/12 05:24:01,4188,ICEsoundService64.exe,,680,3,10,C:\Windows\System32\DriverStore\FileRepository\icesoundapo64.inf_amd64_a5d3270da26fb113\ICEsoundService64.exe,,,,,,,,,8,0,2547712,9330688,0,0,0,0,0,4,0,0,0,6e016889f43335fb54336f7fcc1035207d645312
+0,2023/04/12 05:24:01,4176,ibtsiva.exe,,680,1,4,C:\Windows\System32\ibtsiva.exe,,,,,,,,,8,0,1507328,7081984,0,0,0,0,0,1,0,0,0,65ff0e17eba35688d195c47ea676eabb9afa21c4
+0,2023/04/12 05:24:01,5756,AggregatorHost.exe,,3704,0,0,C:\Windows\System32\AggregatorHost.exe,,,,,,,,,8,0,3076096,12230656,0,0,0,0,0,2,0,0,0,7e12c088563242812658245ab49d6f6331ac0ad5
+0,2023/04/12 05:24:01,4324,IntelAudioService.exe,,680,1,2,C:\Windows\System32\cAVS\Intel(R) Audio Service\IntelAudioService.exe,,,,,,,,,8,0,29622272,44572672,0,0,0,0,0,8,0,0,0,7ac81782605244a141863c30a426facde6a3be8e
+0,2023/04/12 05:24:01,5976,svchost.exe,,680,2,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2670592,11268096,0,0,0,0,0,7,0,0,0,b2f5de4d1322f27599688ac4277d14e87e144e7b
+0,2023/04/12 05:24:01,4220,msedge.exe,,18012,0,0,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,,,,,,,8,0,2093056,9617408,0,0,0,0,19,7,0,0,0,1396e9303eece7b567e370712960650737d7a3e7
+0,2023/04/12 05:24:01,4988,jhi_service.exe,,680,0,0,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_ffc75848a6342fdf\jhi_service.exe,,,,,,,,,8,0,1327104,7380992,0,0,0,0,0,2,0,0,0,160b63274cf837491586720526805e49c47fa98a
+0,2023/04/12 05:24:01,5856,RuntimeBroker.exe,,1168,0,0,C:\Windows\System32\RuntimeBroker.exe,,,,,,,,,8,0,2207744,13225984,0,0,0,0,19,1,0,0,0,d1a86cdea077f2472c5513e98a560e094cb88b7f
+0,2023/04/12 05:24:01,4332,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1703936,8212480,0,0,0,0,0,2,0,0,0,09337718a489e7d8f17599ac9adebb8d28aa86eb
+0,2023/04/12 05:24:01,6076,svchost.exe,,680,2,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3821568,18296832,0,0,0,0,0,9,0,0,0,045280d4769c92f573c173b89fe090bfcfbe397f
+0,2023/04/12 05:24:01,500,SecurityHealthSystray.exe,,19280,0,0,C:\Windows\System32\SecurityHealthSystray.exe,,,,,,,,,8,0,1892352,12025856,0,0,0,0,19,1,0,0,0,535ca4ed5b4628dc3295b2dc54fdcca478ad67e4
+0,2023/04/12 05:24:01,624,svchost.exe,,680,0,1,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,1777664,8392704,0,0,0,0,0,4,0,0,0,5940e7fa84f2652c0185bdc40cde41dd88b6f019
+0,2023/04/12 05:24:01,5244,svchost.exe,,680,1,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3837952,16519168,0,0,0,0,0,12,0,0,0,bba7c96dc6acf98b729e4be137b3e7d45c9c18cf
+0,2023/04/12 05:24:01,4368,RtkAudUService64.exe,,680,0,2,C:\Windows\System32\RtkAudUService64.exe,,,,,,,,,8,0,3543040,13447168,0,0,0,0,0,9,0,0,0,a49517fe66250982b7086d9312d5f6060f2004d7
+0,2023/04/12 05:24:01,6460,AsusSystemAnalysis.exe,,680,3,5,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSSystemAnalysis\AsusSystemAnalysis.exe,,,,,,,,,8,0,5431296,19161088,0,0,0,0,0,5,0,0,0,56a356ca41d32747483873219578107e6e3bc267
+0,2023/04/12 05:24:01,4352,svchost.exe,,680,4,6,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3035136,14299136,0,0,0,0,0,6,0,0,0,d7037a501b0f210cd50dd588047f14226f724422
+0,2023/04/12 05:24:01,6744,svchost.exe,,680,0,0,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,6950912,18305024,0,0,0,0,0,5,0,0,0,b572f1bb528058f382bcd799e605d7341b1d1ede
+0,2023/04/12 05:24:01,6420,Flock.exe,,19280,5,4,C:\Users\cahya.maharani_mekar\AppData\Local\Flock\Flock.exe,,,,,,,,,8,0,40493056,117530624,0,0,0,0,19,27,0,0,0,cbe3b74ddbc3fb0d97289c38f781a56a241d43e0
+0,2023/04/12 05:24:01,6260,svchost.exe,,680,5,10,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2613248,12005376,0,0,0,0,0,3,0,0,0,848534f6267e0802c8268cfc1b48ce5095dbfe5f
+0,2023/04/12 05:24:01,6720,svchost.exe,,680,33,6,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,11083776,30924800,0,0,0,0,0,25,0,0,0,cfc789aac3982874e1ecafaf032fec89284bbb52
+0,2023/04/12 05:24:01,6488,svchost.exe,,680,0,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3473408,16478208,0,0,0,0,0,4,0,0,0,9433d4ce2a9a3db26aa7ba8e33df8ede533fc229
+0,2023/04/12 05:24:01,652,svchost.exe,,680,29,21,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,9293824,31047680,0,0,0,0,0,12,0,0,0,0e6697194750933d6b2d362d60e3c657a38096b8
+0,2023/04/12 05:24:01,6412,OfficeClickToRun.exe,,680,17,9,C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe,,,,,,,,,8,0,50139136,86982656,0,0,0,0,0,25,0,0,0,95576e3a7a3102cca61c28d0f06ef2de80b64e40
+0,2023/04/12 05:24:01,6600,WmiPrvSE.exe,,1168,36,46,C:\Windows\System32\wbem\WmiPrvSE.exe,,,,,,,,,8,0,53313536,72675328,0,0,0,0,0,8,0,0,0,3bdbd637010cbc5aea45b745aef4b2f00dbfd3ef
+0,2023/04/12 05:24:01,6908,svchost.exe,,680,14,14,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,6676480,27025408,0,0,0,0,0,11,0,0,0,38750fb402eebe627935752fe588f8c5be19b35a
+0,2023/04/12 05:24:01,7884,AsusSystemDiagnosis.exe,,680,0,0,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSSystemDiagnosis\AsusSystemDiagnosis.exe,,,,,,,,,8,0,2117632,11890688,0,0,0,0,0,2,0,0,0,56bcfd11b14943791987aac62498b9a81f4656b1
+0,2023/04/12 05:24:01,8252,svchost.exe,,680,1,3,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,5591040,22556672,0,0,0,0,0,10,0,0,0,1c6a82ca85141ca56d4dc009e0eb6ee45ad7835e
+0,2023/04/12 05:24:01,7256,FileSyncHelper.exe,,680,0,0,C:\Program Files\Microsoft OneDrive\23.071.0402.0001\FileSyncHelper.exe,,,,,,,,,8,0,5156864,26169344,0,0,0,0,0,9,0,0,0,0e08fc599fc8f0f31ee17a058aff0dea1b3c9d49
+0,2023/04/12 05:24:01,6880,chrome.exe,,15244,0,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,18231296,66236416,0,0,0,0,19,19,0,0,0,85e219df99ef0ddec6cfb734555caf0e26c81a86
+0,2023/04/12 05:24:01,7072,AnyDesk.exe,,19280,3,0,C:\Program Files (x86)\AnyDesk\AnyDesk.exe,,,,,,,,,8,0,22761472,38596608,0,0,0,0,19,7,0,0,0,9e190c5e230b0049ecf8db5bed6350725a566142
+0,2023/04/12 05:24:01,740,svchost.exe,,680,1,2,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2215936,9428992,0,0,0,0,0,5,0,0,0,33b0d4c53e46ecc1e7c3d7fb4d70ff598249f1bf
+0,2023/04/12 05:24:01,7452,AsusOptimization.exe,,680,0,3,C:\Windows\System32\DriverStore\FileRepository\asussci2.inf_amd64_bf969a2fcea35523\ASUSOptimization\AsusOptimization.exe,,,,,,,,,8,0,2523136,12546048,0,0,0,0,0,9,0,0,0,1dea6c9670babacee4149a7bad17c4832490a284
+0,2023/04/12 05:24:01,8440,svchost.exe,,680,2,1,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,4431872,20508672,0,0,0,0,0,4,0,0,0,6c9d5d1d5b50528219f72ef65dae8e0926966112
+0,2023/04/12 05:24:01,8656,Teams.exe,,20684,0,0,C:\Users\cahya.maharani_mekar\AppData\Local\Microsoft\Teams\current\Teams.exe,,,,,,,,,8,0,24285184,77918208,0,0,0,0,19,16,0,0,0,63eb8bc76e3bd4b8b77cc84765925167d87da539
+0,2023/04/12 05:24:01,8476,svchost.exe,,680,27,12,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,3768320,17330176,0,0,0,0,0,4,0,0,0,533dc83d05ac55af440958eb14270fb2f66316ca
+0,2023/04/12 05:24:01,7744,Teams.exe,,20684,8,1,C:\Users\cahya.maharani_mekar\AppData\Local\Microsoft\Teams\current\Teams.exe,,,,,,,,,8,0,59977728,149000192,0,0,0,0,19,16,0,0,0,132dcfe61a7b6136dc95b2237771b18a7834953e
+0,2023/04/12 05:24:01,8136,chrome.exe,,15244,3,0,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,8,0,184954880,426905600,0,0,0,0,19,18,0,0,0,6039e9d5bed952c5f7eeef8f7ba3f7114bfb68a5
+0,2023/04/12 05:24:01,7696,audiodg.exe,,2996,0,0,C:\Windows\System32\audiodg.exe,,,,,,,,,8,0,8732672,25632768,0,0,0,0,0,5,0,0,0,ac2659e7bad0ce795ca93270cdeee22c6242f894
+0,2023/04/12 05:24:01,8624,svchost.exe,,680,1,3,C:\Windows\System32\svchost.exe,,,,,,,,,8,0,2490368,14508032,0,0,0,0,0,1,0,0,0,5fd7c01520ba0ccf4addba44ae37b9a94544316c
+0,2023/04/12 05:24:01,8936,chrome.exe,,15244,13,1,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,55930880,162537472,0,0,0,0,19,19,0,0,0,de9ce17db7957292bd881be80329842687e5a76c
+0,2023/04/12 05:24:01,9832,Widgets.exe,,1168,1,2,C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_423.8900.0.0_x64__cw5n1h2txyewy\Dashboard\Widgets.exe,,,,,,,,,8,0,11231232,60792832,0,0,0,0,19,18,0,0,0,deca2480a0e64bae50e2bbaabc289196d08ba145
+0,2023/04/12 05:24:01,996,chrome.exe,,15244,63,12,C:\Program Files\Google\Chrome\Application\chrome.exe,,,,,,,,,4,0,136388608,323354624,0,0,0,0,19,19,0,0,0,7de6e920805ba77f569539ccd0d6c9d8754c68d2

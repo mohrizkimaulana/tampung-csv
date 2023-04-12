@@ -1,0 +1,12 @@
+scan_id,iface,proto,address,netmask,broadcast,checksum,item_id
+0,Wi-Fi,ipv6,2001:448a:2040:99ec:1d5c:7b78:fc73:c54b,, ,a88360b58bbd9edc4e49e8dc755b2ea08bce7a92,05c295543770df66a87b7da35814582c806ad738
+0,Local Area Connection* 3,ipv6,fe80::f8da:de38:733b:9cf0,ffff:ffff:ffff:ffff::, ,79b766b2eb05692a113bc7ad74c32b999fa63cc3,3f41fef876c3dfc5be4eee30425c9f3d211b6ad1
+0,Loopback Pseudo-Interface 1,ipv6,::1,, ,fa94c2aa68c8820fe69ba72c5ed91ac0fa9428f9,55604a20b704e491c9afb7320962fe4a0d9d6288
+0,Wi-Fi,ipv6,2001:448a:2040:99ec:ed2:5c99:3a79:e07b,ffff:ffff:ffff:ffff::, ,f2a0494929788b9eb8e93f0515cf16900984ebdc,794a1ee7eba1ea55318b907a4c894f4aa5de539b
+0,Loopback Pseudo-Interface 1,ipv4,127.0.0.1,255.0.0.0,127.255.255.255,2e5cd3256e1553d8dbb8d176563d964fc654a2a9,976387d31be037d781b9ff2285b6f44fd28b0650
+0,Local Area Connection* 12,ipv6,fe80::a6f0:8e40:dd3a:5a6,ffff:ffff:ffff:ffff::, ,148ff6c72f066b4d3c38f5ff67488ad03ac88ade,a3b44e94bd7f2e5ebdd49a9f32fe2cac3aa2d80b
+0,Wi-Fi,ipv6,2001:448a:2040:99ec:b525:53b1:3743:ac02,, ,fa768446fc68d5d38105ce22662d663bb7bfbb46,b2f2c3a71f0cf9194862a059c8abf346a4ee81cf
+0,Local Area Connection* 12,ipv4,169.254.241.64,255.255.0.0,169.254.255.255,83d29cf17b4c34b75de1ba36ff583267f7644e01,c7bca8fdf9a01eb7c733e111d2990ad61f128f79
+0,Wi-Fi,ipv6,fe80::2b5e:94e0:fe6d:eb44,ffff:ffff:ffff:ffff::, ,7fa6ee625557ccd31f7d26bf8ff19871e0300ae8,ce76b5e6ed1dd28a28e5e5b87974eef6e0f45c2e
+0,Wi-Fi,ipv4,192.168.100.8,255.255.255.0,192.168.100.255,af99b5ac73e4087b23d417b37eed9ff0ebb13a65,f65a28ea49a915255ede8b91eba34aa509fab438
+0,Local Area Connection* 3,ipv4,169.254.151.79,255.255.0.0,169.254.255.255,19afb15874f8d51ba229b7ebb8c60803068a2abe,f70bef41f508b7472aaecda4711b2f2a7d8c0d99

@@ -1,0 +1,364 @@
+id_check,type,rule
+19000,command,c:modprobe -n -v cramfs -> r:^install /bin/true
+19000,numeric,not c:lsmod -> r:cramfs
+19001,command,c:/sbin/modprobe -n -v freevxfs -> r:^install /bin/true
+19001,numeric,not c:lsmod -> r:freevxfs
+19002,command,c:/sbin/modprobe -n -v jffs2 -> r:^install /bin/true
+19002,numeric,not c:lsmod -> r:jffs2
+19003,command,c:/sbin/modprobe -n -v hfs -> r:^install /bin/true
+19003,numeric,not c:lsmod -> r:hfs
+19004,command,c:/sbin/modprobe -n -v hfsplus -> r:^install /bin/true
+19004,numeric,not c:lsmod -> r:hfsplus
+19005,command,c:/sbin/modprobe -n -v udf -> r:^install /bin/true
+19005,numeric,not c:lsmod -> r:udf
+19006,command,c:mount -> r:\s/tmp\s
+19007,command,c:mount -> r:\s/tmp\s && r:nodev
+19008,command,c:mount -> r:\s/tmp\s && r:nosuid
+19009,command,c:mount -> r:\s/tmp\s && r:noexec
+19010,command,c:mount -> r:\s/dev/shm\s
+19010,file,f:/etc/fstab -> r:\s*/dev/shm\s*
+19011,command,c:mount -> r:\s/dev/shm\s && r:nodev
+19012,command,c:mount -> r:\s/dev/shm\s && r:nosuid
+19013,command,c:mount -> r:\s/dev/shm\s && r:noexec
+19014,command,c:mount -> r:\s/var\s
+19015,command,c:mount -> r:\s/var/tmp\s
+19016,command,c:mount -> r:\s/var/tmp\s && r:nodev
+19017,command,c:mount -> r:\s/var/tmp\s && r:nosuid
+19018,command,c:mount -> r:\s/var/tmp\s && r:noexec
+19019,command,c:mount -> r:\s/var/log\s
+19020,command,c:mount -> r:\s/var/log/audit\s
+19021,command,c:mount -> r:\s/home\s
+19022,command,c:mount -> r:\s/home\s && r:nodev
+19023,command,c:systemctl is-enabled autofs -> enabled
+19024,command,c:/sbin/modprobe -n -v usb-storage -> r:install /bin/true
+19024,numeric,not c:lsmod -> r:usb-storage
+19025,command,c:dpkg -s sudo -> r:install ok installed
+19025,command,c:dpkg -s sudo-ldap -> r:install ok installed
+19026,file,f:/etc/sudoers -> r:^\s*\t*Defaults\s*\t*use_pty
+19026,directory,d:/etc/sudoers.d -> r:\.* -> r:^\s*\t*Defaults\s*\t*use_pty
+19027,file,f:/etc/sudoers -> r:^\s*\t*Defaults\s*\t*logfile=
+19027,directory,d:/etc/sudoers.d -> r:\.* -> r:^\s*\t*Defaults\s*\t*logfile=
+19028,command,c:dpkg -s aide -> r:install ok installed
+19029,command,c:grep -Rh aide /etc/cron.d /etc/cron.daily /etc/cron.hourly /etc/cron.monthly /etc/cron.weekly /etc/crontab -> r:\.+
+19029,command,c:crontab -u root -l -> r:aide
+19030,file,f:/boot/grub/grub.cfg -> r:^\s*\t*set superusers
+19030,file,f:/boot/grub/grub.cfg -> r:^\s*\t*password
+19031,command,c:stat /boot/grub/grub.cfg -> r:Access:\s*\(0\d00/-\w\w\w------\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*0/\s*\t*root\)
+19032,file,f:/etc/shadow -> r:^root:*:|^root:!:
+19033,command,"c:sh -c ""journalctl | grep \""protection: active\"""" -> r:NX \(Execute Disable\) protection: active"
+19034,command,c:grep -Rh ^kernel\.randomize_va_space /etc/sysctl.conf /etc/sysctl.d -> r:\s*\t*2$
+19034,command,c:sysctl kernel.randomize_va_space -> r:^kernel.randomize_va_space\s*\t*=\s*\t*2
+19035,command,c:dpkg -s prelink -> r:install ok installed
+19036,command,c:sysctl fs.suid_dumpable -> r:=\s*\t*0$
+19036,command,c:grep -Rh fs\.suid_dumpable /etc/sysctl.conf /etc/sysctl.d -> !r:^# && r:=\s*\t*0$
+19036,command,c:grep -Rh ^*[[:space:]]*hard[[:space:]][[:space:]]*core[[:space:]][[:space:]]* /etc/security/limits.conf /etc/security/limits.d -> r:\s*\t*0$
+19037,command,c:dpkg -s apparmor -> r:install ok installed
+19038,file,f:/boot/grub/grub.cfg -> r:^\s*linux && !r:apparmor=1 && !r:/boot/memtest86+.bin
+19038,file,f:/boot/grub/grub.cfg -> r:^\s*linux && !r:security=apparmor && !r:/boot/memtest86+.bin
+19039,command,c:apparmor_status -> r:0 processes are unconfined
+19040,command,c:apparmor_status -> n:^(\d+)\s*profiles are loaded compare > 0
+19040,command,c:apparmor_status -> r:^0\s*profiles are in complain mode
+19040,command,c:apparmor_status -> r:^0\s*processes are unconfined
+19041,numeric,not f:/etc/motd -> r:\\v|\\r|\\m|\\s|Debian|Ubuntu
+19041,numeric,not f:/etc/motd
+19042,file,f:/etc/issue -> r:\\v|\\r|\\m|\\s|Debian|Ubuntu
+19043,file,f:/etc/issue.net -> r:\\v|\\r|\\m|\\s|Debian|Ubuntu
+19044,command,c:stat /etc/motd -> r:Access:\s*\(0644/-rw-r--r--\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*0/\s*\t*root\)
+19045,command,c:stat /etc/issue -> r:Access:\s*\(0644/-rw-r--r--\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*0/\s*\t*root\)
+19046,command,c:stat /etc/issue.net -> r:Access:\s*\(0644/-rw-r--r--\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*0/\s*\t*root\)
+19047,command,c:apt -s upgrade -> r:^The following packages will be upgraded
+19048,file,f:/etc/gdm3/greeter.dconf-defaults -> r:^[org/gnome/login-screen]
+19048,file,f:/etc/gdm3/greeter.dconf-defaults -> r:^banner-message-enable=true
+19048,file,f:/etc/gdm3/greeter.dconf-defaults -> r:^banner-message-text=\.+
+19049,command,c:dpkg -s ntp -> r:install ok installed
+19049,command,c:dpkg -s chrony -> r:install ok installed
+19049,command,c:systemctl is-enabled systemd-timesyncd -> enabled
+19050,command,c:systemctl is-enabled systemd-timesyncd.service -> enabled
+19051,file,f:/etc/chrony/chrony.conf -> r:^server\.+|^pool\.+
+19052,file,f:/etc/ntp.conf -> r:^restrict\s+-4\s+default|^restrict\s+default && r:\s+kod\s+ && r:\s+nomodify\s+ && r:\s+notrap\s+ && r:\s+nopeer\s+ && r:\s+noquery
+19052,file,f:/etc/ntp.conf -> r:^restrict\s+-6\s+default && r:\s+kod\s+ && r:\s+nomodify\s+ && r:\s+notrap\s+ && r:\s+nopeer\s+ && r:\s+noquery
+19052,file,f:/etc/ntp.conf -> r:^server\.+|^pool\.+
+19052,file,f:/etc/init.d/ntp -> r:^RUNASUSER\s*\t*=\s*\t*ntp
+19053,command,c:dpkg -l xserver-xorg-core* -> r:^\wi\s*xserver-xorg
+19054,command,c:dpkg -s avahi-daemon -> r:install ok installed
+19055,command,c:dpkg -s cups -> r:install ok installed
+19056,command,c:dpkg -s isc-dhcp-server -> r:install ok installed
+19057,command,c:dpkg -s slapd -> r:install ok installed
+19058,command,c:dpkg -s nfs-kernel-server -> r:install ok installed
+19059,command,c:dpkg -s bind9 -> r:install ok installed
+19060,command,c:dpkg -s vsftpd -> r:install ok installed
+19061,command,c:dpkg -s apache2 -> r:install ok installed
+19062,command,c:dpkg -s dovecot-imapd dovecot-pop3d -> r:install ok installed
+19063,command,c:dpkg -s samba -> r:install ok installed
+19064,command,c:dpkg -s squid -> r:install ok installed
+19065,command,c:dpkg -s snmpd -> r:install ok installed
+19066,command,c:ss -lntu -> r:\.*:25\.*LISTEN && !r:127.0.0.1:25\.+LISTEN|::1:25\.*LISTEN
+19067,command,c:dpkg -s rsync -> r:install ok installed
+19068,command,c:dpkg -s nis -> r:install ok installed
+19069,command,c:dpkg -s nis -> r:install ok installed
+19070,command,c:dpkg -s rsh-client -> r:install ok installed
+19071,command,c:dpkg -s talk -> r:install ok installed
+19072,command,c:dpkg -s telnet -> r:install ok installed
+19073,command,c:dpkg -s ldap-utils -> r:install ok installed
+19074,command,c:dpkg -s rpcbind -> r:install ok installed
+19075,file,f:/boot/grub/grub.cfg -> r:^\s*\t*linux && !r:ipv6.disable=1
+19076,command,c:nmcli radio wifi -> r:^disabled
+19076,command,c:nmcli radio wwan -> r:^disabled
+19077,command,c:sysctl net.ipv4.conf.all.send_redirects -> r:=\s*\t*0$
+19077,command,c:sysctl net.ipv4.conf.default.send_redirects -> r:=\s*\t*0$
+19077,command,c:grep -Rh net\.ipv4\.conf\.all\.send_redirects /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.conf.all.send_redirects\s*=\s*0$
+19077,command,c:grep -Rh net\.ipv4\.conf\.default\.send_redirects /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.conf.default.send_redirects\s*=\s*0$
+19078,command,c:sysctl net.ipv4.ip_forward -> r:=\s*\t*0$
+19078,command,c:grep -Rh net\.ipv4\.ip_forward /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.ip_forward\s*=\s*0$
+19078,numeric,not c:sysctl net.ipv6.conf.all.forwarding -> r:=\s*\t*1$
+19078,command,c:grep -Rh net\.ipv6\.conf\.all\.forwarding /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv6.conf.all.forwarding\s*=\s*0$
+19079,command,c:sysctl net.ipv4.conf.all.accept_source_route -> r:=\s*\t*0$
+19079,command,c:sysctl net.ipv4.conf.default.accept_source_route -> r:=\s*\t*0$
+19079,command,c:grep -Rh net\.ipv4\.conf\.all\.accept_source_route /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.conf.all.accept_source_route\s*=\s*0$
+19079,command,c:grep -Rh net\.ipv4\.conf\.default\.accept_source_route /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.conf.default.accept_source_route\s*=\s*0$
+19079,numeric,not c:sysctl net.ipv6.conf.all.accept_source_route -> r:=\s*\t*1$
+19079,numeric,not c:sysctl net.ipv6.conf.default.accept_source_route -> r:=\s*\t*1$
+19079,command,c:grep -Rh net\.ipv6\.conf\.all\.accept_source_route /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv6.conf.all.accept_source_route\s*=\s*0$
+19079,command,c:grep -Rh net\.ipv6\.conf\.default\.accept_source_route /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv6.conf.default.accept_source_route\s*=\s*0$
+19080,command,c:sysctl net.ipv4.conf.all.accept_redirects -> r:=\s*\t*0$
+19080,command,c:sysctl net.ipv4.conf.default.accept_redirects -> r:=\s*\t*0$
+19080,command,c:grep -Rh net\.ipv4\.conf\.all\.accept_redirects /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.conf.all.accept_redirects\s*=\s*0$
+19080,command,c:grep -Rh net\.ipv4\.conf\.default\.accept_redirects /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.conf.default.accept_redirects\s*=\s*0$
+19080,numeric,not c:sysctl net.ipv6.conf.all.accept_redirects -> r:=\s*\t*1$
+19080,numeric,not c:sysctl net.ipv6.conf.default.accept_redirects -> r:=\s*\t*1$
+19080,command,c:grep -Rh net\.ipv6\.conf\.all\.accept_redirects /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv6.conf.all.accept_redirects\s*=\s*0$
+19080,command,c:grep -Rh net\.ipv6\.conf\.default\.accept_redirects /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv6.conf.default.accept_redirects\s*=\s*0$
+19081,command,c:sysctl net.ipv4.conf.all.secure_redirects -> r:=\s*\t*0$
+19081,command,c:sysctl net.ipv4.conf.default.secure_redirects -> r:=\s*\t*0$
+19081,command,c:grep -Rh net\.ipv4\.conf\.all\.secure_redirects /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.conf.all.secure_redirects\s*=\s*0$
+19081,command,c:grep -Rh net\.ipv4\.conf\.default\.secure_redirects /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.conf.default.secure_redirects\s*=\s*0$
+19082,command,c:sysctl net.ipv4.conf.all.log_martians -> r:=\s*\t*1$
+19082,command,c:sysctl net.ipv4.conf.default.log_martians -> r:=\s*\t*1$
+19082,command,c:grep -Rh net\.ipv4\.conf\.all\.log_martians /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.conf.all.log_martians\s*=\s*1$
+19082,command,c:grep -Rh net\.ipv4\.conf\.default\.log_martians /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.conf.default.log_martians\s*=\s*1$
+19083,command,c:sysctl net.ipv4.icmp_echo_ignore_broadcasts -> r:=\s*\t*1$
+19083,command,c:grep -Rh net\.ipv4\.icmp_echo_ignore_broadcasts /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.icmp_echo_ignore_broadcasts\s*=\s*1$
+19084,command,c:sysctl net.ipv4.icmp_ignore_bogus_error_responses -> r:=\s*\t*1$
+19084,command,c:grep -Rh net\.ipv4\.icmp_ignore_bogus_error_responses /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.icmp_ignore_bogus_error_responses\s*=\s*1$
+19085,command,c:sysctl net.ipv4.conf.all.rp_filter -> r:=\s*\t*1$
+19085,command,c:sysctl net.ipv4.conf.default.rp_filter -> r:=\s*\t*1$
+19085,command,c:grep -Rh net\.ipv4\.conf\.all\.rp_filter /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.conf.all.rp_filter\s*=\s*1$
+19085,command,c:grep -Rh net\.ipv4\.conf\.default\.rp_filter /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.conf.default.rp_filter\s*=\s*1$
+19086,command,c:sysctl net.ipv4.tcp_syncookies -> r:=\s*\t*1$
+19086,command,c:grep -Rh net\.ipv4\.tcp_syncookies /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv4.tcp_syncookies\s*=\s*1$
+19087,numeric,not c:sysctl net.ipv6.conf.all.accept_ra -> r:=\s*\t*1$
+19087,numeric,not c:sysctl net.ipv6.conf.default.accept_ra -> r:=\s*\t*1$
+19087,command,c:grep -Rh net\.ipv6\.conf\.all\.accept_ra /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv6.conf.all.accept_ra\s*=\s*0$
+19087,command,c:grep -Rh net\.ipv6\.conf\.default\.accept_ra /etc/sysctl.conf /etc/sysctl.d -> r:^net.ipv6.conf.default.accept_ra\s*=\s*0$
+19088,numeric,not c:modprobe -n -v dccp -> r:install /bin/true
+19088,command,c:lsmod -> r:dccp
+19089,numeric,not c:modprobe -n -v sctp -> r:install /bin/true
+19089,command,c:lsmod -> r:sctp
+19090,numeric,not c:modprobe -n -v rds -> r:install /bin/true
+19090,command,c:lsmod -> r:rds
+19091,numeric,not c:modprobe -n -v tipc -> r:install /bin/true
+19091,command,c:lsmod -> r:tipc
+19092,command,c:dpkg -s ufw -> r:Status: install ok installed
+19092,command,c:dpkg -s nftables -> r:Status: install ok installed
+19092,command,c:dpkg -s iptables -> r:Status: install ok installed
+19093,numeric,not c:dpkg -s iptables-persistent -> r:Status: install ok installed
+19093,command,c:dpkg -s ufw -> r:Status: install ok installed
+19094,command,c:systemctl is-enabled ufw -> enabled
+19094,command,c:ufw status -> Status: active
+19095,command,c:ufw status verbose -> r:Anywhere on lo\s*\t*ALLOW IN\s*\t*Anywhere
+19095,command,c:ufw status verbose -> r:Anywhere\s*\t*DENY IN\s*\t*127.0.0.0/8
+19095,command,c:ufw status verbose -> r:Anywhere \(v6\) on lo\s*\t*ALLOW IN\s*\t*Anywhere \(v6\)
+19095,command,c:ufw status verbose -> r:Anywhere \(v6\)\s*\t*DENY IN\s*\t*::1
+19095,command,c:ufw status verbose -> r:Anywhere\s*\t*ALLOW OUT\s*\t*Anywhere on lo
+19095,command,c:ufw status verbose -> r:Anywhere \(v6\)\s*\t*ALLOW OUT\s*\t*Anywhere \(v6\) on lo
+19096,command,c:ufw status verbose -> r:^Default && r:deny\W+(incoming)|reject\W+(incoming)
+19096,command,c:ufw status verbose -> r:^Default && r:deny\W+(outgoing)|reject\W+(outgoing)
+19096,command,c:ufw status verbose -> r:^Default && r:deny\W+(routed)|reject\W+(routed)|disabled\W+(routed)
+19097,command,c:dpkg -s nftables -> r:Status: install ok installed
+19097,numeric,not c:ufw status -> r:Status:\s*\t*active
+19098,command,c:nft list tables -> r:\w+
+19099,command,c:nft list ruleset -> r:hook input
+19099,command,c:nft list ruleset -> r:hook forward
+19099,command,c:nft list ruleset -> r:hook output
+19100,command,"c:nft list ruleset -> r:iif ""lo"" accept"
+19100,command,c:nft list ruleset -> r:ip saddr 127.0.0.0/8
+19100,command,c:nft list ruleset -> r:ip6 saddr ::1 counter packets
+19101,command,c:nft list ruleset -> r:hook input && r:policy drop
+19101,command,c:nft list ruleset -> r:hook forward && r:policy drop
+19101,command,c:nft list ruleset -> r:hook output && r:policy drop
+19102,command,c:systemctl is-enabled nftables -> enabled
+19103,numeric,not c:dpkg -s nftables -> r:Status: install ok installed
+19103,command,c:dpkg -s iptables -> r:Status: install ok installed
+19104,command,c:dpkg -s iptables -> r:Status: install ok installed
+19104,numeric,not c: ufw status -> Status:\s*\t*active
+19105,command,c:iptables -L -> r:Chain INPUT \(policy DROP\)|Chain INPUT \(policy REJECT\)
+19105,command,c:iptables -L -> r:Chain FORWARD \(policy DROP\)|Chain FORWARD \(policy REJECT\)
+19105,command,c:iptables -L -> r:Chain OUTPUT \(policy DROP\)|Chain OUTPUT \(policy REJECT\)
+19106,command,c:iptables -L INPUT -v -n -> r:\.*ACCEPT\.*all\.*lo\.**\.*0.0.0.0/0\.*0.0.0.0/0
+19106,command,c:iptables -L INPUT -v -n -> r:\.*DROP\.*all\.**\.**\.*127.0.0.0/8\.*0.0.0.0/0
+19106,command,c:iptables -L OUTPUT -v -n -> r:\.*ACCEPT\.*all\.**\.*lo\.*0.0.0.0/0\.*0.0.0.0/0
+19107,command,c:ip6tables -L -> r:^Chain INPUT && r:policy DROP
+19107,command,c:ip6tables -L -> r:^Chain FORWARD && r:policy DROP
+19107,command,c:ip6tables -L -> r:^Chain OUTPUT && r:policy DROP
+19108,command,c:ip6tables -L INPUT -v -n -> r:\.*ACCEPT\.*all\.*lo\.**\.*::/0\.*::/0
+19108,command,c:ip6tables -L INPUT -v -n -> r:\.*DROP\.*all\.**\.**\.*::1\.*::/0
+19108,command,c:ip6tables -L OUTPUT -v -n -> r:\.*ACCEPT\.*all\.**\.*lo\.*::/0\.*::/0
+19109,command,c:dpkg -s auditd audispd-plugins -> r:is not installed and no information is available
+19110,command,c:systemctl is-enabled auditd -> enabled
+19111,file,f:/boot/grub/grub.cfg -> r:^\s*\t*linux && !r:audit=1 && !r:/boot/memtest86+.bin
+19112,directory,d:/etc/audit
+19112,file,f:/etc/audit/auditd.conf
+19112,file,f:/etc/audit/auditd.conf -> r:^\s*\t*max_log_file\s*\t*=\s*\t*\d+
+19113,directory,d:/etc/audit
+19113,file,f:/etc/audit/auditd.conf
+19113,file,f:/etc/audit/auditd.conf -> r:^\s*\t*max_log_file_action\s*\t*=\s*\t*keep_logs
+19114,directory,d:/etc/audit
+19114,file,f:/etc/audit/auditd.conf
+19114,file,f:/etc/audit/auditd.conf -> r:^\s*\t*action_mail_acct\s*\t*=\s*\t*root
+19114,file,f:/etc/audit/auditd.conf -> r:^\s*\t*space_left_action\s*\t*=\s*\t*email
+19114,file,f:/etc/audit/auditd.conf -> r:^\s*\t*admin_space_left_action\s*\t*=\s*\t*halt
+19115,directory,d:/etc/audit
+19115,directory,d:/etc/audit/rules.d -> r:\.+.rules$
+19115,directory,"d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-a && r:always,exit|exit,always && r:-F arch=b32 && r:-S adjtimex && r:-S settimeofday && r:-S stime && r:-k time-change"
+19115,directory,"d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-a && r:always,exit|exit,always && r:-F arch=b32 && r:-S clock_settime && r:-k time-change"
+19115,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/localtime && r:-p wa && r:-k time-change
+19116,directory,d:/etc/audit/rules.d -> r:\.+.rules$
+19116,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/group && r:-p wa && r:-k identity
+19116,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/passwd && r:-p wa && r:-k identity
+19116,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/gshadow && r:-p wa && r:-k identity
+19116,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/shadow && r:-p wa && r:-k identity
+19116,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/security/opasswd && r:-p wa && r:-k identity
+19117,directory,d:/etc/audit/rules.d -> r:\.+.rules$
+19117,directory,"d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-a && r:exit,always|always,exit && r:-F arch=b32 && r:-S sethostname && r:-S setdomainname && r:-k system-locale"
+19117,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/issue && r:-p wa && r:-k system-locale
+19117,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/issue.net && r:-p wa && r:-k system-locale
+19117,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/hosts && r:-p wa && r:-k system-locale
+19117,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/network && r:-p wa && r:-k system-locale
+19118,directory,d:/etc/audit/rules.d -> r:\.+.rules$
+19118,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/apparmor/ && r:-p wa && r:-k MAC-policy
+19118,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/apparmor.d/ && r:-p wa && r:-k MAC-policy
+19119,directory,d:/etc/audit/rules.d -> r:\.+.rules$
+19119,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/var/log/faillog && r:-p wa && r:-k logins
+19119,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/var/log/lastlog && r:-p wa && r:-k logins
+19119,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/var/log/tallylog && r:-p wa && r:-k logins
+19120,directory,d:/etc/audit/rules.d -> r:\.+.rules$
+19120,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/var/run/utmp && r:-p wa && r:-k session
+19120,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/var/log/wtmp && r:-p wa && r:-k logins
+19120,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/var/log/btmp && r:-p wa && r:-k logins
+19121,directory,d:/etc/audit/rules.d -> r:\.+.rules$
+19121,directory,"d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-a && r:always,exit|exit,always && r:-F arch=b32 && r:-S chmod && r:-S fchmod && r:-S fchmodat && r:-F auid>=1000 && r:-F auid!=4294967295 && r:-k perm_mod"
+19121,directory,"d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-a && r:always,exit|exit,always && r:-F arch=b32 && r:-S chown && r:-S fchown && r:-S fchownat && r:-S lchown && r:-F auid>=1000 && r:-F auid!=4294967295 && r:-k perm_mod"
+19121,directory,"d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-a && r:always,exit|exit,always && r:-F arch=b32 && r:-S setxattr && r:-S lsetxattr && r:-S fsetxattr && r:-S removexattr && r:-S lremovexattr && r:-S fremovexattr && r:-F auid>=1000 && r:-F auid!=4294967295 && r:-k perm_mod"
+19122,directory,d:/etc/audit/rules.d -> r:\.+.rules$
+19122,directory,"d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-a && r:always,exit|exit,always && r:-F arch=b32 && r:-S creat && r:-S open && r:-S openat && r:-S truncate && r:-F exit=-EACCES && r:-F auid>=1000 && r:-F auid!=4294967295 && r:-k access"
+19122,directory,"d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-a && r:always,exit|exit,always && r:-F arch=b32 && r:-S creat && r:-S open && r:-S openat && r:-S truncate && r:-F exit=-EPERM && r:-F auid>=1000 && r:-F auid!=4294967295 && r:-k access"
+19123,directory,d:/etc/audit/rules.d -> r:\.+.rules$
+19123,directory,"d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-a && r:always,exit|exit,always && r:-F arch=b32 && r:-S mount && r:-F auid>=1000 && r:-F auid!=4294967295 && r:-k mounts"
+19123,command,"c:auditctl -l -> r:^-a && r:always,exit|exit,always && r:-F arch=b32 && r:-S mount && r:-F auid>=1000 && r:-F auid!=-1 && r:-F key=mounts"
+19124,directory,d:/etc/audit/rules.d -> r:\.+.rules$
+19124,directory,"d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-a && r:always,exit|exit,always && r:-F arch=b32 && r:-S unlink && r:-S unlinkat && r:-S rename && r:-S renameat && r:-F auid>=1000 && r:-F auid!=4294967295 && r:-k delete"
+19124,command,"c:auditctl -l -> r:always,exit|exit,always && r:-F arch=b32 && r:-S unlink && r:-S unlinkat && r:-S rename && r:-S renameat && r:-F auid>=1000 && r:-F auid!=-1 && r:-F key=delete"
+19125,directory,d:/etc/audit/rules.d -> r:\.+.rules$
+19125,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/sudoers && r:-p wa && r:-k scope
+19125,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/etc/sudoers.d/ && r:-p wa && r:-k scope
+19125,command,c: auditctl -l -> r:^-w && r:/etc/sudoers.d/ && r:-p wa && r:-k scope
+19126,directory,d:/etc/audit/rules.d -> r:\.+.rules$
+19126,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w \.+ && r:-S execve && r:-F auid>=1000 && r:-F auid!=4294967295 && r:-k actions
+19126,command,"c:auditctl -l -> r:^-w \.+ && r:always,exit|exit,always && r:-F auid>=1000 && r:-F auid!=-1 && r:-F key=actions"
+19127,directory,d:/etc/audit/rules.d -> r:\.+.rules$
+19127,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/sbin/insmod && r:-p x && r:-k modules
+19127,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/sbin/rmmod && r:-p x && r:-k modules
+19127,directory,d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-w && r:/sbin/modprobe && r:-p x && r:-k modules
+19127,directory,"d:/etc/audit/rules.d -> r:\.+.rules$ -> r:^-a && r:always,exit|exit,always && r:-F arch=b64|-F arch=b32 && r:-S init_module && r:-S delete_module && r:-k modules"
+19128,command,c:dpkg -s rsyslog -> r:install ok installed
+19129,command,c:systemctl is-enabled rsyslog -> enabled
+19130,file,f:/etc/rsyslog.conf -> r:^\$FileCreateMode 06\d0|^\$FileCreateMode 04\d0|^\$FileCreateMode 02\d0|^\$FileCreateMode 00\d0 && r:^\$FileCreateMode 0\d40|^\$FileCreateMode 0\d00
+19130,directory,d:/etc/rsyslog.d/ -> r:\. -> r:^\$FileCreateMode 06\d0|^\$FileCreateMode 04\d0|^\$FileCreateMode 02\d0|^\$FileCreateMode 00\d0 && r:^\$FileCreateMode 0\d40|^\$FileCreateMode 0\d00
+19131,command,c:grep -Rh ^*.* /etc/rsyslog.conf /etc/rsyslog.d/ -> r:^*.* action\.+target=
+19132,command,c:grep -Rh ^\$ModLoad[[:space:]]*imtcp /etc/rsyslog.conf /etc/rsyslog.d/ -> r:^\$ModLoad\s*\t*imtcp
+19132,command,c:grep -Rh ^\$InputTCPServerRun /etc/rsyslog.conf /etc/rsyslog.d/ -> r:^\$InputTCPServerRun\s*\t*514
+19133,file,f:/etc/systemd/journald.conf -> r:^\s*\t*ForwardToSyslog\s*=\s*yes
+19134,file,f:/etc/systemd/journald.conf -> r:^\s*\t*Compress\s*=\s*yes
+19135,file,f:/etc/systemd/journald.conf -> r:^\s*\t*Storage\s*=\s*persistent
+19136,command,c:find /var/log -type f -ls -> r:-\w\w\w\ww\w\w\w\w|-\w\w\w\w\wx\w\w\w|-\w\w\w\w\w\w\ww\w|-\w\w\w\w\w\wr\w\w|-\w\w\w\w\w\w\w\wx
+19137,command,c:systemctl is-enabled cron -> enabled
+19137,command,c:systemctl status cron -> r:Active: active \(running\)
+19138,command,c:stat /etc/crontab -> r:^Access: \(0\d00/-\w\w\w------\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19139,command,c:stat /etc/cron.hourly -> r:^Access: \(0\d00/\w\w\w\w------\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19140,command,c:stat /etc/cron.daily -> r:^Access: \(0\d00/\w\w\w\w------\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19141,command,c:stat /etc/cron.weekly -> r:^Access: \(0\d00/\w\w\w\w------\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19142,command,c:stat /etc/cron.monthly -> r:^Access: \(0\d00/\w\w\w\w------\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19143,command,c:stat /etc/cron.d -> r:^Access: \(0\d00/\w\w\w\w------\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19144,file,f:/etc/cron.allow
+19144,file,f:/etc/at.allow
+19144,numeric,not f:/etc/cron.deny
+19144,command,c:stat /etc/cron.allow -> r:^Access: \(0\d\d0/\w\w\w\w\w-----\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19145,file,f:/etc/at.allow
+19145,numeric,not f:/etc/at.deny
+19145,command,c:stat /etc/at.allow -> r:^Access: \(0\d\d0/\w\w\w\w\w-----\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19146,command,c:stat /etc/ssh/sshd_config -> r:^Access: \(0\d00/\w\w\w\w------\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19147,command,c:stat /etc/ssh/ssh_host_rsa_key -> r:^Access: \(0\d00/-\w\w\w------\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19147,command,c:stat /etc/ssh/ssh_host_ecdsa_key -> r:^Access: \(0\d00/-\w\w\w------\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19147,command,c:stat /etc/ssh/ssh_host_ed25519_key -> r:^Access: \(0\d00/-\w\w\w------\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19148,command,c:stat /etc/ssh/ssh_host_rsa_key.pub -> r:^Access: \(0\d\d\d/-\w\w\w\w--\w--\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19148,command,c:stat /etc/ssh/ssh_host_ecdsa_key.pub -> r:^Access: \(0\d\d\d/-\w\w\w\w--\w--\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19148,command,c:stat /etc/ssh/ssh_host_ed25519_key.pub -> r:^Access: \(0\d\d\d/-\w\w\w\w--\w--\)  Uid: \(    0/    root\)   Gid: \(    0/    root\)$
+19149,command,c:sshd -T -> r:loglevel\s+INFO|loglevel\s+VERBOSE
+19150,command,c:sshd -T -> r:x11forwarding\s+no
+19151,command,c:sshd -T -> n:^maxauthtries\s*\t*(\d+) compare <= 4
+19152,command,c:sshd -T -> r:ignorerhosts\s+yes
+19153,command,c:sshd -T -> r:hostbasedauthentication\s+no
+19154,command,c:sshd -T -> r:permitrootlogin\s+no
+19155,command,c:sshd -T -> r:permitemptypasswords\s+no
+19156,command,c:sshd -T -> r:permituserenvironment\s+no
+19157,command,c:sshd -T -> r:ciphers && r:3des-cbc|aes128-cbc|aes192-cbc|aes256-cbc|arcfour|arcfour128|arcfour256|blowfish-cbc|cast128-cbc|rijndael-cbc@lysator.liu.se
+19158,command,c:sshd -T -> r:MACs && r:hmac-md5|hmac-md5-96|hmac-ripemd160|hmac-sha1|hmac-sha1-96|umac-64@openssh.com|umac-128@openssh.com|hmac-md5-etm@openssh.com|hmac-md5-96-etm@openssh.com|hmac-ripemd160-etm@openssh.com|hmac-sha1-etm@openssh.com|hmac-sha1-96-etm@openssh.com|umac-64-etm@openssh.com|umac-128-etm@openssh.com
+19159,command,c:sshd -T -> r:kexalgorithms && r:diffie-hellman-group1-sha1|diffie-hellman-group14-sha1|diffie-hellman-group-exchange-sha1
+19160,command,c:sshd -T -> n:clientaliveinterval\s*\t*(\d+) compare <= 300 && n:clientaliveinterval\s*\t*(\d+) compare != 0
+19160,command,c:sshd -T -> n:clientalivecountmax\s*\t*(\d+) compare <= 3
+19161,command,c:sshd -T -> n:logingracetime\s*\t*(\d+) compare <= 60 && n:logingracetime\s*\t*(\d+) compare >= 1
+19162,command,c:sshd -T -> r:allowusers\s+\w+|allowgroups\s+\w+|denyusers\s+\w+|denygroups\s+\w+
+19163,command,c:sshd -T -> r:banner\s*\t*/etc/issue.net
+19164,command,c:sshd -T -> r:^\s*usepam\s+yes
+19165,command,c:sshd -T -> r:^\s*allowtcpforwarding\s+no
+19166,command,c:sshd -T -> r:^\s*maxstartups\s+10:30:60
+19167,command,c:sshd -T -> n:^MaxSessions\s+(\d+) compare <= 10
+19168,file,f:/etc/security/pwquality.conf -> !r:^# && n:minlen\s*\t*=\s*\t*(\d+) compare >= 14
+19168,file,f:/etc/pam.d/common-password -> !r:^# && n:password\s*\t*requisite\s*\t*pam_pwquality.so\s*\t*retry=(\d+) compare <=3
+19169,file,f:/etc/pam.d/common-auth -> !r:^# && r:auth\s*\t*required\s*\t*pam_tally2.so && r:onerr=fail && r:audit && r:silent && r:deny\s*=\s*\d+ && r:unlock_time\s*=\s*\d+
+19169,file,f:/etc/pam.d/common-account -> !r:^# && r:account\s*\t*requisite\s*\t*pam_deny.so
+19169,file,f:/etc/pam.d/common-account -> !r:^# && r:account\s*\t*required\s*\t*pam_tally2.so
+19170,file,f:/etc/pam.d/common-password -> !r:^# && r:password\s*\t*required\s*\t*pam_pwhistory.so && n:remember\s*\t*=\s*\t*(\d+) compare < 5
+19170,file,f:/etc/pam.d/common-password -> !r:^# && r:password\s*\t*required\s*\t*pam_pwhistory.so && !r:remember
+19171,file,f:/etc/pam.d/common-password -> r:^password\.+pam_unix.so && !r:sha512
+19172,file,f:/etc/login.defs -> n:^\s*\t*PASS_MAX_DAYS\s*\t*(\d+) compare <= 365
+19172,numeric,not f:/etc/login.defs -> n:^\s*\t*PASS_MAX_DAYS\s*\t*(\d+) compare < 0
+19173,file,f:/etc/login.defs -> n:^\s*\t*PASS_MIN_DAYS\s*\t*(\d+) compare >= 1
+19174,file,f:/etc/login.defs -> n:^\s*\t*PASS_WARN_AGE\s*\t*(\d+) compare >= 7
+19175,command,c:useradd -D -> n:^INACTIVE=(\d+) compare <= 30
+19175,numeric,not c:useradd -D -> n:^INACTIVE=(\d+) compare < 0
+19176,file,f:/etc/passwd -> !r:^# && r:root:\w+:\w+:0:
+19177,file,f:/etc/bash.bashrc -> !r:^\s*\t*# && r:umask \d0\d|umask \d1\d|umask \d4\d|umask \d5\d
+19177,file,f:/etc/bash.bashrc -> !r:^\s*\t*# && n:umask \d\d(\d) compare != 7
+19177,file,f:/etc/profile -> !r:^\s*\t*# && r:umask \d0\d|umask \d1\d|umask \d4\d|umask \d5\d
+19177,file,f:/etc/profile -> !r:^\s*\t*# && n:umask \d\d(\d) compare != 7
+19177,directory,d:/etc/profile.d -> .sh -> !r:^\s*\t*# && r:umask \d0\d|umask \d1\d|umask \d4\d|umask \d5\d
+19177,directory,d:/etc/profile.d -> .sh -> !r:^\s*t*# && n:umask \d\d(\d) compare != 7
+19178,numeric,not d:/etc/profile.d -> .sh -> r:^\s*\t*readonly && n:TMOUT\s*\t*=\s*\t*(\d+) compare > 900
+19178,numeric,not f:/etc/bash.bashrc -> r:^\s*\t*readonly && n:TMOUT\s*\t*=\s*\t*(\d+) compare > 900
+19178,numeric,not f:/etc/profile -> r:^\s*\t*readonly && n:TMOUT\s*\t*=\s*\t*(\d+) compare > 900
+19178,directory,d:/etc/profile.d -> .sh -> r:^\s*\t*readonly && n:TMOUT\s*\t*=\s*\t*(\d+) compare <= 900
+19178,file,f:/etc/bash.bashrc -> r:^\s*\t*readonly && n:TMOUT\s*\t*=\s*\t*(\d+) compare <= 900
+19178,file,f:/etc/profile -> r:^\s*\t*readonly && n:TMOUT\s*\t*=\s*\t*(\d+) compare <= 900
+19179,file,f:/etc/pam.d/su -> !r:^# && r:auth\s*\t*required\s*\t*pam_wheel.so && r:use_uid && r:group=
+19180,command,c:stat /etc/passwd -> r:Access:\s*\(0644/-rw-r--r--\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*0/\s*\t*root\)
+19181,command,c:stat /etc/gshadow- -> r:Access:\s*\(0\d\d0/-\w\w-\w-----\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*\d+/\s*\t*shadow\)|Access:\s*\(0\d\d0/-\w\w-\w-----\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*0/\s*\t*root\)
+19182,command,c:stat /etc/shadow -> r:Access:\s*\(0\d\d0/-\w\w-\w-----\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*\d+/\s*\t*shadow\)
+19183,command,c:stat /etc/group -> r:Access:\s*\(0644/-rw-r--r--\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*0/\s*\t*root\)
+19184,command,c:stat /etc/passwd- -> r:Access:\s*\(0\d00/-\w\w-------\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*0/\s*\t*root\)
+19185,command,c:stat /etc/shadow- -> r:Access:\s*\(0\d\d0/-\w\w-\w-----\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*\d+/\s*\t*shadow\)|Access:\s*\(0\d\d0/-\w\w-\w-----\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*0/\s*\t*root\)
+19186,command,c:stat /etc/group- -> r:Access:\s*\(0\d00/-\w\w-------\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*0/\s*\t*root\)
+19187,command,c:stat /etc/gshadow -> r:Access:\s*\(0\d\d0/-\w\w-\w-----\)\s*Uid:\s*\(\s*\t*0/\s*\t*root\)\s*\t*Gid:\s*\(\s*\t*\d+/\s*\t*shadow\)
+19188,file,f:/etc/shadow -> r:^\w+::
+19189,file,f:/etc/passwd -> !r:^# && !r:^root: && r:^\w+:\w+:0:
+19190,file,f:/etc/group -> !r:^# && r:shadow:\w*:\w*:\S+

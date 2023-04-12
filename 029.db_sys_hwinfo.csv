@@ -1,0 +1,2 @@
+scan_id,scan_time,board_serial,cpu_name,cpu_cores,cpu_mhz,ram_total,ram_free,ram_usage,checksum
+0,2023/04/12 05:05:11,PF33Y34R,Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz,8,2112.0,20801332,18969380,8,43e20f2bb43317de4707af5f58dca626d43eccea

@@ -1,0 +1,9 @@
+scan_id,iface,type,gateway,dhcp,metric,checksum,item_id
+0,Local Area Connection* 10,ipv4, ,enabled,0,2c441fe059f5825ca7a58e4aaed49a7764b378cb,1b9d03bb9782bccba120e17e9e8d750278fdffa6
+0,Wi-Fi,ipv4,192.168.140.237,enabled,0,08cda3119148c5b80f97dd3cf9482b63cbc3fef7,503edc4f0c8e50bd6d1af82566725214fdc0e8ae
+0,OpenVPN Wintun,ipv4, ,disabled,0,b5700b81c57392d309319aef476d146a87de6af1,93848e2aa980ba04abfde84ffe3588b96d1526bd
+0,Pritunl 2,ipv4, ,enabled,0,0ee46429246a4c4ed6a09d68d20aa47249df1573,abe389ca6cbcb2a05ccf35b5e40f189584e847d3
+0,Pritunl 3,ipv4, ,enabled,0,fe6d6ee7e883e6c0d9f30a57c35fb343506c709e,b3360fcd20832cc377263a578c8a0b933e4a407b
+0,Local Area Connection* 9,ipv4, ,enabled,0,e0998fb36697b29dd19df5d56ce904f756032518,bec74bf0478e0b6a053609934310c905b08c9964
+0,Pritunl 1,ipv4, ,enabled,0,0eb984c86496fef857be3afdab52801697b5f25d,cf93fbc7161e41e026c83012afb1559bc218525a
+0,Loopback Pseudo-Interface 1,ipv4, ,disabled,0,c8e2003d6e3992ca9900667faa094ae195fbb98f,e6db7b9f540419ba6258e01fbadd8336d35c8c0a

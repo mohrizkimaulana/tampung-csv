@@ -1,0 +1,2 @@
+name,file,id,description,references,hash_file
+CIS benchmark for Ubuntu Linux 20.04 LTS,cis_ubuntu20-04.yml,cis_ubuntu20-04,This document provides prescriptive guidance for establishing a secure configuration posture for Ubuntu Linux 20.04 LTS.,https://www.cisecurity.org/cis-benchmarks/,fb41fe9660f4320aaed0c3c292c8602953df7f8c42b37b724855f9005c43fafc

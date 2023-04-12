@@ -1,0 +1,2 @@
+scan_id,scan_time,board_serial,cpu_name,cpu_cores,cpu_mhz,ram_total,ram_free,ram_usage,checksum
+0,2023/04/12 05:23:51,K939NBCV00LVS0MB,Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz,8,1800.0,8236740,2011272,75,34b831e6271f6ad731fc721dea26e49db5667b9a

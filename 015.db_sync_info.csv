@@ -1,0 +1,13 @@
+component,last_attempt,last_completion,n_attempts,n_completions,last_manager_checksum,last_agent_checksum
+fim,0,0,0,0,,
+fim_file,1681278070,0,1,0,,b67339985c09ba8df7a82b24581d7e96421e0bbb
+fim_registry,1681278070,0,1,0,,d4699a52bc4525293ef8577ff6829d4b10530bda
+syscollector-processes,0,0,0,0,,
+syscollector-packages,0,0,0,0,,
+syscollector-hotfixes,0,0,0,0,,
+syscollector-ports,0,0,0,0,,
+syscollector-netproto,0,0,0,0,,
+syscollector-netaddress,0,0,0,0,,
+syscollector-netinfo,0,0,0,0,,
+syscollector-hwinfo,0,0,0,0,,
+syscollector-osinfo,0,0,0,0,,

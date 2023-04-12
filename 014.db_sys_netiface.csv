@@ -1,0 +1,9 @@
+scan_id,scan_time,name,adapter,type,state,mtu,mac,tx_packets,rx_packets,tx_bytes,rx_bytes,tx_errors,rx_errors,tx_dropped,rx_dropped,checksum,item_id
+0,2023/04/12 05:39:08,Local Area Connection* 9,Microsoft Wi-Fi Direct Virtual Adapter,wireless,down,1500,28:11:a8:e6:1c:21:,0,0,0,0,0,0,0,0,f1dedeb42ea780f5d0b040cde201622a8c307eec,4163755ed2929ea71086df21d07862a023418f45
+0,2023/04/12 05:39:09,Loopback Pseudo-Interface 1,Software Loopback Interface 1, ,up,,00:00:00:00:00:00,0,0,0,0,0,0,0,0,e4a92faeea2613dab29a772ec7f3540be951b478,56e07d1bb3aeca5febd3a26616defa115f6a881b
+0,2023/04/12 05:39:09,Local Area Connection* 10,Microsoft Wi-Fi Direct Virtual Adapter #2,wireless,down,1500,2a:11:a8:e6:1c:20:,0,0,0,0,0,0,0,0,69f30e6f5c15838b61c37190a9b91f2c0a81d6fd,6b4577c4d250a932d76165bcd2a74c189502bedf
+0,2023/04/12 05:39:09,OpenVPN Wintun,Wintun Userspace Tunnel, ,down,65535,00:00:00:00:00:00,0,0,0,0,0,0,0,0,203a21caebf571533b9a213ccb0651009477b44e,9caaf3c1ef5795f2fd27bb2b5fddca27eec00e55
+0,2023/04/12 05:39:09,Pritunl 3,TAP-Windows Adapter V9 #3, ,down,1500,00:ff:cd:02:16:eb:,0,0,0,0,0,0,0,0,367d50e5b486b2616222cff2f1c943656d6b3951,ae56a7672934de0025ea06c72d26cfbd5c50850b
+0,2023/04/12 05:39:09,Wi-Fi,Intel(R) Wireless-AC 9560,wireless,up,1500,28:11:a8:e6:1c:20:,72607,114003,44985871,35607885,0,0,0,0,b2290af650f6b3f98e0cf59291dd84d639a9a33c,b86fa4663434e23455e77b71b615e69b7394195f
+0,2023/04/12 05:39:09,Pritunl 1,TAP-Windows Adapter V9, ,down,1500,00:ff:84:af:e5:23:,7176,5756,3570333,1620445,0,0,0,0,3bb60d49f4881f912afa992932e139d2ba2f6017,f2521b76591bcd7071e9cf571bbece35f1fcec46
+0,2023/04/12 05:39:09,Pritunl 2,TAP-Windows Adapter V9 #2, ,down,1500,00:ff:12:3c:d3:02:,0,0,0,0,0,0,0,0,bbedccea84766ca1b8b70fd330eefec6e4c6c117,f3969aaba218b66f7d2106b91d31502cdc04928c
